@@ -1,0 +1,919 @@
+{
+    "category": {
+      "pt": "Cumprimentos e expressões cotidianas",
+      "en": "Greetings and daily expressions",
+      "ru": "Приветствия и повседневные выражения"
+    },
+    "words": [
+  {
+    "id": 1,
+    "word": {
+      "pt": "Olá",
+      "en": "Hello",
+      "ru": "Привет"
+    },
+    "example": {
+      "pt": "Olá! Como está?",
+      "en": "Hello! How are you?",
+      "ru": "Привет! Как дела?"
+    }
+  },
+  {
+    "id": 2,
+    "word": {
+      "pt": "Adeus",
+      "en": "Goodbye",
+      "ru": "До свидания"
+    },
+    "example": {
+      "pt": "Adeus! Até amanhã.",
+      "en": "Goodbye! See you tomorrow.",
+      "ru": "До свидания! До завтра."
+    }
+  },
+  {
+    "id": 3,
+    "word": {
+      "pt": "Obrigado",
+      "en": "Thank you",
+      "ru": "Спасибо"
+    },
+    "example": {
+      "pt": "Obrigado pela ajuda.",
+      "en": "Thank you for the help.",
+      "ru": "Спасибо за помощь."
+    }
+  },
+  {
+    "id": 4,
+    "word": {
+      "pt": "Por favor",
+      "en": "Please",
+      "ru": "Пожалуйста"
+    },
+    "example": {
+      "pt": "Por favor, pode me ajudar?",
+      "en": "Please, can you help me?",
+      "ru": "Пожалуйста, можете мне помочь?"
+    }
+  },
+  {
+    "id": 5,
+    "word": {
+      "pt": "Com licença",
+      "en": "Excuse me",
+      "ru": "Извините"
+    },
+    "example": {
+      "pt": "Com licença, posso passar?",
+      "en": "Excuse me, may I pass?",
+      "ru": "Извините, можно пройти?"
+    }
+  },
+  {
+    "id": 6,
+    "word": {
+      "pt": "Desculpe",
+      "en": "Sorry",
+      "ru": "Простите"
+    },
+    "example": {
+      "pt": "Desculpe pelo atraso.",
+      "en": "Sorry for the delay.",
+      "ru": "Простите за задержку."
+    }
+  },
+  {
+    "id": 7,
+    "word": {
+      "pt": "Tudo bem?",
+      "en": "Everything alright?",
+      "ru": "Всё хорошо?"
+    },
+    "example": {
+      "pt": "Olá! Tudo bem?",
+      "en": "Hello! Everything alright?",
+      "ru": "Привет! Всё хорошо?"
+    }
+  },
+  {
+    "id": 8,
+    "word": {
+      "pt": "Até logo",
+      "en": "See you later",
+      "ru": "До скорого"
+    },
+    "example": {
+      "pt": "Até logo, amigos!",
+      "en": "See you later, friends!",
+      "ru": "До скорого, друзья!"
+    }
+  },
+  {
+    "id": 9,
+    "word": {
+      "pt": "Bom dia",
+      "en": "Good morning",
+      "ru": "Доброе утро"
+    },
+    "example": {
+      "pt": "Bom dia! Que tenha um bom dia!",
+      "en": "Good morning! Have a great day!",
+      "ru": "Доброе утро! Хорошего дня!"
+    }
+  },
+  {
+    "id": 10,
+    "word": {
+      "pt": "Boa noite",
+      "en": "Good night",
+      "ru": "Спокойной ночи"
+    },
+    "example": {
+      "pt": "Boa noite! Durma bem!",
+      "en": "Good night! Sleep well!",
+      "ru": "Спокойной ночи! Спокойного сна!"
+    }
+  },
+  {
+    "id": 11,
+    "word": {
+      "pt": "Até amanhã",
+      "en": "See you tomorrow",
+      "ru": "До завтра"
+    },
+    "example": {
+      "pt": "Tchau! Até amanhã!",
+      "en": "Bye! See you tomorrow!",
+      "ru": "Пока! До завтра!"
+    }
+  },
+  {
+    "id": 12,
+    "word": {
+      "pt": "De nada",
+      "en": "You're welcome",
+      "ru": "Пожалуйста (в ответ на спасибо)"
+    },
+    "example": {
+      "pt": "Obrigado pela ajuda! De nada.",
+      "en": "Thank you for the help! You're welcome.",
+      "ru": "Спасибо за помощь! Пожалуйста."
+    }
+  },
+  {
+    "id": 13,
+    "word": {
+      "pt": "Até breve",
+      "en": "See you soon",
+      "ru": "До скорого"
+    },
+    "example": {
+      "pt": "Tenha um bom dia! Até breve!",
+      "en": "Have a great day! See you soon!",
+      "ru": "Хорошего дня! До скорого!"
+    }
+  },
+  {
+    "id": 14,
+    "word": {
+      "pt": "Saudações",
+      "en": "Greetings",
+      "ru": "Приветствия"
+    },
+    "example": {
+      "pt": "Saudações a todos os presentes.",
+      "en": "Greetings to everyone present.",
+      "ru": "Приветствия всем присутствующим."
+    }
+  },
+  {
+    "id": 15,
+    "word": {
+      "pt": "Bem-vindo",
+      "en": "Welcome",
+      "ru": "Добро пожаловать"
+    },
+    "example": {
+      "pt": "Bem-vindo à nossa casa!",
+      "en": "Welcome to our home!",
+      "ru": "Добро пожаловать в наш дом!"
+    }
+  },
+  {
+    "id": 16,
+    "word": {
+      "pt": "Boa tarde",
+      "en": "Good afternoon",
+      "ru": "Добрый день"
+    },
+    "example": {
+      "pt": "Boa tarde! Como foi seu dia?",
+      "en": "Good afternoon! How was your day?",
+      "ru": "Добрый день! Как прошёл ваш день?"
+    }
+  },
+  {
+    "id": 17,
+    "word": {
+      "pt": "Saúde",
+      "en": "Bless you",
+      "ru": "Будь здоров (чихнувшему)"
+    },
+    "example": {
+      "pt": "Atchim! Saúde!",
+      "en": "Achoo! Bless you!",
+      "ru": "Апчхи! Будь здоров!"
+    }
+  },
+  {
+    "id": 18,
+    "word": {
+      "pt": "Com você está?",
+      "en": "How are you?",
+      "ru": "Как вы?"
+    },
+    "example": {
+      "pt": "Olá! Com você está hoje?",
+      "en": "Hello! How are you today?",
+      "ru": "Привет! Как вы сегодня?"
+    }
+  },
+  {
+    "id": 19,
+    "word": {
+      "pt": "Muito prazer",
+      "en": "Nice to meet you",
+      "ru": "Приятно познакомиться"
+    },
+    "example": {
+      "pt": "Olá! Muito prazer em conhecê-lo.",
+      "en": "Hello! Nice to meet you.",
+      "ru": "Привет! Приятно познакомиться."
+    }
+  },
+  {
+    "id": 20,
+    "word": {
+      "pt": "Até já",
+      "en": "See you soon",
+      "ru": "До скорого (очень скоро)"
+    },
+    "example": {
+      "pt": "Vou ali buscar algo. Até já!",
+      "en": "I'll just grab something there. See you soon!",
+      "ru": "Я схожу за чем-то. До скорого!"
+    }
+  },
+  {
+    "id": 21,
+    "word": {
+      "pt": "Tchau",
+      "en": "Bye",
+      "ru": "Пока"
+    },
+    "example": {
+      "pt": "Tchau! Até logo.",
+      "en": "Bye! See you later.",
+      "ru": "Пока! До скорого."
+    }
+  },
+  {
+    "id": 22,
+    "word": {
+      "pt": "Desculpa",
+      "en": "Apologies",
+      "ru": "Извините / прошу прощения"
+    },
+    "example": {
+      "pt": "Desculpa, não ouvi o que você disse.",
+      "en": "Apologies, I didn't hear what you said.",
+      "ru": "Извините, я не расслышал, что вы сказали."
+    }
+  },
+  {
+    "id": 23,
+    "word": {
+      "pt": "Compreendo",
+      "en": "I understand",
+      "ru": "Я понимаю"
+    },
+    "example": {
+      "pt": "Compreendo o que você quer dizer.",
+      "en": "I understand what you mean.",
+      "ru": "Я понимаю, что вы имеете в виду."
+    }
+  },
+  {
+    "id": 24,
+    "word": {
+      "pt": "Combinado",
+      "en": "Agreed",
+      "ru": "Договорились"
+    },
+    "example": {
+      "pt": "Nos encontramos às 15 horas? Combinado!",
+      "en": "Shall we meet at 3 PM? Agreed!",
+      "ru": "Встретимся в 15:00? Договорились!"
+    }
+  },
+  {
+    "id": 25,
+    "word": {
+      "pt": "Claro",
+      "en": "Of course",
+      "ru": "Конечно"
+    },
+    "example": {
+      "pt": "Pode me ajudar com isso? Claro!",
+      "en": "Can you help me with this? Of course!",
+      "ru": "Вы можете мне помочь с этим? Конечно!"
+    }
+  },
+  {
+    "id": 26,
+    "word": {
+      "pt": "Não se preocupe",
+      "en": "Don't worry",
+      "ru": "Не беспокойтесь"
+    },
+    "example": {
+      "pt": "Não se preocupe, tudo vai ficar bem.",
+      "en": "Don't worry, everything will be fine.",
+      "ru": "Не беспокойтесь, всё будет хорошо."
+    }
+  },
+  {
+    "id": 27,
+    "word": {
+      "pt": "Por nada",
+      "en": "You're welcome (casual)",
+      "ru": "Не за что"
+    },
+    "example": {
+      "pt": "Obrigado por tudo! Por nada.",
+      "en": "Thank you for everything! You're welcome.",
+      "ru": "Спасибо за всё! Не за что."
+    }
+  },
+  {
+    "id": 28,
+    "word": {
+      "pt": "Imagino",
+      "en": "I imagine",
+      "ru": "Я предполагаю"
+    },
+    "example": {
+      "pt": "Imagino que esteja cansado.",
+      "en": "I imagine you must be tired.",
+      "ru": "Я предполагаю, вы, должно быть, устали."
+    }
+  },
+  {
+    "id": 29,
+    "word": {
+      "pt": "Com certeza",
+      "en": "Certainly",
+      "ru": "Несомненно"
+    },
+    "example": {
+      "pt": "Você estará lá amanhã? Com certeza!",
+      "en": "Will you be there tomorrow? Certainly!",
+      "ru": "Вы будете там завтра? Несомненно!"
+    }
+  },
+  {
+    "id": 30,
+    "word": {
+      "pt": "Se cuida",
+      "en": "Take care",
+      "ru": "Береги себя"
+    },
+    "example": {
+      "pt": "Até amanhã! Se cuida.",
+      "en": "See you tomorrow! Take care.",
+      "ru": "До завтра! Береги себя."
+    }
+  },
+  {
+    "id": 31,
+    "word": {
+      "pt": "Parabéns",
+      "en": "Congratulations",
+      "ru": "Поздравляю"
+    },
+    "example": {
+      "pt": "Parabéns pelo seu sucesso!",
+      "en": "Congratulations on your success!",
+      "ru": "Поздравляю с вашим успехом!"
+    }
+  },
+  {
+    "id": 32,
+    "word": {
+      "pt": "Boa sorte",
+      "en": "Good luck",
+      "ru": "Удачи"
+    },
+    "example": {
+      "pt": "Boa sorte na sua entrevista!",
+      "en": "Good luck with your interview!",
+      "ru": "Удачи на собеседовании!"
+    }
+  },
+  {
+    "id": 33,
+    "word": {
+      "pt": "Com licença",
+      "en": "Excuse me",
+      "ru": "Разрешите"
+    },
+    "example": {
+      "pt": "Com licença, posso falar com você?",
+      "en": "Excuse me, can I talk to you?",
+      "ru": "Разрешите, можно с вами поговорить?"
+    }
+  },
+  {
+    "id": 34,
+    "word": {
+      "pt": "Até sempre",
+      "en": "Farewell",
+      "ru": "Прощай"
+    },
+    "example": {
+      "pt": "Foi bom te conhecer. Até sempre!",
+      "en": "It was nice to meet you. Farewell!",
+      "ru": "Было приятно познакомиться. Прощай!"
+    }
+  },
+  {
+    "id": 35,
+    "word": {
+      "pt": "Fique bem",
+      "en": "Take care",
+      "ru": "Береги себя"
+    },
+    "example": {
+      "pt": "Espero que melhore logo. Fique bem!",
+      "en": "I hope you get better soon. Take care!",
+      "ru": "Надеюсь, ты скоро поправишься. Береги себя!"
+    }
+  },
+  {
+    "id": 36,
+    "word": {
+      "pt": "Desculpe o transtorno",
+      "en": "Sorry for the inconvenience",
+      "ru": "Простите за неудобства"
+    },
+    "example": {
+      "pt": "Desculpe o transtorno. Estamos resolvendo o problema.",
+      "en": "Sorry for the inconvenience. We're solving the issue.",
+      "ru": "Простите за неудобства. Мы решаем проблему."
+    }
+  },
+  {
+    "id": 37,
+    "word": {
+      "pt": "Seja bem-vindo",
+      "en": "You're welcome (formal)",
+      "ru": "Добро пожаловать"
+    },
+    "example": {
+      "pt": "Seja bem-vindo à nossa equipe!",
+      "en": "You're welcome to join our team!",
+      "ru": "Добро пожаловать в нашу команду!"
+    }
+  },
+  {
+    "id": 38,
+    "word": {
+      "pt": "Por favor, aguarde",
+      "en": "Please wait",
+      "ru": "Пожалуйста, подождите"
+    },
+    "example": {
+      "pt": "Por favor, aguarde um momento.",
+      "en": "Please wait a moment.",
+      "ru": "Пожалуйста, подождите минутку."
+    }
+  },
+  {
+    "id": 39,
+    "word": {
+      "pt": "Bom trabalho",
+      "en": "Good job",
+      "ru": "Хорошая работа"
+    },
+    "example": {
+      "pt": "Você fez um bom trabalho! Parabéns!",
+      "en": "You did a good job! Congratulations!",
+      "ru": "Вы проделали отличную работу! Поздравляю!"
+    }
+  },
+  {
+    "id": 40,
+    "word": {
+      "pt": "Eu sinto muito",
+      "en": "I'm very sorry",
+      "ru": "Мне очень жаль"
+    },
+    "example": {
+      "pt": "Eu sinto muito pela sua perda.",
+      "en": "I'm very sorry for your loss.",
+      "ru": "Мне очень жаль из-за вашей утраты."
+    }
+  },
+  {
+    "id": 41,
+    "word": {
+      "pt": "Boa viagem",
+      "en": "Have a good trip",
+      "ru": "Хорошего путешествия"
+    },
+    "example": {
+      "pt": "Boa viagem! Aproveite bem.",
+      "en": "Have a good trip! Enjoy it.",
+      "ru": "Хорошего путешествия! Наслаждайтесь."
+    }
+  },
+  {
+    "id": 42,
+    "word": {
+      "pt": "Até logo mais",
+      "en": "See you later",
+      "ru": "До скорого"
+    },
+    "example": {
+      "pt": "Preciso sair agora. Até logo mais!",
+      "en": "I have to leave now. See you later!",
+      "ru": "Мне нужно уйти. До скорого!"
+    }
+  },
+  {
+    "id": 43,
+    "word": {
+      "pt": "Volte sempre",
+      "en": "Come back soon",
+      "ru": "Возвращайтесь снова"
+    },
+    "example": {
+      "pt": "Volte sempre! Será bem-vindo.",
+      "en": "Come back soon! You'll be welcome.",
+      "ru": "Возвращайтесь снова! Вам всегда рады."
+    }
+  },
+  {
+    "id": 44,
+    "word": {
+      "pt": "Até mais tarde",
+      "en": "See you later",
+      "ru": "Увидимся позже"
+    },
+    "example": {
+      "pt": "Vou resolver isso agora. Até mais tarde.",
+      "en": "I'll sort this out now. See you later.",
+      "ru": "Я займусь этим сейчас. Увидимся позже."
+    }
+  },
+  {
+    "id": 45,
+    "word": {
+      "pt": "Tenha um bom dia",
+      "en": "Have a nice day",
+      "ru": "Хорошего дня"
+    },
+    "example": {
+      "pt": "Tenha um bom dia! Nos vemos amanhã.",
+      "en": "Have a nice day! See you tomorrow.",
+      "ru": "Хорошего дня! Увидимся завтра."
+    }
+  },
+  {
+    "id": 46,
+    "word": {
+      "pt": "Bom apetite",
+      "en": "Enjoy your meal",
+      "ru": "Приятного аппетита"
+    },
+    "example": {
+      "pt": "Bom apetite! Espero que goste da comida.",
+      "en": "Enjoy your meal! I hope you like the food.",
+      "ru": "Приятного аппетита! Надеюсь, вам понравится еда."
+    }
+  },
+  {
+    "id": 47,
+    "word": {
+      "pt": "Fique à vontade",
+      "en": "Feel free",
+      "ru": "Чувствуйте себя как дома"
+    },
+    "example": {
+      "pt": "Por favor, fique à vontade. Essa casa é sua.",
+      "en": "Please, feel free. This house is yours.",
+      "ru": "Пожалуйста, чувствуйте себя как дома. Этот дом ваш."
+    }
+  },
+  {
+    "id": 48,
+    "word": {
+      "pt": "Não tem problema",
+      "en": "No problem",
+      "ru": "Ничего страшного"
+    },
+    "example": {
+      "pt": "Não tem problema. Podemos resolver isso depois.",
+      "en": "No problem. We can sort this out later.",
+      "ru": "Ничего страшного. Мы можем решить это позже."
+    }
+  },
+  {
+    "id": 49,
+    "word": {
+      "pt": "Boa recuperação",
+      "en": "Get well soon",
+      "ru": "Скорейшего выздоровления"
+    },
+    "example": {
+      "pt": "Espero que você tenha uma boa recuperação!",
+      "en": "I hope you have a good recovery!",
+      "ru": "Надеюсь, у вас будет хорошее выздоровление!"
+    }
+  },
+  {
+    "id": 50,
+    "word": {
+      "pt": "Sem dúvida",
+      "en": "Without a doubt",
+      "ru": "Без сомнений"
+    },
+    "example": {
+      "pt": "Ele é o melhor jogador, sem dúvida!",
+      "en": "He is the best player, without a doubt!",
+      "ru": "Он лучший игрок, без сомнений!"
+    }
+  },
+  {
+    "id": 51,
+    "word": {
+      "pt": "Boa decisão",
+      "en": "Good decision",
+      "ru": "Хорошее решение"
+    },
+    "example": {
+      "pt": "Você escolheu bem. Boa decisão!",
+      "en": "You chose well. Good decision!",
+      "ru": "Вы сделали хороший выбор. Хорошее решение!"
+    }
+  },
+  {
+    "id": 52,
+    "word": {
+      "pt": "Bem feito",
+      "en": "Well done",
+      "ru": "Отлично выполнено"
+    },
+    "example": {
+      "pt": "Esse trabalho ficou ótimo. Bem feito!",
+      "en": "This work turned out great. Well done!",
+      "ru": "Эта работа получилась отличной. Отлично выполнено!"
+    }
+  },
+  {
+    "id": 53,
+    "word": {
+      "pt": "Já volto",
+      "en": "I'll be right back",
+      "ru": "Я скоро вернусь"
+    },
+    "example": {
+      "pt": "Espere aqui. Já volto.",
+      "en": "Wait here. I'll be right back.",
+      "ru": "Подождите здесь. Я скоро вернусь."
+    }
+  },
+  {
+    "id": 54,
+    "word": {
+      "pt": "Boa ideia",
+      "en": "Good idea",
+      "ru": "Хорошая идея"
+    },
+    "example": {
+      "pt": "Isso parece uma boa solução. Boa ideia!",
+      "en": "That seems like a good solution. Good idea!",
+      "ru": "Это похоже на хорошее решение. Хорошая идея!"
+    }
+  },
+  {
+    "id": 55,
+    "word": {
+      "pt": "Muito bem",
+      "en": "Very good",
+      "ru": "Очень хорошо"
+    },
+    "example": {
+      "pt": "Você está aprendendo rápido. Muito bem!",
+      "en": "You are learning fast. Very good!",
+      "ru": "Вы быстро учитесь. Очень хорошо!"
+    }
+  },
+  {
+    "id": 56,
+    "word": {
+      "pt": "Com todo respeito",
+      "en": "With all due respect",
+      "ru": "Со всем уважением"
+    },
+    "example": {
+      "pt": "Com todo respeito, não concordo com essa opinião.",
+      "en": "With all due respect, I don't agree with that opinion.",
+      "ru": "Со всем уважением, я не согласен с этим мнением."
+    }
+  },
+  {
+    "id": 57,
+    "word": {
+      "pt": "Aproveite",
+      "en": "Enjoy",
+      "ru": "Наслаждайтесь"
+    },
+    "example": {
+      "pt": "Aproveite o fim de semana!",
+      "en": "Enjoy the weekend!",
+      "ru": "Наслаждайтесь выходными!"
+    }
+  },
+  {
+    "id": 58,
+    "word": {
+      "pt": "Tenha calma",
+      "en": "Stay calm",
+      "ru": "Сохраняйте спокойствие"
+    },
+    "example": {
+      "pt": "Tenha calma! Vamos resolver isso.",
+      "en": "Stay calm! We'll resolve this.",
+      "ru": "Сохраняйте спокойствие! Мы всё решим."
+    }
+  },
+  {
+    "id": 59,
+    "word": {
+      "pt": "Volto já",
+      "en": "Coming right back",
+      "ru": "Сейчас вернусь"
+    },
+    "example": {
+      "pt": "Preciso buscar algo. Volto já!",
+      "en": "I need to grab something. Coming right back!",
+      "ru": "Мне нужно кое-что забрать. Сейчас вернусь!"
+    }
+  },
+  {
+    "id": 60,
+    "word": {
+      "pt": "Bom descanso",
+      "en": "Have a good rest",
+      "ru": "Хорошего отдыха"
+    },
+    "example": {
+      "pt": "Depois do dia longo, tenha um bom descanso.",
+      "en": "After a long day, have a good rest.",
+      "ru": "После долгого дня, хорошего отдыха."
+    }
+  },
+  {
+    "id": 61,
+    "word": {
+      "pt": "Bem-vindo de volta",
+      "en": "Welcome back",
+      "ru": "С возвращением"
+    },
+    "example": {
+      "pt": "Bem-vindo de volta! Sentimos sua falta.",
+      "en": "Welcome back! We missed you.",
+      "ru": "С возвращением! Мы скучали."
+    }
+  },
+  {
+    "id": 62,
+    "word": {
+      "pt": "Que bom vê-lo",
+      "en": "Nice to see you",
+      "ru": "Рад вас видеть"
+    },
+    "example": {
+      "pt": "Olá! Que bom vê-lo novamente.",
+      "en": "Hello! Nice to see you again.",
+      "ru": "Привет! Рад вас снова видеть."
+    }
+  },
+  {
+    "id": 63,
+    "word": {
+      "pt": "Boa estadia",
+      "en": "Have a good stay",
+      "ru": "Хорошего пребывания"
+    },
+    "example": {
+      "pt": "Espero que tenha uma boa estadia no hotel.",
+      "en": "I hope you have a good stay at the hotel.",
+      "ru": "Надеюсь, вам понравится пребывание в отеле."
+    }
+  },
+  {
+    "id": 64,
+    "word": {
+      "pt": "Até qualquer dia",
+      "en": "See you some day",
+      "ru": "Увидимся когда-нибудь"
+    },
+    "example": {
+      "pt": "Foi bom te encontrar! Até qualquer dia.",
+      "en": "It was nice to see you! See you some day.",
+      "ru": "Приятно было тебя встретить! Увидимся когда-нибудь."
+    }
+  },
+  {
+    "id": 65,
+    "word": {
+      "pt": "Até uma próxima vez",
+      "en": "Until next time",
+      "ru": "До следующего раза"
+    },
+    "example": {
+      "pt": "Adorei nossa conversa. Até uma próxima vez!",
+      "en": "I loved our conversation. Until next time!",
+      "ru": "Мне понравился наш разговор. До следующего раза!"
+    }
+  },
+  {
+    "id": 66,
+    "word": {
+      "pt": "Dá notícias",
+      "en": "Keep in touch",
+      "ru": "Держи меня в курсе"
+    },
+    "example": {
+      "pt": "Saindo agora? Dá notícias, hein!",
+      "en": "Leaving now? Keep in touch, okay!",
+      "ru": "Ты уходишь? Держи меня в курсе!"
+    }
+  },
+  {
+    "id": 67,
+    "word": {
+      "pt": "Até já já",
+      "en": "See you very soon",
+      "ru": "До скорого, совсем скоро"
+    },
+    "example": {
+      "pt": "Vou ao mercado. Até já já!",
+      "en": "I'm going to the market. See you very soon!",
+      "ru": "Я иду в магазин. До скорого, совсем скоро!"
+    }
+  },
+  {
+    "id": 68,
+    "word": {
+      "pt": "Saudações cordiais",
+      "en": "Kind regards",
+      "ru": "С уважением"
+    },
+    "example": {
+      "pt": "Saudações cordiais, agradeço sua resposta.",
+      "en": "Kind regards, I appreciate your response.",
+      "ru": "С уважением, благодарю за ваш ответ."
+    }
+  },
+  {
+    "id": 69,
+    "word": {
+      "pt": "À disposição",
+      "en": "At your disposal",
+      "ru": "К вашим услугам"
+    },
+    "example": {
+      "pt": "Se precisar de algo, estou à disposição.",
+      "en": "If you need anything, I'm at your disposal.",
+      "ru": "Если вам что-то понадобится, я к вашим услугам."
+    }
+  },
+  {
+    "id": 70,
+    "word": {
+      "pt": "Até lá",
+      "en": "See you there",
+      "ru": "Увидимся там"
+    },
+    "example": {
+      "pt": "Nos vemos na festa! Até lá.",
+      "en": "See you at the party! See you there.",
+      "ru": "Увидимся на вечеринке! Увидимся там."
+    }
+  }
+  ]
+}

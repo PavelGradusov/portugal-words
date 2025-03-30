@@ -1,0 +1,1049 @@
+{
+  "category": {
+    "pt": "Comida e Bebidas",
+    "en": "Food and Drinks",
+    "ru": "Еда и напитки"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": {
+        "pt": "pão",
+        "en": "bread",
+        "ru": "хлеб"
+      },
+      "example": {
+        "pt": "Eu como pão todas as manhãs.",
+        "en": "I eat bread every morning.",
+        "ru": "Я ем хлеб каждое утро."
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "pt": "leite",
+        "en": "milk",
+        "ru": "молоко"
+      },
+      "example": {
+        "pt": "Eu gosto de beber leite quente.",
+        "en": "I like to drink warm milk.",
+        "ru": "Я люблю пить тёплое молоко."
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "pt": "água",
+        "en": "water",
+        "ru": "вода"
+      },
+      "example": {
+        "pt": "A água é essencial para a vida.",
+        "en": "Water is essential for life.",
+        "ru": "Вода необходима для жизни."
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "pt": "arroz",
+        "en": "rice",
+        "ru": "рис"
+      },
+      "example": {
+        "pt": "Nós comemos arroz no jantar.",
+        "en": "We eat rice for dinner.",
+        "ru": "Мы едим рис на ужин."
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "pt": "carne",
+        "en": "meat",
+        "ru": "мясо"
+      },
+      "example": {
+        "pt": "Eu preparo carne grelhada.",
+        "en": "I prepare grilled meat.",
+        "ru": "Я готовлю мясо на гриле."
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "pt": "peixe",
+        "en": "fish",
+        "ru": "рыба"
+      },
+      "example": {
+        "pt": "Eu gosto de peixe com limão.",
+        "en": "I like fish with lemon.",
+        "ru": "Я люблю рыбу с лимоном."
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "pt": "fruta",
+        "en": "fruit",
+        "ru": "фрукты"
+      },
+      "example": {
+        "pt": "A fruta é saudável.",
+        "en": "Fruit is healthy.",
+        "ru": "Фрукты полезны."
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "pt": "maçã",
+        "en": "apple",
+        "ru": "яблоко"
+      },
+      "example": {
+        "pt": "Eu como uma maçã todos os dias.",
+        "en": "I eat an apple every day.",
+        "ru": "Я ем яблоко каждый день."
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "pt": "laranja",
+        "en": "orange",
+        "ru": "апельсин"
+      },
+      "example": {
+        "pt": "O suco de laranja é delicioso.",
+        "en": "Orange juice is delicious.",
+        "ru": "Апельсиновый сок вкусный."
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "pt": "ovo",
+        "en": "egg",
+        "ru": "яйцо"
+      },
+      "example": {
+        "pt": "Eu frito um ovo para o café da manhã.",
+        "en": "I fry an egg for breakfast.",
+        "ru": "Я жарю яйцо на завтрак."
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "pt": "batata",
+        "en": "potato",
+        "ru": "картофель"
+      },
+      "example": {
+        "pt": "Eu adoro batata frita.",
+        "en": "I love French fries.",
+        "ru": "Я обожаю картофель фри."
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "pt": "tomate",
+        "en": "tomato",
+        "ru": "помидор"
+      },
+      "example": {
+        "pt": "O tomate é usado em saladas.",
+        "en": "Tomato is used in salads.",
+        "ru": "Помидор используется в салатах."
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "pt": "queijo",
+        "en": "cheese",
+        "ru": "сыр"
+      },
+      "example": {
+        "pt": "Eu quero uma fatia de queijo.",
+        "en": "I want a slice of cheese.",
+        "ru": "Я хочу кусочек сыра."
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "pt": "manteiga",
+        "en": "butter",
+        "ru": "масло"
+      },
+      "example": {
+        "pt": "Eu passo manteiga no pão.",
+        "en": "I spread butter on the bread.",
+        "ru": "Я намазываю масло на хлеб."
+      }
+    },
+    {
+      "id": 15,
+      "word": {
+        "pt": "sal",
+        "en": "salt",
+        "ru": "соль"
+      },
+      "example": {
+        "pt": "Eu preciso de sal para a sopa.",
+        "en": "I need salt for the soup.",
+        "ru": "Мне нужна соль для супа."
+      }
+    },
+    {
+      "id": 16,
+      "word": {
+        "pt": "açúcar",
+        "en": "sugar",
+        "ru": "сахар"
+      },
+      "example": {
+        "pt": "Eu coloco açúcar no café.",
+        "en": "I add sugar to coffee.",
+        "ru": "Я добавляю сахар в кофе."
+      }
+    },
+    {
+      "id": 17,
+      "word": {
+        "pt": "café",
+        "en": "coffee",
+        "ru": "кофе"
+      },
+      "example": {
+        "pt": "Eu tomo café todas as manhãs.",
+        "en": "I drink coffee every morning.",
+        "ru": "Я пью кофе каждое утро."
+      }
+    },
+    {
+      "id": 18,
+      "word": {
+        "pt": "chá",
+        "en": "tea",
+        "ru": "чай"
+      },
+      "example": {
+        "pt": "Eu prefiro chá sem açúcar.",
+        "en": "I prefer tea without sugar.",
+        "ru": "Я предпочитаю чай без сахара."
+      }
+    },
+    {
+      "id": 19,
+      "word": {
+        "pt": "bolo",
+        "en": "cake",
+        "ru": "пирог"
+      },
+      "example": {
+        "pt": "Eu faço um bolo de chocolate.",
+        "en": "I bake a chocolate cake.",
+        "ru": "Я пеку шоколадный пирог."
+      }
+    },
+    {
+      "id": 20,
+      "word": {
+        "pt": "sopa",
+        "en": "soup",
+        "ru": "суп"
+      },
+      "example": {
+        "pt": "A sopa está muito quente.",
+        "en": "The soup is very hot.",
+        "ru": "Суп очень горячий."
+      }
+    },
+    {
+      "id": 21,
+      "word": {
+        "pt": "sanduíche",
+        "en": "sandwich",
+        "ru": "сэндвич"
+      },
+      "example": {
+        "pt": "Eu preparei um sanduíche para o almoço.",
+        "en": "I made a sandwich for lunch.",
+        "ru": "Я приготовил сэндвич на обед."
+      }
+    },
+    {
+      "id": 22,
+      "word": {
+        "pt": "massa",
+        "en": "pasta",
+        "ru": "паста"
+      },
+      "example": {
+        "pt": "Eu gosto de massa com molho de tomate.",
+        "en": "I like pasta with tomato sauce.",
+        "ru": "Я люблю пасту с томатным соусом."
+      }
+    },
+    {
+      "id": 23,
+      "word": {
+        "pt": "vegetais",
+        "en": "vegetables",
+        "ru": "овощи"
+      },
+      "example": {
+        "pt": "Os vegetais são saudáveis.",
+        "en": "Vegetables are healthy.",
+        "ru": "Овощи полезны."
+      }
+    },
+    {
+      "id": 24,
+      "word": {
+        "pt": "cenoura",
+        "en": "carrot",
+        "ru": "морковь"
+      },
+      "example": {
+        "pt": "A cenoura é boa para os olhos.",
+        "en": "Carrot is good for the eyes.",
+        "ru": "Морковь полезна для глаз."
+      }
+    },
+    {
+      "id": 25,
+      "word": {
+        "pt": "alface",
+        "en": "lettuce",
+        "ru": "салат"
+      },
+      "example": {
+        "pt": "A alface é usada em saladas.",
+        "en": "Lettuce is used in salads.",
+        "ru": "Салат используется в салатах."
+      }
+    },
+    {
+      "id": 26,
+      "word": {
+        "pt": "cebola",
+        "en": "onion",
+        "ru": "лук"
+      },
+      "example": {
+        "pt": "A cebola é picante quando crua.",
+        "en": "Onion is spicy when raw.",
+        "ru": "Лук острый, когда сырой."
+      }
+    },
+    {
+      "id": 27,
+      "word": {
+        "pt": "alho",
+        "en": "garlic",
+        "ru": "чеснок"
+      },
+      "example": {
+        "pt": "O alho dá sabor à comida.",
+        "en": "Garlic adds flavor to food.",
+        "ru": "Чеснок придаёт вкус еде."
+      }
+    },
+    {
+      "id": 28,
+      "word": {
+        "pt": "azeite",
+        "en": "olive oil",
+        "ru": "оливковое масло"
+      },
+      "example": {
+        "pt": "Eu uso azeite para cozinhar.",
+        "en": "I use olive oil for cooking.",
+        "ru": "Я использую оливковое масло для готовки."
+      }
+    },
+    {
+      "id": 29,
+      "word": {
+        "pt": "vinho",
+        "en": "wine",
+        "ru": "вино"
+      },
+      "example": {
+        "pt": "O vinho tinto é bom com carne.",
+        "en": "Red wine is good with meat.",
+        "ru": "Красное вино хорошо сочетается с мясом."
+      }
+    },
+    {
+      "id": 30,
+      "word": {
+        "pt": "cerveja",
+        "en": "beer",
+        "ru": "пиво"
+      },
+      "example": {
+        "pt": "A cerveja é servida gelada.",
+        "en": "Beer is served cold.",
+        "ru": "Пиво подаётся холодным."
+      }
+    },
+    {
+      "id": 31,
+      "word": {
+        "pt": "limão",
+        "en": "lemon",
+        "ru": "лимон"
+      },
+      "example": {
+        "pt": "O suco de limão é refrescante.",
+        "en": "Lemon juice is refreshing.",
+        "ru": "Лимонный сок освежает."
+      }
+    },
+    {
+      "id": 32,
+      "word": {
+        "pt": "morango",
+        "en": "strawberry",
+        "ru": "клубника"
+      },
+      "example": {
+        "pt": "Eu adoro morangos com chantilly.",
+        "en": "I love strawberries with whipped cream.",
+        "ru": "Я обожаю клубнику со взбитыми сливками."
+      }
+    },
+    {
+      "id": 33,
+      "word": {
+        "pt": "melancia",
+        "en": "watermelon",
+        "ru": "арбуз"
+      },
+      "example": {
+        "pt": "A melancia é doce e suculenta.",
+        "en": "Watermelon is sweet and juicy.",
+        "ru": "Арбуз сладкий и сочный."
+      }
+    },
+    {
+      "id": 34,
+      "word": {
+        "pt": "uva",
+        "en": "grape",
+        "ru": "виноград"
+      },
+      "example": {
+        "pt": "As uvas são usadas para fazer vinho.",
+        "en": "Grapes are used to make wine.",
+        "ru": "Виноград используется для производства вина."
+      }
+    },
+    {
+      "id": 35,
+      "word": {
+        "pt": "mel",
+        "en": "honey",
+        "ru": "мёд"
+      },
+      "example": {
+        "pt": "O mel é produzido pelas abelhas.",
+        "en": "Honey is made by bees.",
+        "ru": "Мёд производится пчелами."
+      }
+    },
+    {
+      "id": 36,
+      "word": {
+        "pt": "geleia",
+        "en": "jam",
+        "ru": "джем"
+      },
+      "example": {
+        "pt": "Eu gosto de pão com geleia de morango.",
+        "en": "I like bread with strawberry jam.",
+        "ru": "Я люблю хлеб с клубничным джемом."
+      }
+    },
+    {
+      "id": 37,
+      "word": {
+        "pt": "óleo",
+        "en": "oil",
+        "ru": "масло"
+      },
+      "example": {
+        "pt": "Eu uso óleo vegetal para cozinhar.",
+        "en": "I use vegetable oil for cooking.",
+        "ru": "Я использую растительное масло для готовки."
+      }
+    },
+    {
+      "id": 38,
+      "word": {
+        "pt": "vinagre",
+        "en": "vinegar",
+        "ru": "уксус"
+      },
+      "example": {
+        "pt": "Eu tempero a salada com vinagre.",
+        "en": "I season the salad with vinegar.",
+        "ru": "Я заправляю салат уксусом."
+      }
+    },
+    {
+      "id": 39,
+      "word": {
+        "pt": "farinha",
+        "en": "flour",
+        "ru": "мука"
+      },
+      "example": {
+        "pt": "A farinha é usada para fazer pão.",
+        "en": "Flour is used to make bread.",
+        "ru": "Мука используется для приготовления хлеба."
+      }
+    },
+    {
+      "id": 40,
+      "word": {
+        "pt": "fermento",
+        "en": "yeast",
+        "ru": "дрожжи"
+      },
+      "example": {
+        "pt": "O fermento faz o pão crescer.",
+        "en": "Yeast makes the bread rise.",
+        "ru": "Дрожжи делают тесто пышным."
+      }
+    },
+    {
+      "id": 41,
+      "word": {
+        "pt": "maionese",
+        "en": "mayonnaise",
+        "ru": "майонез"
+      },
+      "example": {
+        "pt": "A maionese é feita com ovos.",
+        "en": "Mayonnaise is made with eggs.",
+        "ru": "Майонез делают из яиц."
+      }
+    },
+    {
+      "id": 42,
+      "word": {
+        "pt": "mostarda",
+        "en": "mustard",
+        "ru": "горчица"
+      },
+      "example": {
+        "pt": "Eu coloco mostarda no sanduíche.",
+        "en": "I put mustard on the sandwich.",
+        "ru": "Я добавляю горчицу в сэндвич."
+      }
+    },
+    {
+      "id": 43,
+      "word": {
+        "pt": "ketchup",
+        "en": "ketchup",
+        "ru": "кетчуп"
+      },
+      "example": {
+        "pt": "O ketchup é usado em hambúrgueres.",
+        "en": "Ketchup is used on hamburgers.",
+        "ru": "Кетчуп используется для гамбургеров."
+      }
+    },
+    {
+      "id": 44,
+      "word": {
+        "pt": "pizza",
+        "en": "pizza",
+        "ru": "пицца"
+      },
+      "example": {
+        "pt": "Eu gosto de pizza com queijo extra.",
+        "en": "I like pizza with extra cheese.",
+        "ru": "Мне нравится пицца с дополнительным сыром."
+      }
+    },
+    {
+      "id": 45,
+      "word": {
+        "pt": "hambúrguer",
+        "en": "hamburger",
+        "ru": "гамбургер"
+      },
+      "example": {
+        "pt": "O hambúrguer é servido com batatas fritas.",
+        "en": "The hamburger is served with fries.",
+        "ru": "Гамбургер подают с картошкой фри."
+      }
+    },
+    {
+      "id": 46,
+      "word": {
+        "pt": "salsicha",
+        "en": "sausage",
+        "ru": "колбаса"
+      },
+      "example": {
+        "pt": "A salsicha é grelhada no churrasco.",
+        "en": "The sausage is grilled at the barbecue.",
+        "ru": "Колбаса готовится на гриле."
+      }
+    },
+    {
+      "id": 47,
+      "word": {
+        "pt": "frango",
+        "en": "chicken",
+        "ru": "курица"
+      },
+      "example": {
+        "pt": "O frango assado é delicioso.",
+        "en": "The roasted chicken is delicious.",
+        "ru": "Жареная курица очень вкусная."
+      }
+    },
+    {
+      "id": 48,
+      "word": {
+        "pt": "sorvete",
+        "en": "ice cream",
+        "ru": "мороженое"
+      },
+      "example": {
+        "pt": "Eu adoro sorvete de chocolate.",
+        "en": "I love chocolate ice cream.",
+        "ru": "Я обожаю шоколадное мороженое."
+      }
+    },
+    {
+      "id": 49,
+      "word": {
+        "pt": "doce",
+        "en": "candy",
+        "ru": "конфета"
+      },
+      "example": {
+        "pt": "As crianças adoram doces.",
+        "en": "Children love candies.",
+        "ru": "Дети любят конфеты."
+      }
+    },
+    {
+      "id": 50,
+      "word": {
+        "pt": "biscoito",
+        "en": "biscuit",
+        "ru": "печенье"
+      },
+      "example": {
+        "pt": "Eu como biscoitos com café.",
+        "en": "I eat biscuits with coffee.",
+        "ru": "Я ем печенье с кофе."
+      }
+    },
+    {
+      "id": 51,
+      "word": {
+        "pt": "chávena",
+        "en": "cup",
+        "ru": "чашка"
+      },
+      "example": {
+        "pt": "Eu bebo chá numa chávena.",
+        "en": "I drink tea in a cup.",
+        "ru": "Я пью чай из чашки."
+      }
+    },
+    {
+      "id": 52,
+      "word": {
+        "pt": "colher",
+        "en": "spoon",
+        "ru": "ложка"
+      },
+      "example": {
+        "pt": "A sopa é comida com uma colher.",
+        "en": "Soup is eaten with a spoon.",
+        "ru": "Суп едят ложкой."
+      }
+    },
+    {
+      "id": 53,
+      "word": {
+        "pt": "garfo",
+        "en": "fork",
+        "ru": "вилка"
+      },
+      "example": {
+        "pt": "Uso um garfo para comer salada.",
+        "en": "I use a fork to eat salad.",
+        "ru": "Я использую вилку, чтобы есть салат."
+      }
+    },
+    {
+      "id": 54,
+      "word": {
+        "pt": "faca",
+        "en": "knife",
+        "ru": "нож"
+      },
+      "example": {
+        "pt": "Eu corto o pão com uma faca.",
+        "en": "I cut bread with a knife.",
+        "ru": "Я режу хлеб ножом."
+      }
+    },
+    {
+      "id": 55,
+      "word": {
+        "pt": "prato",
+        "en": "plate",
+        "ru": "тарелка"
+      },
+      "example": {
+        "pt": "Eu coloco comida no prato.",
+        "en": "I put food on the plate.",
+        "ru": "Я кладу еду на тарелку."
+      }
+    },
+    {
+      "id": 56,
+      "word": {
+        "pt": "tigela",
+        "en": "bowl",
+        "ru": "миска"
+      },
+      "example": {
+        "pt": "Eu uso uma tigela para sopa.",
+        "en": "I use a bowl for soup.",
+        "ru": "Я использую миску для супа."
+      }
+    },
+    {
+      "id": 57,
+      "word": {
+        "pt": "frigorífico",
+        "en": "fridge",
+        "ru": "холодильник"
+      },
+      "example": {
+        "pt": "Os vegetais estão no frigorífico.",
+        "en": "The vegetables are in the fridge.",
+        "ru": "Овощи в холодильнике."
+      }
+    },
+    {
+      "id": 58,
+      "word": {
+        "pt": "tacho",
+        "en": "pot",
+        "ru": "кастрюля"
+      },
+      "example": {
+        "pt": "A sopa está a ferver no tacho.",
+        "en": "The soup is boiling in the pot.",
+        "ru": "Суп кипит в кастрюле."
+      }
+    },
+    {
+      "id": 59,
+      "word": {
+        "pt": "fruta tropical",
+        "en": "tropical fruit",
+        "ru": "тропические фрукты"
+      },
+      "example": {
+        "pt": "Eu gosto de fruta tropical como manga e ananás.",
+        "en": "I like tropical fruits like mango and pineapple.",
+        "ru": "Мне нравятся тропические фрукты, такие как манго и ананас."
+      }
+    },
+    {
+      "id": 60,
+      "word": {
+        "pt": "bebida",
+        "en": "drink",
+        "ru": "напиток"
+      },
+      "example": {
+        "pt": "Qual é a tua bebida favorita?",
+        "en": "What is your favorite drink?",
+        "ru": "Какой твой любимый напиток?"
+      }
+    },
+    {
+      "id": 61,
+      "word": {
+        "pt": "cozinha",
+        "en": "kitchen",
+        "ru": "кухня"
+      },
+      "example": {
+        "pt": "Nós preparamos comida na cozinha.",
+        "en": "We prepare food in the kitchen.",
+        "ru": "Мы готовим еду на кухне."
+      }
+    },
+    {
+      "id": 62,
+      "word": {
+        "pt": "receita",
+        "en": "recipe",
+        "ru": "рецепт"
+      },
+      "example": {
+        "pt": "Eu vou experimentar uma nova receita hoje.",
+        "en": "I will try a new recipe today.",
+        "ru": "Я попробую новый рецепт сегодня."
+      }
+    },
+    {
+      "id": 63,
+      "word": {
+        "pt": "temperos",
+        "en": "spices",
+        "ru": "специи"
+      },
+      "example": {
+        "pt": "Os temperos dão sabor à comida.",
+        "en": "Spices add flavor to food.",
+        "ru": "Специи придают вкус еде."
+      }
+    },
+    {
+      "id": 64,
+      "word": {
+        "pt": "refeição",
+        "en": "meal",
+        "ru": "приём пищи"
+      },
+      "example": {
+        "pt": "O jantar é a refeição principal do dia.",
+        "en": "Dinner is the main meal of the day.",
+        "ru": "Ужин - это основной приём пищи дня."
+      }
+    },
+    {
+      "id": 65,
+      "word": {
+        "pt": "pequeno-almoço",
+        "en": "breakfast",
+        "ru": "завтрак"
+      },
+      "example": {
+        "pt": "Eu como ovos ao pequeno-almoço.",
+        "en": "I eat eggs for breakfast.",
+        "ru": "Я ем яйца на завтрак."
+      }
+    },
+    {
+      "id": 66,
+      "word": {
+        "pt": "almoço",
+        "en": "lunch",
+        "ru": "обед"
+      },
+      "example": {
+        "pt": "O almoço é servido ao meio-dia.",
+        "en": "Lunch is served at noon.",
+        "ru": "Обед подаётся в полдень."
+      }
+    },
+    {
+      "id": 67,
+      "word": {
+        "pt": "jantar",
+        "en": "dinner",
+        "ru": "ужин"
+      },
+      "example": {
+        "pt": "Nós preparamos um jantar especial.",
+        "en": "We prepared a special dinner.",
+        "ru": "Мы приготовили особый ужин."
+      }
+    },
+    {
+      "id": 68,
+      "word": {
+        "pt": "sobremesa",
+        "en": "dessert",
+        "ru": "десерт"
+      },
+      "example": {
+        "pt": "O bolo de chocolate é a sobremesa.",
+        "en": "Chocolate cake is the dessert.",
+        "ru": "Шоколадный торт — это десерт."
+      }
+    },
+    {
+      "id": 69,
+      "word": {
+        "pt": "lanche",
+        "en": "snack",
+        "ru": "перекус"
+      },
+      "example": {
+        "pt": "Eu como frutas no lanche da tarde.",
+        "en": "I eat fruits for the afternoon snack.",
+        "ru": "Я ем фрукты на полдник."
+      }
+    },
+    {
+      "id": 70,
+      "word": {
+        "pt": "sede",
+        "en": "thirst",
+        "ru": "жажда"
+      },
+      "example": {
+        "pt": "Eu bebo água quando tenho sede.",
+        "en": "I drink water when I'm thirsty.",
+        "ru": "Я пью воду, когда испытываю жажду."
+      }
+    },
+    {
+      "id": 71,
+      "word": {
+        "pt": "apetite",
+        "en": "appetite",
+        "ru": "аппетит"
+      },
+      "example": {
+        "pt": "Eu tenho um bom apetite hoje.",
+        "en": "I have a good appetite today.",
+        "ru": "У меня сегодня хороший аппетит."
+      }
+    },
+    {
+      "id": 72,
+      "word": {
+        "pt": "cheiro",
+        "en": "smell",
+        "ru": "запах"
+      },
+      "example": {
+        "pt": "O cheiro da comida está delicioso.",
+        "en": "The smell of the food is delicious.",
+        "ru": "Запах еды восхитительный."
+      }
+    },
+    {
+      "id": 73,
+      "word": {
+        "pt": "sabor",
+        "en": "taste",
+        "ru": "вкус"
+      },
+      "example": {
+        "pt": "O sabor da sopa é muito bom.",
+        "en": "The taste of the soup is very good.",
+        "ru": "Вкус супа очень хороший."
+      }
+    },
+    {
+      "id": 74,
+      "word": {
+        "pt": "fome",
+        "en": "hunger",
+        "ru": "голод"
+      },
+      "example": {
+        "pt": "Eu estou com muita fome agora.",
+        "en": "I am very hungry right now.",
+        "ru": "Я сейчас очень голоден."
+      }
+    },
+    {
+      "id": 75,
+      "word": {
+        "pt": "satisfação",
+        "en": "satisfaction",
+        "ru": "удовлетворение"
+      },
+      "example": {
+        "pt": "Comer boa comida traz satisfação.",
+        "en": "Eating good food brings satisfaction.",
+        "ru": "Хорошая еда приносит удовлетворение."
+      }
+    },
+    {
+      "id": 76,
+      "word": {
+        "pt": "cozinhar",
+        "en": "to cook",
+        "ru": "готовить"
+      },
+      "example": {
+        "pt": "Eu gosto de cozinhar para minha família.",
+        "en": "I like to cook for my family.",
+        "ru": "Мне нравится готовить для своей семьи."
+      }
+    },
+    {
+      "id": 77,
+      "word": {
+        "pt": "comer",
+        "en": "to eat",
+        "ru": "есть"
+      },
+      "example": {
+        "pt": "Nós vamos comer pizza esta noite.",
+        "en": "We will eat pizza tonight.",
+        "ru": "Мы будем есть пиццу сегодня вечером."
+      }
+    },
+    {
+      "id": 78,
+      "word": {
+        "pt": "beber",
+        "en": "to drink",
+        "ru": "пить"
+      },
+      "example": {
+        "pt": "Eu gosto de beber suco natural.",
+        "en": "I like to drink fresh juice.",
+        "ru": "Мне нравится пить свежий сок."
+      }
+    },
+    {
+      "id": 79,
+      "word": {
+        "pt": "servir",
+        "en": "to serve",
+        "ru": "подавать"
+      },
+      "example": {
+        "pt": "Eu vou servir o jantar agora.",
+        "en": "I will serve dinner now.",
+        "ru": "Я сейчас подам ужин."
+      }
+    },
+    {
+      "id": 80,
+      "word": {
+        "pt": "provar",
+        "en": "to taste",
+        "ru": "пробовать"
+      },
+      "example": {
+        "pt": "Eu quero provar o bolo de chocolate.",
+        "en": "I want to taste the chocolate cake.",
+        "ru": "Я хочу попробовать шоколадный торт."
+      }
+    }	
+  ]
+}

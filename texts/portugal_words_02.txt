@@ -1,0 +1,659 @@
+{
+  "category": {
+    "pt": "Pronomes pessoais e preposições",
+    "en": "Personal pronouns and prepositions",
+    "ru": "Личные местоимения и предлоги"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": {
+        "pt": "Eu",
+        "en": "I",
+        "ru": "Я"
+      },
+      "example": {
+        "pt": "Eu gosto de ler livros.",
+        "en": "I like reading books.",
+        "ru": "Я люблю читать книги."
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "pt": "Tu",
+        "en": "You (informal singular)",
+        "ru": "Ты"
+      },
+      "example": {
+        "pt": "Tu estás feliz hoje?",
+        "en": "Are you happy today?",
+        "ru": "Ты счастлив сегодня?"
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "pt": "Ele",
+        "en": "He",
+        "ru": "Он"
+      },
+      "example": {
+        "pt": "Ele está no parque.",
+        "en": "He is at the park.",
+        "ru": "Он в парке."
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "pt": "Ela",
+        "en": "She",
+        "ru": "Она"
+      },
+      "example": {
+        "pt": "Ela gosta de música clássica.",
+        "en": "She likes classical music.",
+        "ru": "Она любит классическую музыку."
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "pt": "Nós",
+        "en": "We",
+        "ru": "Мы"
+      },
+      "example": {
+        "pt": "Nós vamos ao cinema amanhã.",
+        "en": "We are going to the cinema tomorrow.",
+        "ru": "Мы идём в кино завтра."
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "pt": "Vós",
+        "en": "You (plural/formal)",
+        "ru": "Вы (множественное/формальное)"
+      },
+      "example": {
+        "pt": "Vós sois bem-vindos aqui.",
+        "en": "You are welcome here.",
+        "ru": "Вы здесь желанные гости."
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "pt": "Eles",
+        "en": "They (masculine)",
+        "ru": "Они (мужской род)"
+      },
+      "example": {
+        "pt": "Eles jogam futebol aos sábados.",
+        "en": "They play soccer on Saturdays.",
+        "ru": "Они играют в футбол по субботам."
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "pt": "Elas",
+        "en": "They (feminine)",
+        "ru": "Они (женский род)"
+      },
+      "example": {
+        "pt": "Elas adoram chocolate.",
+        "en": "They love chocolate.",
+        "ru": "Они обожают шоколад."
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "pt": "Com",
+        "en": "With",
+        "ru": "С"
+      },
+      "example": {
+        "pt": "Eu vou ao parque com meus amigos.",
+        "en": "I go to the park with my friends.",
+        "ru": "Я иду в парк с друзьями."
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "pt": "Sem",
+        "en": "Without",
+        "ru": "Без"
+      },
+      "example": {
+        "pt": "Não posso viver sem música.",
+        "en": "I can't live without music.",
+        "ru": "Я не могу жить без музыки."
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "pt": "Para",
+        "en": "For",
+        "ru": "Для"
+      },
+      "example": {
+        "pt": "Este presente é para você.",
+        "en": "This gift is for you.",
+        "ru": "Этот подарок для тебя."
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "pt": "De",
+        "en": "Of / From",
+        "ru": "От / Из"
+      },
+      "example": {
+        "pt": "A casa de João é grande.",
+        "en": "João's house is big.",
+        "ru": "Дом Жоао большой."
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "pt": "Em",
+        "en": "In / At",
+        "ru": "В / На"
+      },
+      "example": {
+        "pt": "Estou em casa agora.",
+        "en": "I am at home now.",
+        "ru": "Я сейчас дома."
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "pt": "Entre",
+        "en": "Between",
+        "ru": "Между"
+      },
+      "example": {
+        "pt": "A mesa está entre as cadeiras.",
+        "en": "The table is between the chairs.",
+        "ru": "Стол находится между стульями."
+      }
+    },
+    {
+      "id": 15,
+      "word": {
+        "pt": "Sobre",
+        "en": "About / On",
+        "ru": "О / На"
+      },
+      "example": {
+        "pt": "Vamos conversar sobre o projeto.",
+        "en": "Let's talk about the project.",
+        "ru": "Давайте поговорим о проекте."
+      }
+    },
+    {
+      "id": 16,
+      "word": {
+        "pt": "Até",
+        "en": "Until / To",
+        "ru": "До / К"
+      },
+      "example": {
+        "pt": "Vamos caminhar até a praça.",
+        "en": "Let's walk to the square.",
+        "ru": "Давайте прогуляемся до площади."
+      }
+    },
+    {
+      "id": 17,
+      "word": {
+        "pt": "Depois",
+        "en": "After",
+        "ru": "После"
+      },
+      "example": {
+        "pt": "Vamos sair depois do almoço.",
+        "en": "We'll go out after lunch.",
+        "ru": "Мы выйдем после обеда."
+      }
+    },
+    {
+      "id": 18,
+      "word": {
+        "pt": "Antes",
+        "en": "Before",
+        "ru": "До"
+      },
+      "example": {
+        "pt": "Cheguei antes da reunião.",
+        "en": "I arrived before the meeting.",
+        "ru": "Я приехал до встречи."
+      }
+    },
+    {
+      "id": 19,
+      "word": {
+        "pt": "Sob",
+        "en": "Under",
+        "ru": "Под"
+      },
+      "example": {
+        "pt": "O gato está sob a mesa.",
+        "en": "The cat is under the table.",
+        "ru": "Кот под столом."
+      }
+    },
+    {
+      "id": 20,
+      "word": {
+        "pt": "Contra",
+        "en": "Against",
+        "ru": "Против"
+      },
+      "example": {
+        "pt": "Eles jogaram contra o time rival.",
+        "en": "They played against the rival team.",
+        "ru": "Они играли против команды соперников."
+      }
+    },
+{
+      "id": 21,
+      "word": {
+        "pt": "Abaixo",
+        "en": "Below",
+        "ru": "Ниже"
+      },
+      "example": {
+        "pt": "O rio está abaixo da ponte.",
+        "en": "The river is below the bridge.",
+        "ru": "Река находится ниже моста."
+      }
+    },
+    {
+      "id": 22,
+      "word": {
+        "pt": "Acima",
+        "en": "Above",
+        "ru": "Выше"
+      },
+      "example": {
+        "pt": "O quadro está acima da mesa.",
+        "en": "The painting is above the table.",
+        "ru": "Картина висит выше стола."
+      }
+    },
+    {
+      "id": 23,
+      "word": {
+        "pt": "Durante",
+        "en": "During",
+        "ru": "Во время"
+      },
+      "example": {
+        "pt": "Eu estudo durante a noite.",
+        "en": "I study during the night.",
+        "ru": "Я учусь ночью."
+      }
+    },
+    {
+      "id": 24,
+      "word": {
+        "pt": "Por",
+        "en": "By / Through",
+        "ru": "Через / По"
+      },
+      "example": {
+        "pt": "Passei por aqui ontem.",
+        "en": "I passed by here yesterday.",
+        "ru": "Я проходил здесь вчера."
+      }
+    },
+    {
+      "id": 25,
+      "word": {
+        "pt": "Contra",
+        "en": "Against",
+        "ru": "Против"
+      },
+      "example": {
+        "pt": "Eles jogaram contra o time rival.",
+        "en": "They played against the rival team.",
+        "ru": "Они играли против команды соперников."
+      }
+    },
+    {
+      "id": 26,
+      "word": {
+        "pt": "Dentro",
+        "en": "Inside",
+        "ru": "Внутри"
+      },
+      "example": {
+        "pt": "Estou dentro do prédio.",
+        "en": "I am inside the building.",
+        "ru": "Я внутри здания."
+      }
+    },
+    {
+      "id": 27,
+      "word": {
+        "pt": "Fora",
+        "en": "Outside",
+        "ru": "Снаружи"
+      },
+      "example": {
+        "pt": "As crianças estão brincando fora de casa.",
+        "en": "The kids are playing outside the house.",
+        "ru": "Дети играют снаружи дома."
+      }
+    },
+    {
+      "id": 28,
+      "word": {
+        "pt": "Sobre",
+        "en": "About",
+        "ru": "О"
+      },
+      "example": {
+        "pt": "Estamos falando sobre viagens.",
+        "en": "We are talking about trips.",
+        "ru": "Мы говорим о путешествиях."
+      }
+    },
+    {
+      "id": 29,
+      "word": {
+        "pt": "Além",
+        "en": "Beyond",
+        "ru": "За пределами"
+      },
+      "example": {
+        "pt": "A montanha está além da floresta.",
+        "en": "The mountain is beyond the forest.",
+        "ru": "Гора находится за пределами леса."
+      }
+    },
+    {
+      "id": 30,
+      "word": {
+        "pt": "Sem",
+        "en": "Without",
+        "ru": "Без"
+      },
+      "example": {
+        "pt": "Não posso viver sem você.",
+        "en": "I can't live without you.",
+        "ru": "Я не могу жить без тебя."
+      }
+    },
+    {
+      "id": 31,
+      "word": {
+        "pt": "Entre",
+        "en": "Between",
+        "ru": "Между"
+      },
+      "example": {
+        "pt": "A praça está entre dois edifícios.",
+        "en": "The square is between two buildings.",
+        "ru": "Площадь находится между двумя зданиями."
+      }
+    },
+    {
+      "id": 32,
+      "word": {
+        "pt": "Após",
+        "en": "After",
+        "ru": "После"
+      },
+      "example": {
+        "pt": "Vamos ao café após o almoço.",
+        "en": "We will go to the café after lunch.",
+        "ru": "Мы пойдём в кафе после обеда."
+      }
+    },
+    {
+      "id": 33,
+      "word": {
+        "pt": "Até",
+        "en": "Until",
+        "ru": "До"
+      },
+      "example": {
+        "pt": "Estarei aqui até você voltar.",
+        "en": "I will be here until you come back.",
+        "ru": "Я буду здесь, пока ты не вернёшься."
+      }
+    },
+    {
+      "id": 34,
+      "word": {
+        "pt": "Através",
+        "en": "Through",
+        "ru": "Через"
+      },
+      "example": {
+        "pt": "Fomos através do túnel.",
+        "en": "We went through the tunnel.",
+        "ru": "Мы прошли через туннель."
+      }
+    },
+    {
+      "id": 35,
+      "word": {
+        "pt": "Para",
+        "en": "For / To",
+        "ru": "Для / К"
+      },
+      "example": {
+        "pt": "Este presente é para você.",
+        "en": "This gift is for you.",
+        "ru": "Этот подарок для тебя."
+      }
+    },
+    {
+      "id": 36,
+      "word": {
+        "pt": "Com",
+        "en": "With",
+        "ru": "С"
+      },
+      "example": {
+        "pt": "Eu estive no parque com amigos.",
+        "en": "I was at the park with friends.",
+        "ru": "Я был в парке с друзьями."
+      }
+    },
+    {
+      "id": 37,
+      "word": {
+        "pt": "Apesar",
+        "en": "Despite",
+        "ru": "Несмотря на"
+      },
+      "example": {
+        "pt": "Apesar da chuva, fomos ao parque.",
+        "en": "Despite the rain, we went to the park.",
+        "ru": "Несмотря на дождь, мы пошли в парк."
+      }
+    },
+    {
+      "id": 38,
+      "word": {
+        "pt": "Junto",
+        "en": "Together / Along",
+        "ru": "Вместе / Рядом"
+      },
+      "example": {
+        "pt": "Eles trabalham juntos todos os dias.",
+        "en": "They work together every day.",
+        "ru": "Они работают вместе каждый день."
+      }
+    },
+    {
+      "id": 39,
+      "word": {
+        "pt": "Perto",
+        "en": "Close",
+        "ru": "Рядом"
+      },
+      "example": {
+        "pt": "A escola fica perto da igreja.",
+        "en": "The school is close to the church.",
+        "ru": "Школа находится рядом с церковью."
+      }
+    },
+    {
+      "id": 40,
+      "word": {
+        "pt": "Do lado de",
+        "en": "Next to",
+        "ru": "Рядом с"
+      },
+      "example": {
+        "pt": "Eu moro do lado da estação.",
+        "en": "I live next to the station.",
+        "ru": "Я живу рядом со станцией."
+      }
+    },
+    {
+      "id": 41,
+      "word": {
+        "pt": "Por causa de",
+        "en": "Because of",
+        "ru": "Из-за"
+      },
+      "example": {
+        "pt": "Cancelamos o evento por causa da chuva.",
+        "en": "We canceled the event because of the rain.",
+        "ru": "Мы отменили мероприятие из-за дождя."
+      }
+    },
+    {
+      "id": 42,
+      "word": {
+        "pt": "Ao lado de",
+        "en": "Beside",
+        "ru": "Рядом с"
+      },
+      "example": {
+        "pt": "O mercado está ao lado da escola.",
+        "en": "The market is beside the school.",
+        "ru": "Рынок находится рядом со школой."
+      }
+    },
+    {
+      "id": 43,
+      "word": {
+        "pt": "Em frente de",
+        "en": "In front of",
+        "ru": "Перед"
+      },
+      "example": {
+        "pt": "A praça está em frente de minha casa.",
+        "en": "The square is in front of my house.",
+        "ru": "Площадь находится перед моим домом."
+      }
+    },
+    {
+      "id": 44,
+      "word": {
+        "pt": "Atrás de",
+        "en": "Behind",
+        "ru": "За"
+      },
+      "example": {
+        "pt": "A igreja está atrás do mercado.",
+        "en": "The church is behind the market.",
+        "ru": "Церковь находится за рынком."
+      }
+    },
+    {
+      "id": 45,
+      "word": {
+        "pt": "Ao redor de",
+        "en": "Around",
+        "ru": "Вокруг"
+      },
+      "example": {
+        "pt": "Há árvores ao redor do lago.",
+        "en": "There are trees around the lake.",
+        "ru": "Вокруг озера есть деревья."
+      }
+    },
+    {
+      "id": 46,
+      "word": {
+        "pt": "Para cima de",
+        "en": "Up to",
+        "ru": "Наверх до"
+      },
+      "example": {
+        "pt": "Suba para cima do monte.",
+        "en": "Go up to the hill.",
+        "ru": "Поднимитесь наверх холма."
+      }
+    },
+    {
+      "id": 47,
+      "word": {
+        "pt": "Para baixo de",
+        "en": "Down to",
+        "ru": "Вниз до"
+      },
+      "example": {
+        "pt": "Desça para baixo da rua.",
+        "en": "Go down to the street.",
+        "ru": "Спуститесь вниз до улицы."
+      }
+    },
+    {
+      "id": 48,
+      "word": {
+        "pt": "Perto de",
+        "en": "Close to",
+        "ru": "Близко к"
+      },
+      "example": {
+        "pt": "A biblioteca fica perto de casa.",
+        "en": "The library is close to the house.",
+        "ru": "Библиотека находится близко к дому."
+      }
+    },
+    {
+      "id": 49,
+      "word": {
+        "pt": "Longe de",
+        "en": "Far from",
+        "ru": "Далеко от"
+      },
+      "example": {
+        "pt": "A escola está longe da cidade.",
+        "en": "The school is far from the city.",
+        "ru": "Школа находится далеко от города."
+      }
+    },
+    {
+      "id": 50,
+      "word": {
+        "pt": "Por trás de",
+        "en": "Behind",
+        "ru": "Позади"
+      },
+      "example": {
+        "pt": "O jardim está por trás da casa.",
+        "en": "The garden is behind the house.",
+        "ru": "Сад находится позади дома."
+      }
+    }
+  ]
+}

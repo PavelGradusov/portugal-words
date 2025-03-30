@@ -1,0 +1,659 @@
+{
+  "category": {
+    "pt": "Família e Pessoas",
+    "en": "Family and People",
+    "ru": "Семья и люди"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": {
+        "pt": "pai",
+        "en": "father",
+        "ru": "отец"
+      },
+      "example": {
+        "pt": "O meu pai é muito bondoso.",
+        "en": "My father is very kind.",
+        "ru": "Мой отец очень добрый."
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "pt": "mãe",
+        "en": "mother",
+        "ru": "мать"
+      },
+      "example": {
+        "pt": "A minha mãe cozinha muito bem.",
+        "en": "My mother cooks very well.",
+        "ru": "Моя мать прекрасно готовит."
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "pt": "irmão",
+        "en": "brother",
+        "ru": "брат"
+      },
+      "example": {
+        "pt": "O meu irmão é mais velho do que eu.",
+        "en": "My brother is older than me.",
+        "ru": "Мой брат старше меня."
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "pt": "irmã",
+        "en": "sister",
+        "ru": "сестра"
+      },
+      "example": {
+        "pt": "A minha irmã gosta de música.",
+        "en": "My sister likes music.",
+        "ru": "Моя сестра любит музыку."
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "pt": "filho",
+        "en": "son",
+        "ru": "сын"
+      },
+      "example": {
+        "pt": "O meu filho vai à escola.",
+        "en": "My son goes to school.",
+        "ru": "Мой сын ходит в школу."
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "pt": "filha",
+        "en": "daughter",
+        "ru": "дочь"
+      },
+      "example": {
+        "pt": "A minha filha adora desenhar.",
+        "en": "My daughter loves drawing.",
+        "ru": "Моя дочь любит рисовать."
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "pt": "avô",
+        "en": "grandfather",
+        "ru": "дедушка"
+      },
+      "example": {
+        "pt": "O meu avô conta histórias interessantes.",
+        "en": "My grandfather tells interesting stories.",
+        "ru": "Мой дедушка рассказывает интересные истории."
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "pt": "avó",
+        "en": "grandmother",
+        "ru": "бабушка"
+      },
+      "example": {
+        "pt": "A minha avó faz bolos deliciosos.",
+        "en": "My grandmother makes delicious cakes.",
+        "ru": "Моя бабушка печёт вкусные пироги."
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "pt": "tio",
+        "en": "uncle",
+        "ru": "дядя"
+      },
+      "example": {
+        "pt": "O meu tio vive em Lisboa.",
+        "en": "My uncle lives in Lisbon.",
+        "ru": "Мой дядя живёт в Лиссабоне."
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "pt": "tia",
+        "en": "aunt",
+        "ru": "тётя"
+      },
+      "example": {
+        "pt": "A minha tia é muito engraçada.",
+        "en": "My aunt is very funny.",
+        "ru": "Моя тётя очень смешная."
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "pt": "primo",
+        "en": "cousin (male)",
+        "ru": "двоюродный брат"
+      },
+      "example": {
+        "pt": "O meu primo está na universidade.",
+        "en": "My cousin is at university.",
+        "ru": "Мой двоюродный брат учится в университете."
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "pt": "prima",
+        "en": "cousin (female)",
+        "ru": "двоюродная сестра"
+      },
+      "example": {
+        "pt": "A minha prima é bailarina.",
+        "en": "My cousin is a dancer.",
+        "ru": "Моя двоюродная сестра - танцовщица."
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "pt": "sobrinho",
+        "en": "nephew",
+        "ru": "племянник"
+      },
+      "example": {
+        "pt": "O meu sobrinho adora futebol.",
+        "en": "My nephew loves football.",
+        "ru": "Мой племянник любит футбол."
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "pt": "sobrinha",
+        "en": "niece",
+        "ru": "племянница"
+      },
+      "example": {
+        "pt": "A minha sobrinha gosta de ler livros.",
+        "en": "My niece likes reading books.",
+        "ru": "Моя племянница любит читать книги."
+      }
+    },
+    {
+      "id": 15,
+      "word": {
+        "pt": "marido",
+        "en": "husband",
+        "ru": "муж"
+      },
+      "example": {
+        "pt": "O meu marido trabalha como engenheiro.",
+        "en": "My husband works as an engineer.",
+        "ru": "Мой муж работает инженером."
+      }
+    },
+    {
+      "id": 16,
+      "word": {
+        "pt": "esposa",
+        "en": "wife",
+        "ru": "жена"
+      },
+      "example": {
+        "pt": "A minha esposa gosta de jardinagem.",
+        "en": "My wife enjoys gardening.",
+        "ru": "Моя жена увлекается садоводством."
+      }
+    },
+    {
+      "id": 17,
+      "word": {
+        "pt": "namorado",
+        "en": "boyfriend",
+        "ru": "бойфренд"
+      },
+      "example": {
+        "pt": "O meu namorado é muito romântico.",
+        "en": "My boyfriend is very romantic.",
+        "ru": "Мой бойфренд очень романтичный."
+      }
+    },
+    {
+      "id": 18,
+      "word": {
+        "pt": "namorada",
+        "en": "girlfriend",
+        "ru": "девушка"
+      },
+      "example": {
+        "pt": "A minha namorada adora viajar.",
+        "en": "My girlfriend loves traveling.",
+        "ru": "Моя девушка обожает путешествовать."
+      }
+    },
+    {
+      "id": 19,
+      "word": {
+        "pt": "amigo",
+        "en": "friend (male)",
+        "ru": "друг"
+      },
+      "example": {
+        "pt": "O meu amigo sempre me ajuda.",
+        "en": "My friend always helps me.",
+        "ru": "Мой друг всегда мне помогает."
+      }
+    },
+    {
+      "id": 20,
+      "word": {
+        "pt": "amiga",
+        "en": "friend (female)",
+        "ru": "подруга"
+      },
+      "example": {
+        "pt": "A minha amiga é muito simpática.",
+        "en": "My friend is very nice.",
+        "ru": "Моя подруга очень добрая."
+      }
+    },
+    {
+      "id": 21,
+      "word": {
+        "pt": "vizinho",
+        "en": "neighbor (male)",
+        "ru": "сосед"
+      },
+      "example": {
+        "pt": "O meu vizinho gosta de jardinagem.",
+        "en": "My neighbor likes gardening.",
+        "ru": "Мой сосед любит садоводство."
+      }
+    },
+    {
+      "id": 22,
+      "word": {
+        "pt": "vizinha",
+        "en": "neighbor (female)",
+        "ru": "соседка"
+      },
+      "example": {
+        "pt": "A minha vizinha trouxe biscoitos.",
+        "en": "My neighbor brought cookies.",
+        "ru": "Моя соседка принесла печенье."
+      }
+    },
+    {
+      "id": 23,
+      "word": {
+        "pt": "bebé",
+        "en": "baby",
+        "ru": "младенец"
+      },
+      "example": {
+        "pt": "O bebé está a dormir.",
+        "en": "The baby is sleeping.",
+        "ru": "Младенец спит."
+      }
+    },
+    {
+      "id": 24,
+      "word": {
+        "pt": "criança",
+        "en": "child",
+        "ru": "ребёнок"
+      },
+      "example": {
+        "pt": "A criança está a brincar no parque.",
+        "en": "The child is playing in the park.",
+        "ru": "Ребёнок играет в парке."
+      }
+    },
+    {
+      "id": 25,
+      "word": {
+        "pt": "adulto",
+        "en": "adult",
+        "ru": "взрослый"
+      },
+      "example": {
+        "pt": "O adulto é responsável pelo grupo.",
+        "en": "The adult is responsible for the group.",
+        "ru": "Взрослый отвечает за группу."
+      }
+    },
+    {
+      "id": 26,
+      "word": {
+        "pt": "jovem",
+        "en": "young person",
+        "ru": "молодой человек"
+      },
+      "example": {
+        "pt": "O jovem está a estudar na biblioteca.",
+        "en": "The young person is studying in the library.",
+        "ru": "Молодой человек учится в библиотеке."
+      }
+    },
+    {
+      "id": 27,
+      "word": {
+        "pt": "homem",
+        "en": "man",
+        "ru": "мужчина"
+      },
+      "example": {
+        "pt": "O homem está a ler o jornal.",
+        "en": "The man is reading the newspaper.",
+        "ru": "Мужчина читает газету."
+      }
+    },
+    {
+      "id": 28,
+      "word": {
+        "pt": "mulher",
+        "en": "woman",
+        "ru": "женщина"
+      },
+      "example": {
+        "pt": "A mulher está a comprar fruta.",
+        "en": "The woman is buying fruit.",
+        "ru": "Женщина покупает фрукты."
+      }
+    },
+    {
+      "id": 29,
+      "word": {
+        "pt": "rapaz",
+        "en": "boy",
+        "ru": "мальчик"
+      },
+      "example": {
+        "pt": "O rapaz está a jogar futebol.",
+        "en": "The boy is playing football.",
+        "ru": "Мальчик играет в футбол."
+      }
+    },
+    {
+      "id": 30,
+      "word": {
+        "pt": "rapariga",
+        "en": "girl",
+        "ru": "девочка"
+      },
+      "example": {
+        "pt": "A rapariga está a dançar.",
+        "en": "The girl is dancing.",
+        "ru": "Девочка танцует."
+      }
+    },
+    {
+      "id": 31,
+      "word": {
+        "pt": "enteado",
+        "en": "stepson",
+        "ru": "пасынок"
+      },
+      "example": {
+        "pt": "O enteado do João é muito educado.",
+        "en": "João's stepson is very polite.",
+        "ru": "Пасынок Жуана очень вежливый."
+      }
+    },
+    {
+      "id": 32,
+      "word": {
+        "pt": "enteada",
+        "en": "stepdaughter",
+        "ru": "падчерица"
+      },
+      "example": {
+        "pt": "A enteada da Maria gosta de desenhar.",
+        "en": "Maria's stepdaughter likes drawing.",
+        "ru": "Падчерица Марии любит рисовать."
+      }
+    },
+    {
+      "id": 33,
+      "word": {
+        "pt": "sogro",
+        "en": "father-in-law",
+        "ru": "свёкор/тесть"
+      },
+      "example": {
+        "pt": "O meu sogro é muito simpático.",
+        "en": "My father-in-law is very friendly.",
+        "ru": "Мой свёкор очень дружелюбный."
+      }
+    },
+    {
+      "id": 34,
+      "word": {
+        "pt": "sogra",
+        "en": "mother-in-law",
+        "ru": "свекровь/тёща"
+      },
+      "example": {
+        "pt": "A minha sogra faz ótimas sopas.",
+        "en": "My mother-in-law makes great soups.",
+        "ru": "Моя свекровь готовит отличные супы."
+      }
+    },
+    {
+      "id": 35,
+      "word": {
+        "pt": "genro",
+        "en": "son-in-law",
+        "ru": "зять"
+      },
+      "example": {
+        "pt": "O genro do Pedro é médico.",
+        "en": "Pedro's son-in-law is a doctor.",
+        "ru": "Зять Педру - врач."
+      }
+    },
+    {
+      "id": 36,
+      "word": {
+        "pt": "nora",
+        "en": "daughter-in-law",
+        "ru": "невестка"
+      },
+      "example": {
+        "pt": "A nora da Ana é professora.",
+        "en": "Ana's daughter-in-law is a teacher.",
+        "ru": "Невестка Анны - учительница."
+      }
+    },
+    {
+      "id": 37,
+      "word": {
+        "pt": "padrasto",
+        "en": "stepfather",
+        "ru": "отчим"
+      },
+      "example": {
+        "pt": "O padrasto do Luís trabalha como advogado.",
+        "en": "Luís' stepfather works as a lawyer.",
+        "ru": "Отчим Луиша работает адвокатом."
+      }
+    },
+    {
+      "id": 38,
+      "word": {
+        "pt": "madrasta",
+        "en": "stepmother",
+        "ru": "мачеха"
+      },
+      "example": {
+        "pt": "A madrasta do Miguel é muito gentil.",
+        "en": "Miguel's stepmother is very kind.",
+        "ru": "Мачеха Мигеля очень добрая."
+      }
+    },
+    {
+      "id": 39,
+      "word": {
+        "pt": "cônjuge",
+        "en": "spouse",
+        "ru": "супруг/супруга"
+      },
+      "example": {
+        "pt": "O cônjuge da Carla está a trabalhar no estrangeiro.",
+        "en": "Carla's spouse is working abroad.",
+        "ru": "Супруг Карлы работает за границей."
+      }
+    },
+    {
+      "id": 40,
+      "word": {
+        "pt": "parente",
+        "en": "relative",
+        "ru": "родственник"
+      },
+      "example": {
+        "pt": "O meu parente vem nos visitar amanhã.",
+        "en": "My relative is coming to visit us tomorrow.",
+        "ru": "Мой родственник приедет к нам завтра."
+      }
+    },
+    {
+      "id": 41,
+      "word": {
+        "pt": "companheiro",
+        "en": "partner (male)",
+        "ru": "партнёр (мужчина)"
+      },
+      "example": {
+        "pt": "O meu companheiro gosta de cozinhar.",
+        "en": "My partner likes cooking.",
+        "ru": "Мой партнёр любит готовить."
+      }
+    },
+    {
+      "id": 42,
+      "word": {
+        "pt": "companheira",
+        "en": "partner (female)",
+        "ru": "партнёр (женщина)"
+      },
+      "example": {
+        "pt": "A minha companheira aprecia arte.",
+        "en": "My partner appreciates art.",
+        "ru": "Моя партнёрша ценит искусство."
+      }
+    },
+    {
+      "id": 43,
+      "word": {
+        "pt": "cunhado",
+        "en": "brother-in-law",
+        "ru": "шурин/деверь/зять"
+      },
+      "example": {
+        "pt": "O cunhado do Ricardo está a aprender português.",
+        "en": "Ricardo's brother-in-law is learning Portuguese.",
+        "ru": "Шурин Рикарду изучает португальский."
+      }
+    },
+    {
+      "id": 44,
+      "word": {
+        "pt": "cunhada",
+        "en": "sister-in-law",
+        "ru": "золовка/невестка/свояченица"
+      },
+      "example": {
+        "pt": "A cunhada da Joana é artista.",
+        "en": "Joana's sister-in-law is an artist.",
+        "ru": "Золовка Жуаны - художница."
+      }
+    },
+    {
+      "id": 45,
+      "word": {
+        "pt": "órfão",
+        "en": "orphan (male)",
+        "ru": "сирота (мальчик)"
+      },
+      "example": {
+        "pt": "O órfão cresceu numa aldeia pequena.",
+        "en": "The orphan grew up in a small village.",
+        "ru": "Сирота вырос в маленькой деревне."
+      }
+    },
+    {
+      "id": 46,
+      "word": {
+        "pt": "órfã",
+        "en": "orphan (female)",
+        "ru": "сирота (девочка)"
+      },
+      "example": {
+        "pt": "A órfã encontrou uma nova família.",
+        "en": "The orphan found a new family.",
+        "ru": "Сирота нашла новую семью."
+      }
+    },
+    {
+      "id": 47,
+      "word": {
+        "pt": "gêmeo",
+        "en": "twin (male)",
+        "ru": "близнец (мальчик)"
+      },
+      "example": {
+        "pt": "O meu irmão gêmeo trabalha em Londres.",
+        "en": "My twin brother works in London.",
+        "ru": "Мой брат-близнец работает в Лондоне."
+      }
+    },
+    {
+      "id": 48,
+      "word": {
+        "pt": "gêmea",
+        "en": "twin (female)",
+        "ru": "близнец (девочка)"
+      },
+      "example": {
+        "pt": "A minha irmã gêmea adora fotografia.",
+        "en": "My twin sister loves photography.",
+        "ru": "Моя сестра-близнец обожает фотографию."
+      }
+    },
+    {
+      "id": 49,
+      "word": {
+        "pt": "adotado",
+        "en": "adopted (male)",
+        "ru": "приёмный (мальчик)"
+      },
+      "example": {
+        "pt": "O João é adotado pela nova família.",
+        "en": "João is adopted by his new family.",
+        "ru": "Жуан усыновлён новой семьёй."
+      }
+    },
+    {
+      "id": 50,
+      "word": {
+        "pt": "adotada",
+        "en": "adopted (female)",
+        "ru": "приёмная (девочка)"
+      },
+      "example": {
+        "pt": "A Maria é adotada pelos avós.",
+        "en": "Maria is adopted by her grandparents.",
+        "ru": "Марию удочерили её бабушка и дедушка."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+    "category": {
+        "pt": "Números e tempo",
+        "en": "Numbers and time",
+        "ru": "Цифры и время"
+    },
+    "words": [
+        {
+            "id": 1,
+            "word": {
+                "pt": "um",
+                "en": "one",
+                "ru": "один"
+            },
+            "example": {
+                "pt": "Eu tenho um livro.",
+                "en": "I have one book.",
+                "ru": "У меня есть одна книга."
+            }
+        },
+        {
+            "id": 2,
+            "word": {
+                "pt": "dois",
+                "en": "two",
+                "ru": "два"
+            },
+            "example": {
+                "pt": "Tenho dois irmãos.",
+                "en": "I have two brothers.",
+                "ru": "У меня два брата."
+            }
+        },
+        {
+            "id": 3,
+            "word": {
+                "pt": "três",
+                "en": "three",
+                "ru": "три"
+            },
+            "example": {
+                "pt": "Há três cadeiras na sala.",
+                "en": "There are three chairs in the room.",
+                "ru": "В комнате три стула."
+            }
+        },
+        {
+            "id": 4,
+            "word": {
+                "pt": "quatro",
+                "en": "four",
+                "ru": "четыре"
+            },
+            "example": {
+                "pt": "Eu comprei quatro maçãs.",
+                "en": "I bought four apples.",
+                "ru": "Я купил четыре яблока."
+            }
+        },
+        {
+            "id": 5,
+            "word": {
+                "pt": "cinco",
+                "en": "five",
+                "ru": "пять"
+            },
+            "example": {
+                "pt": "Cinco pessoas estão na fila.",
+                "en": "Five people are in the line.",
+                "ru": "Пять человек стоят в очереди."
+            }
+        },
+        {
+            "id": 6,
+            "word": {
+                "pt": "seis",
+                "en": "six",
+                "ru": "шесть"
+            },
+            "example": {
+                "pt": "Eu dormi seis horas.",
+                "en": "I slept six hours.",
+                "ru": "Я спал шесть часов."
+            }
+        },
+        {
+            "id": 7,
+            "word": {
+                "pt": "sete",
+                "en": "seven",
+                "ru": "семь"
+            },
+            "example": {
+                "pt": "Sete dias formam uma semana.",
+                "en": "Seven days make a week.",
+                "ru": "Семь дней составляют неделю."
+            }
+        },
+        {
+            "id": 8,
+            "word": {
+                "pt": "oito",
+                "en": "eight",
+                "ru": "восемь"
+            },
+            "example": {
+                "pt": "O jantar será às oito horas.",
+                "en": "The dinner will be at eight o'clock.",
+                "ru": "Ужин будет в восемь часов."
+            }
+        },
+        {
+            "id": 9,
+            "word": {
+                "pt": "nove",
+                "en": "nine",
+                "ru": "девять"
+            },
+            "example": {
+                "pt": "Nove alunos estão na aula.",
+                "en": "Nine students are in the class.",
+                "ru": "Девять учеников в классе."
+            }
+        },
+        {
+            "id": 10,
+            "word": {
+                "pt": "dez",
+                "en": "ten",
+                "ru": "десять"
+            },
+            "example": {
+                "pt": "Eu contei até dez.",
+                "en": "I counted to ten.",
+                "ru": "Я досчитал до десяти."
+            }
+        },
+        {
+            "id": 11,
+            "word": {
+                "pt": "onze",
+                "en": "eleven",
+                "ru": "одиннадцать"
+            },
+            "example": {
+                "pt": "O relógio marca onze horas.",
+                "en": "The clock shows eleven o'clock.",
+                "ru": "Часы показывают одиннадцать часов."
+            }
+        },
+        {
+            "id": 12,
+            "word": {
+                "pt": "doze",
+                "en": "twelve",
+                "ru": "двенадцать"
+            },
+            "example": {
+                "pt": "São doze meses em um ano.",
+                "en": "There are twelve months in a year.",
+                "ru": "В году двенадцать месяцев."
+            }
+        },
+        {
+            "id": 13,
+            "word": {
+                "pt": "treze",
+                "en": "thirteen",
+                "ru": "тринадцать"
+            },
+            "example": {
+                "pt": "Treze é um número da sorte para alguns.",
+                "en": "Thirteen is a lucky number for some.",
+                "ru": "Тринадцать — это счастливое число для некоторых."
+            }
+        },
+        {
+            "id": 14,
+            "word": {
+                "pt": "catorze",
+                "en": "fourteen",
+                "ru": "четырнадцать"
+            },
+            "example": {
+                "pt": "Há catorze participantes no grupo.",
+                "en": "There are fourteen participants in the group.",
+                "ru": "В группе четырнадцать участников."
+            }
+        },
+        {
+            "id": 15,
+            "word": {
+                "pt": "quinze",
+                "en": "fifteen",
+                "ru": "пятнадцать"
+            },
+            "example": {
+                "pt": "Quinze minutos passam rápido.",
+                "en": "Fifteen minutes pass quickly.",
+                "ru": "Пятнадцать минут проходят быстро."
+            }
+        },
+        {
+            "id": 16,
+            "word": {
+                "pt": "dezesseis",
+                "en": "sixteen",
+                "ru": "шестнадцать"
+            },
+            "example": {
+                "pt": "Eu vi um filme de dezesseis minutos.",
+                "en": "I watched a sixteen-minute movie.",
+                "ru": "Я посмотрел шестнадцатиминутный фильм."
+            }
+        },
+        {
+            "id": 17,
+            "word": {
+                "pt": "dezessete",
+                "en": "seventeen",
+                "ru": "семнадцать"
+            },
+            "example": {
+                "pt": "São dezessete graus lá fora.",
+                "en": "It is seventeen degrees outside.",
+                "ru": "На улице семнадцать градусов."
+            }
+        },
+        {
+            "id": 18,
+            "word": {
+                "pt": "dezoito",
+                "en": "eighteen",
+                "ru": "восемнадцать"
+            },
+            "example": {
+                "pt": "Eu tenho dezoito anos.",
+                "en": "I am eighteen years old.",
+                "ru": "Мне восемнадцать лет."
+            }
+        },
+        {
+            "id": 19,
+            "word": {
+                "pt": "dezenove",
+                "en": "nineteen",
+                "ru": "девятнадцать"
+            },
+            "example": {
+                "pt": "Dezenove estudantes participaram.",
+                "en": "Nineteen students participated.",
+                "ru": "В мероприятии участвовали девятнадцать студентов."
+            }
+        },
+        {
+            "id": 20,
+            "word": {
+                "pt": "vinte",
+                "en": "twenty",
+                "ru": "двадцать"
+            },
+            "example": {
+                "pt": "São vinte quilômetros até a cidade.",
+                "en": "It is twenty kilometers to the city.",
+                "ru": "До города двадцать километров."
+            }
+        },
+        {
+            "id": 21,
+            "word": {
+                "pt": "vinte e um",
+                "en": "twenty-one",
+                "ru": "двадцать один"
+            },
+            "example": {
+                "pt": "Há vinte e um livros na estante.",
+                "en": "There are twenty-one books on the shelf.",
+                "ru": "На полке двадцать одна книга."
+            }
+        },
+        {
+            "id": 22,
+            "word": {
+                "pt": "vinte e dois",
+                "en": "twenty-two",
+                "ru": "двадцать два"
+            },
+            "example": {
+                "pt": "Eu esperei vinte e dois minutos.",
+                "en": "I waited twenty-two minutes.",
+                "ru": "Я ждал двадцать две минуты."
+            }
+        },
+        {
+            "id": 23,
+            "word": {
+                "pt": "vinte e três",
+                "en": "twenty-three",
+                "ru": "двадцать три"
+            },
+            "example": {
+                "pt": "São vinte e três graus agora.",
+                "en": "It is twenty-three degrees now.",
+                "ru": "Сейчас двадцать три градуса."
+            }
+        },
+        {
+            "id": 24,
+            "word": {
+                "pt": "vinte e quatro",
+                "en": "twenty-four",
+                "ru": "двадцать четыре"
+            },
+            "example": {
+                "pt": "O relógio marca vinte e quatro horas.",
+                "en": "The clock shows twenty-four hours.",
+                "ru": "Часы показывают двадцать четыре часа."
+            }
+        },
+        {
+            "id": 25,
+            "word": {
+                "pt": "vinte e cinco",
+                "en": "twenty-five",
+                "ru": "двадцать пять"
+            },
+            "example": {
+                "pt": "Temos vinte e cinco alunos na turma.",
+                "en": "We have twenty-five students in the class.",
+                "ru": "У нас в классе двадцать пять учеников."
+            }
+        },
+        {
+            "id": 26,
+            "word": {
+                "pt": "trinta",
+                "en": "thirty",
+                "ru": "тридцать"
+            },
+            "example": {
+                "pt": "Trinta dias compõem um mês.",
+                "en": "Thirty days make a month.",
+                "ru": "Тридцать дней составляют месяц."
+            }
+        },
+        {
+            "id": 27,
+            "word": {
+                "pt": "trinta e um",
+                "en": "thirty-one",
+                "ru": "тридцать один"
+            },
+            "example": {
+                "pt": "O mês de janeiro tem trinta e um dias.",
+                "en": "The month of January has thirty-one days.",
+                "ru": "В январе тридцать один день."
+            }
+        },
+        {
+            "id": 28,
+            "word": {
+                "pt": "trinta e dois",
+                "en": "thirty-two",
+                "ru": "тридцать два"
+            },
+            "example": {
+                "pt": "São trinta e dois quilômetros até o destino.",
+                "en": "It is thirty-two kilometers to the destination.",
+                "ru": "До пункта назначения тридцать два километра."
+            }
+        },
+        {
+            "id": 29,
+            "word": {
+                "pt": "trinta e três",
+                "en": "thirty-three",
+                "ru": "тридцать три"
+            },
+            "example": {
+                "pt": "Eu li trinta e três páginas.",
+                "en": "I read thirty-three pages.",
+                "ru": "Я прочитал тридцать три страницы."
+            }
+        },
+        {
+            "id": 30,
+            "word": {
+                "pt": "quarenta",
+                "en": "forty",
+                "ru": "сорок"
+            },
+            "example": {
+                "pt": "Quarenta pessoas participaram da reunião.",
+                "en": "Forty people attended the meeting.",
+                "ru": "На встрече присутствовало сорок человек."
+            }
+        },
+        {
+            "id": 31,
+            "word": {
+                "pt": "quarenta e um",
+                "en": "forty-one",
+                "ru": "сорок один"
+            },
+            "example": {
+                "pt": "O jogo começou há quarenta e um minutos.",
+                "en": "The game started forty-one minutes ago.",
+                "ru": "Игра началась сорок одну минуту назад."
+            }
+        },
+        {
+            "id": 32,
+            "word": {
+                "pt": "quarenta e dois",
+                "en": "forty-two",
+                "ru": "сорок два"
+            },
+            "example": {
+                "pt": "Há quarenta e dois alunos na escola.",
+                "en": "There are forty-two students in the school.",
+                "ru": "В школе сорок два ученика."
+            }
+        },
+        {
+            "id": 33,
+            "word": {
+                "pt": "cinquenta",
+                "en": "fifty",
+                "ru": "пятьдесят"
+            },
+            "example": {
+                "pt": "Ele completou cinquenta anos.",
+                "en": "He turned fifty years old.",
+                "ru": "Ему исполнилось пятьдесят лет."
+            }
+        },
+        {
+            "id": 34,
+            "word": {
+                "pt": "cinquenta e cinco",
+                "en": "fifty-five",
+                "ru": "пятьдесят пять"
+            },
+            "example": {
+                "pt": "A aula começa em cinquenta e cinco minutos.",
+                "en": "The class starts in fifty-five minutes.",
+                "ru": "Урок начинается через пятьдесят пять минут."
+            }
+        },
+        {
+            "id": 35,
+            "word": {
+                "pt": "sessenta",
+                "en": "sixty",
+                "ru": "шестьдесят"
+            },
+            "example": {
+                "pt": "Há sessenta cadeiras no salão.",
+                "en": "There are sixty chairs in the hall.",
+                "ru": "В зале шестьдесят стульев."
+            }
+        },
+        {
+            "id": 36,
+            "word": {
+                "pt": "sessenta e três",
+                "en": "sixty-three",
+                "ru": "шестьдесят три"
+            },
+            "example": {
+                "pt": "Sessenta e três pessoas estão inscritas.",
+                "en": "Sixty-three people are registered.",
+                "ru": "Зарегистрированы шестьдесят три человека."
+            }
+        },
+        {
+            "id": 37,
+            "word": {
+                "pt": "setenta",
+                "en": "seventy",
+                "ru": "семьдесят"
+            },
+            "example": {
+                "pt": "O evento começa em setenta minutos.",
+                "en": "The event starts in seventy minutes.",
+                "ru": "Мероприятие начнётся через семьдесят минут."
+            }
+        },
+        {
+            "id": 38,
+            "word": {
+                "pt": "oitenta",
+                "en": "eighty",
+                "ru": "восемьдесят"
+            },
+            "example": {
+                "pt": "A prova tem oitenta questões.",
+                "en": "The test has eighty questions.",
+                "ru": "В тесте восемьдесят вопросов."
+            }
+        },
+        {
+            "id": 39,
+            "word": {
+                "pt": "noventa",
+                "en": "ninety",
+                "ru": "девяносто"
+            },
+            "example": {
+                "pt": "O preço do ingresso é noventa euros.",
+                "en": "The ticket price is ninety euros.",
+                "ru": "Цена билета — девяносто евро."
+            }
+        },
+        {
+            "id": 40,
+            "word": {
+                "pt": "cem",
+                "en": "one hundred",
+                "ru": "сто"
+            },
+            "example": {
+                "pt": "Há cem pessoas no auditório.",
+                "en": "There are one hundred people in the auditorium.",
+                "ru": "В аудитории сто человек."
+            }
+        },
+        {
+            "id": 41,
+            "word": {
+                "pt": "cento e um",
+                "en": "one hundred and one",
+                "ru": "сто один"
+            },
+            "example": {
+                "pt": "Cento e um alunos participaram do curso.",
+                "en": "One hundred and one students took the course.",
+                "ru": "Сто один студент прошёл курс."
+            }
+        },
+        {
+            "id": 42,
+            "word": {
+                "pt": "duzentos",
+                "en": "two hundred",
+                "ru": "двести"
+            },
+            "example": {
+                "pt": "Duzentos euros foram pagos ontem.",
+                "en": "Two hundred euros were paid yesterday.",
+                "ru": "Двести евро были выплачены вчера."
+            }
+        },
+        {
+            "id": 43,
+            "word": {
+                "pt": "trezentos",
+                "en": "three hundred",
+                "ru": "триста"
+            },
+            "example": {
+                "pt": "Ele doou trezentos reais para a caridade.",
+                "en": "He donated three hundred reais to charity.",
+                "ru": "Он пожертвовал триста реалов на благотворительность."
+            }
+        },
+        {
+            "id": 44,
+            "word": {
+                "pt": "quatrocentos",
+                "en": "four hundred",
+                "ru": "четыреста"
+            },
+            "example": {
+                "pt": "Quatrocentos ingressos foram vendidos.",
+                "en": "Four hundred tickets were sold.",
+                "ru": "Было продано четыреста билетов."
+            }
+        },
+        {
+            "id": 45,
+            "word": {
+                "pt": "quinhentos",
+                "en": "five hundred",
+                "ru": "пятьсот"
+            },
+            "example": {
+                "pt": "Quinhentos convidados chegaram à festa.",
+                "en": "Five hundred guests arrived at the party.",
+                "ru": "На вечеринку пришло пятьсот гостей."
+            }
+        },
+        {
+            "id": 46,
+            "word": {
+                "pt": "mil",
+                "en": "one thousand",
+                "ru": "тысяча"
+            },
+            "example": {
+                "pt": "A empresa tem mil funcionários.",
+                "en": "The company has one thousand employees.",
+                "ru": "В компании тысяча сотрудников."
+            }
+        },
+        {
+            "id": 47,
+            "word": {
+                "pt": "mil e cem",
+                "en": "one thousand and one hundred",
+                "ru": "тысяча сто"
+            },
+            "example": {
+                "pt": "Mil e cem pessoas participaram da pesquisa.",
+                "en": "One thousand and one hundred people participated in the survey.",
+                "ru": "Тысяча сто человек участвовали в опросе."
+            }
+        },
+        {
+            "id": 48,
+            "word": {
+                "pt": "meia-noite",
+                "en": "midnight",
+                "ru": "полночь"
+            },
+            "example": {
+                "pt": "O evento começou à meia-noite.",
+                "en": "The event started at midnight.",
+                "ru": "Мероприятие началось в полночь."
+            }
+        },
+        {
+            "id": 49,
+            "word": {
+                "pt": "meio-dia",
+                "en": "noon",
+                "ru": "полдень"
+            },
+            "example": {
+                "pt": "Eu almocei ao meio-dia.",
+                "en": "I had lunch at noon.",
+                "ru": "Я пообедал в полдень."
+            }
+        },
+        {
+            "id": 50,
+            "word": {
+                "pt": "hora",
+                "en": "hour",
+                "ru": "час"
+            },
+            "example": {
+                "pt": "A reunião durou uma hora.",
+                "en": "The meeting lasted one hour.",
+                "ru": "Встреча длилась один час."
+            }
+        },
+        {
+            "id": 51,
+            "word": {
+                "pt": "segundo",
+                "en": "second",
+                "ru": "секунда"
+            },
+            "example": {
+                "pt": "O tempo é contado em segundos.",
+                "en": "Time is measured in seconds.",
+                "ru": "Время измеряется в секундах."
+            }
+        },
+        {
+            "id": 52,
+            "word": {
+                "pt": "minuto",
+                "en": "minute",
+                "ru": "минута"
+            },
+            "example": {
+                "pt": "O jogo começa em cinco minutos.",
+                "en": "The game starts in five minutes.",
+                "ru": "Игра начнётся через пять минут."
+            }
+        },
+        {
+            "id": 53,
+            "word": {
+                "pt": "dia",
+                "en": "day",
+                "ru": "день"
+            },
+            "example": {
+                "pt": "Hoje é um dia especial.",
+                "en": "Today is a special day.",
+                "ru": "Сегодня особенный день."
+            }
+        },
+        {
+            "id": 54,
+            "word": {
+                "pt": "semana",
+                "en": "week",
+                "ru": "неделя"
+            },
+            "example": {
+                "pt": "Tenho planos para a próxima semana.",
+                "en": "I have plans for next week.",
+                "ru": "У меня есть планы на следующую неделю."
+            }
+        },
+        {
+            "id": 55,
+            "word": {
+                "pt": "mês",
+                "en": "month",
+                "ru": "месяц"
+            },
+            "example": {
+                "pt": "Este mês está cheio de eventos.",
+                "en": "This month is full of events.",
+                "ru": "Этот месяц полон событий."
+            }
+        },
+        {
+            "id": 56,
+            "word": {
+                "pt": "ano",
+                "en": "year",
+                "ru": "год"
+            },
+            "example": {
+                "pt": "O ano de 2024 será especial.",
+                "en": "The year 2024 will be special.",
+                "ru": "2024 год будет особенным."
+            }
+        },
+        {
+            "id": 57,
+            "word": {
+                "pt": "hora exata",
+                "en": "exact time",
+                "ru": "точное время"
+            },
+            "example": {
+                "pt": "Qual é a hora exata agora?",
+                "en": "What is the exact time now?",
+                "ru": "Какое сейчас точное время?"
+            }
+        },
+        {
+            "id": 58,
+            "word": {
+                "pt": "atrasado",
+                "en": "late",
+                "ru": "опоздавший"
+            },
+            "example": {
+                "pt": "O ônibus está atrasado hoje.",
+                "en": "The bus is late today.",
+                "ru": "Автобус сегодня опаздывает."
+            }
+        },
+        {
+            "id": 59,
+            "word": {
+                "pt": "cedo",
+                "en": "early",
+                "ru": "рано"
+            },
+            "example": {
+                "pt": "Eu acordei cedo hoje.",
+                "en": "I woke up early today.",
+                "ru": "Я проснулся рано сегодня."
+            }
+        },
+        {
+            "id": 60,
+            "word": {
+                "pt": "tarde",
+                "en": "afternoon",
+                "ru": "день (после полудня)"
+            },
+            "example": {
+                "pt": "Nós chegamos à tarde.",
+                "en": "We arrived in the afternoon.",
+                "ru": "Мы прибыли днём."
+            }
+        },
+        {
+            "id": 61,
+            "word": {
+                "pt": "noite",
+                "en": "night",
+                "ru": "ночь"
+            },
+            "example": {
+                "pt": "A noite é tranquila no campo.",
+                "en": "The night is peaceful in the countryside.",
+                "ru": "Ночь спокойная в деревне."
+            }
+        },
+        {
+            "id": 62,
+            "word": {
+                "pt": "manhã",
+                "en": "morning",
+                "ru": "утро"
+            },
+            "example": {
+                "pt": "Eu gosto de caminhar de manhã.",
+                "en": "I like walking in the morning.",
+                "ru": "Мне нравится гулять утром."
+            }
+        },
+        {
+            "id": 63,
+            "word": {
+                "pt": "agora",
+                "en": "now",
+                "ru": "сейчас"
+            },
+            "example": {
+                "pt": "Agora é o momento certo para agir.",
+                "en": "Now is the right time to act.",
+                "ru": "Сейчас подходящее время для действий."
+            }
+        },
+        {
+            "id": 64,
+            "word": {
+                "pt": "hoje",
+                "en": "today",
+                "ru": "сегодня"
+            },
+            "example": {
+                "pt": "Hoje é um dia especial.",
+                "en": "Today is a special day.",
+                "ru": "Сегодня особенный день."
+            }
+        },
+        {
+            "id": 65,
+            "word": {
+                "pt": "ontem",
+                "en": "yesterday",
+                "ru": "вчера"
+            },
+            "example": {
+                "pt": "Ontem tivemos uma reunião importante.",
+                "en": "Yesterday we had an important meeting.",
+                "ru": "Вчера у нас была важная встреча."
+            }
+        },
+        {
+            "id": 66,
+            "word": {
+                "pt": "amanhã",
+                "en": "tomorrow",
+                "ru": "завтра"
+            },
+            "example": {
+                "pt": "A reunião será amanhã.",
+                "en": "The meeting will be tomorrow.",
+                "ru": "Встреча будет завтра."
+            }
+        },
+        {
+            "id": 67,
+            "word": {
+                "pt": "fim de semana",
+                "en": "weekend",
+                "ru": "выходные"
+            },
+            "example": {
+                "pt": "Eu vou viajar no fim de semana.",
+                "en": "I will travel on the weekend.",
+                "ru": "Я собираюсь путешествовать на выходных."
+            }
+        },
+        {
+            "id": 68,
+            "word": {
+                "pt": "dia útil",
+                "en": "weekday",
+                "ru": "будний день"
+            },
+            "example": {
+                "pt": "Os dias úteis são geralmente ocupados.",
+                "en": "Weekdays are usually busy.",
+                "ru": "Будние дни обычно занятые."
+            }
+        },
+        {
+            "id": 69,
+            "word": {
+                "pt": "feriado",
+                "en": "holiday",
+                "ru": "праздник"
+            },
+            "example": {
+                "pt": "O feriado nacional é amanhã.",
+                "en": "The national holiday is tomorrow.",
+                "ru": "Национальный праздник завтра."
+            }
+        },
+        {
+            "id": 70,
+            "word": {
+                "pt": "ano novo",
+                "en": "new year",
+                "ru": "новый год"
+            },
+            "example": {
+                "pt": "O ano novo é comemorado em janeiro.",
+                "en": "The new year is celebrated in January.",
+                "ru": "Новый год празднуют в январе."
+            }
+        },
+        {
+            "id": 71,
+            "word": {
+                "pt": "tempo",
+                "en": "time",
+                "ru": "время"
+            },
+            "example": {
+                "pt": "O tempo é precioso.",
+                "en": "Time is precious.",
+                "ru": "Время драгоценно."
+            }
+        },
+        {
+            "id": 72,
+            "word": {
+                "pt": "cronômetro",
+                "en": "stopwatch",
+                "ru": "секундомер"
+            },
+            "example": {
+                "pt": "Use o cronômetro para medir o tempo.",
+                "en": "Use the stopwatch to measure time.",
+                "ru": "Используйте секундомер для измерения времени."
+            }
+        },
+        {
+            "id": 73,
+            "word": {
+                "pt": "calendário",
+                "en": "calendar",
+                "ru": "календарь"
+            },
+            "example": {
+                "pt": "O calendário marca os feriados do ano.",
+                "en": "The calendar marks the holidays of the year.",
+                "ru": "Календарь отмечает праздники года."
+            }
+        },
+        {
+            "id": 74,
+            "word": {
+                "pt": "horário",
+                "en": "schedule",
+                "ru": "расписание"
+            },
+            "example": {
+                "pt": "O horário do trem foi alterado.",
+                "en": "The train schedule was changed.",
+                "ru": "Расписание поездов изменено."
+            }
+        },
+        {
+            "id": 75,
+            "word": {
+                "pt": "relógio",
+                "en": "clock",
+                "ru": "часы"
+            },
+            "example": {
+                "pt": "O relógio está na parede.",
+                "en": "The clock is on the wall.",
+                "ru": "Часы находятся на стене."
+            }
+        },
+        {
+            "id": 76,
+            "word": {
+                "pt": "data",
+                "en": "date",
+                "ru": "дата"
+            },
+            "example": {
+                "pt": "Qual é a data de hoje?",
+                "en": "What is today's date?",
+                "ru": "Какая сегодня дата?"
+            }
+        },
+        {
+            "id": 77,
+            "word": {
+                "pt": "ano passado",
+                "en": "last year",
+                "ru": "прошлый год"
+            },
+            "example": {
+                "pt": "Ano passado foi cheio de desafios.",
+                "en": "Last year was full of challenges.",
+                "ru": "Прошлый год был полон вызовов."
+            }
+        },
+        {
+            "id": 78,
+            "word": {
+                "pt": "ano que vem",
+                "en": "next year",
+                "ru": "следующий год"
+            },
+            "example": {
+                "pt": "Ano que vem será especial.",
+                "en": "Next year will be special.",
+                "ru": "Следующий год будет особенным."
+            }
+        },
+        {
+            "id": 79,
+            "word": {
+                "pt": "fuso horário",
+                "en": "time zone",
+                "ru": "часовой пояс"
+            },
+            "example": {
+                "pt": "O fuso horário de Portugal é GMT.",
+                "en": "Portugal's time zone is GMT.",
+                "ru": "Часовой пояс Португалии — GMT."
+            }
+        },
+        {
+            "id": 80,
+            "word": {
+                "pt": "hora de verão",
+                "en": "daylight saving time",
+                "ru": "летнее время"
+            },
+            "example": {
+                "pt": "A hora de verão começa em março.",
+                "en": "Daylight saving time starts in March.",
+                "ru": "Летнее время начинается в марте."
+            }
+        },
+        {
+            "id": 81,
+            "word": {
+                "pt": "meia hora",
+                "en": "half an hour",
+                "ru": "полчаса"
+            },
+            "example": {
+                "pt": "Eu esperei meia hora pelo ônibus.",
+                "en": "I waited half an hour for the bus.",
+                "ru": "Я ждал автобус полчаса."
+            }
+        },
+        {
+            "id": 82,
+            "word": {
+                "pt": "quarto de hora",
+                "en": "quarter of an hour",
+                "ru": "четверть часа"
+            },
+            "example": {
+                "pt": "O filme começa em um quarto de hora.",
+                "en": "The movie starts in a quarter of an hour.",
+                "ru": "Фильм начнётся через четверть часа."
+            }
+        },
+        {
+            "id": 83,
+            "word": {
+                "pt": "poucos minutos",
+                "en": "a few minutes",
+                "ru": "несколько минут"
+            },
+            "example": {
+                "pt": "Eu chego em poucos minutos.",
+                "en": "I'll arrive in a few minutes.",
+                "ru": "Я приеду через несколько минут."
+            }
+        },
+        {
+            "id": 84,
+            "word": {
+                "pt": "horas extras",
+                "en": "overtime",
+                "ru": "сверхурочные"
+            },
+            "example": {
+                "pt": "Trabalhei horas extras esta semana.",
+                "en": "I worked overtime this week.",
+                "ru": "Я работал сверхурочно на этой неделе."
+            }
+        },
+        {
+            "id": 85,
+            "word": {
+                "pt": "tempo livre",
+                "en": "free time",
+                "ru": "свободное время"
+            },
+            "example": {
+                "pt": "No meu tempo livre, eu gosto de ler.",
+                "en": "In my free time, I like to read.",
+                "ru": "В свободное время я люблю читать."
+            }
+        },
+        {
+            "id": 86,
+            "word": {
+                "pt": "ponteiro do relógio",
+                "en": "clock hand",
+                "ru": "стрелка часов"
+            },
+            "example": {
+                "pt": "O ponteiro do relógio se move lentamente.",
+                "en": "The clock hand moves slowly.",
+                "ru": "Стрелка часов движется медленно."
+            }
+        },
+        {
+            "id": 87,
+            "word": {
+                "pt": "relógio de pulso",
+                "en": "wristwatch",
+                "ru": "наручные часы"
+            },
+            "example": {
+                "pt": "O meu relógio de pulso está quebrado.",
+                "en": "My wristwatch is broken.",
+                "ru": "Мои наручные часы сломаны."
+            }
+        },
+        {
+            "id": 88,
+            "word": {
+                "pt": "relógio de parede",
+                "en": "wall clock",
+                "ru": "настенные часы"
+            },
+            "example": {
+                "pt": "O relógio de parede está atrasado.",
+                "en": "The wall clock is running late.",
+                "ru": "Настенные часы отстают."
+            }
+        },
+        {
+            "id": 89,
+            "word": {
+                "pt": "relógio digital",
+                "en": "digital clock",
+                "ru": "цифровые часы"
+            },
+            "example": {
+                "pt": "O relógio digital é fácil de ler.",
+                "en": "The digital clock is easy to read.",
+                "ru": "Цифровые часы легко читать."
+            }
+        },
+        {
+            "id": 90,
+            "word": {
+                "pt": "data de validade",
+                "en": "expiration date",
+                "ru": "срок годности"
+            },
+            "example": {
+                "pt": "Verifique a data de validade do produto.",
+                "en": "Check the expiration date of the product.",
+                "ru": "Проверьте срок годности продукта."
+            }
+        },
+        {
+            "id": 91,
+            "word": {
+                "pt": "horário de verão",
+                "en": "daylight saving time",
+                "ru": "летнее время"
+            },
+            "example": {
+                "pt": "O horário de verão começa no próximo mês.",
+                "en": "Daylight saving time starts next month.",
+                "ru": "Летнее время начинается в следующем месяце."
+            }
+        },
+        {
+            "id": 92,
+            "word": {
+                "pt": "horário fixo",
+                "en": "fixed schedule",
+                "ru": "фиксированное расписание"
+            },
+            "example": {
+                "pt": "Eu trabalho com horário fixo.",
+                "en": "I work with a fixed schedule.",
+                "ru": "Я работаю по фиксированному расписанию."
+            }
+        },
+        {
+            "id": 93,
+            "word": {
+                "pt": "final de tarde",
+                "en": "late afternoon",
+                "ru": "поздний вечер"
+            },
+            "example": {
+                "pt": "Chegamos no final de tarde.",
+                "en": "We arrived in the late afternoon.",
+                "ru": "Мы прибыли в поздний вечер."
+            }
+        },
+        {
+            "id": 94,
+            "word": {
+                "pt": "relógio atrasado",
+                "en": "slow clock",
+                "ru": "часы отстают"
+            },
+            "example": {
+                "pt": "O meu relógio está atrasado três minutos.",
+                "en": "My clock is three minutes slow.",
+                "ru": "Мои часы отстают на три минуты."
+            }
+        },
+        {
+            "id": 95,
+            "word": {
+                "pt": "relógio adiantado",
+                "en": "fast clock",
+                "ru": "часы спешат"
+            },
+            "example": {
+                "pt": "O relógio da sala está adiantado.",
+                "en": "The clock in the room is fast.",
+                "ru": "Часы в комнате спешат."
+            }
+        },
+        {
+            "id": 96,
+            "word": {
+                "pt": "cinco minutos atrasados",
+                "en": "five minutes late",
+                "ru": "опоздание на пять минут"
+            },
+            "example": {
+                "pt": "Cheguei cinco minutos atrasado.",
+                "en": "I arrived five minutes late.",
+                "ru": "Я пришёл с опозданием на пять минут."
+            }
+        },
+        {
+            "id": 97,
+            "word": {
+                "pt": "em ponto",
+                "en": "on the dot",
+                "ru": "ровно (о времени)"
+            },
+            "example": {
+                "pt": "A reunião começa às oito em ponto.",
+                "en": "The meeting starts at eight on the dot.",
+                "ru": "Встреча начинается ровно в восемь."
+            }
+        },
+        {
+            "id": 98,
+            "word": {
+                "pt": "quase",
+                "en": "almost",
+                "ru": "почти"
+            },
+            "example": {
+                "pt": "São quase cinco horas.",
+                "en": "It's almost five o'clock.",
+                "ru": "Скоро пять часов."
+            }
+        },
+        {
+            "id": 99,
+            "word": {
+                "pt": "depois",
+                "en": "later",
+                "ru": "позже"
+            },
+            "example": {
+                "pt": "Conversamos depois da aula.",
+                "en": "We talked after class.",
+                "ru": "Мы поговорили после занятия."
+            }
+        },
+        {
+            "id": 100,
+            "word": {
+                "pt": "antes",
+                "en": "before",
+                "ru": "до/перед"
+            },
+            "example": {
+                "pt": "Cheguei antes do professor.",
+                "en": "I arrived before the teacher.",
+                "ru": "Я пришёл раньше преподавателя."
+            }
+        }
+    ]
+}

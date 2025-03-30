@@ -1,0 +1,789 @@
+{
+    "category": {
+      "pt": "Casa e vida cotidiana",
+      "en": "Home and daily life",
+      "ru": "Дом и быт"
+    },
+    "words": [
+      {
+        "id": 1,
+        "word": {
+          "pt": "casa",
+          "en": "house",
+          "ru": "дом"
+        },
+        "example": {
+          "pt": "Minha casa é grande.",
+          "en": "My house is big.",
+          "ru": "Мой дом большой."
+        }
+      },
+      {
+        "id": 2,
+        "word": {
+          "pt": "janela",
+          "en": "window",
+          "ru": "окно"
+        },
+        "example": {
+          "pt": "A janela está aberta.",
+          "en": "The window is open.",
+          "ru": "Окно открыто."
+        }
+      },
+      {
+        "id": 3,
+        "word": {
+          "pt": "porta",
+          "en": "door",
+          "ru": "дверь"
+        },
+        "example": {
+          "pt": "A porta está fechada.",
+          "en": "The door is closed.",
+          "ru": "Дверь закрыта."
+        }
+      },
+      {
+        "id": 4,
+        "word": {
+          "pt": "cozinha",
+          "en": "kitchen",
+          "ru": "кухня"
+        },
+        "example": {
+          "pt": "Eu gosto da cozinha.",
+          "en": "I like the kitchen.",
+          "ru": "Мне нравится кухня."
+        }
+      },
+      {
+        "id": 5,
+        "word": {
+          "pt": "quarto",
+          "en": "bedroom",
+          "ru": "спальня"
+        },
+        "example": {
+          "pt": "O quarto é confortável.",
+          "en": "The bedroom is comfortable.",
+          "ru": "Спальня уютная."
+        }
+      },
+      {
+        "id": 6,
+        "word": {
+          "pt": "sala",
+          "en": "living room",
+          "ru": "гостиная"
+        },
+        "example": {
+          "pt": "Eu estou na sala.",
+          "en": "I am in the living room.",
+          "ru": "Я в гостиной."
+        }
+      },
+      {
+        "id": 7,
+        "word": {
+          "pt": "banheiro",
+          "en": "bathroom",
+          "ru": "ванная"
+        },
+        "example": {
+          "pt": "O banheiro está limpo.",
+          "en": "The bathroom is clean.",
+          "ru": "Ванная чистая."
+        }
+      },
+      {
+        "id": 8,
+        "word": {
+          "pt": "mesa",
+          "en": "table",
+          "ru": "стол"
+        },
+        "example": {
+          "pt": "A mesa está no centro da sala.",
+          "en": "The table is in the center of the room.",
+          "ru": "Стол находится в центре комнаты."
+        }
+      },
+      {
+        "id": 9,
+        "word": {
+          "pt": "cadeira",
+          "en": "chair",
+          "ru": "стул"
+        },
+        "example": {
+          "pt": "A cadeira é confortável.",
+          "en": "The chair is comfortable.",
+          "ru": "Стул удобный."
+        }
+      },
+      {
+        "id": 10,
+        "word": {
+          "pt": "sofá",
+          "en": "sofa",
+          "ru": "диван"
+        },
+        "example": {
+          "pt": "Eu comprei um sofá novo.",
+          "en": "I bought a new sofa.",
+          "ru": "Я купил новый диван."
+        }
+      },
+      {
+        "id": 11,
+        "word": {
+          "pt": "cama",
+          "en": "bed",
+          "ru": "кровать"
+        },
+        "example": {
+          "pt": "A cama é macia.",
+          "en": "The bed is soft.",
+          "ru": "Кровать мягкая."
+        }
+      },
+      {
+        "id": 12,
+        "word": {
+          "pt": "armário",
+          "en": "wardrobe",
+          "ru": "шкаф"
+        },
+        "example": {
+          "pt": "O armário está cheio de roupas.",
+          "en": "The wardrobe is full of clothes.",
+          "ru": "Шкаф полный одежды."
+        }
+      },
+      {
+        "id": 13,
+        "word": {
+          "pt": "espelho",
+          "en": "mirror",
+          "ru": "зеркало"
+        },
+        "example": {
+          "pt": "O espelho está no banheiro.",
+          "en": "The mirror is in the bathroom.",
+          "ru": "Зеркало находится в ванной."
+        }
+      },
+      {
+        "id": 14,
+        "word": {
+          "pt": "luz",
+          "en": "light",
+          "ru": "свет"
+        },
+        "example": {
+          "pt": "A luz está acesa.",
+          "en": "The light is on.",
+          "ru": "Свет включён."
+        }
+      },
+      {
+        "id": 15,
+        "word": {
+          "pt": "chave",
+          "en": "key",
+          "ru": "ключ"
+        },
+        "example": {
+          "pt": "Eu perdi minha chave.",
+          "en": "I lost my key.",
+          "ru": "Я потерял ключ."
+        }
+      },
+      {
+        "id": 16,
+        "word": {
+          "pt": "carpete",
+          "en": "carpet",
+          "ru": "ковёр"
+        },
+        "example": {
+          "pt": "O carpete é vermelho.",
+          "en": "The carpet is red.",
+          "ru": "Ковёр красный."
+        }
+      },
+      {
+        "id": 17,
+        "word": {
+          "pt": "geladeira",
+          "en": "fridge",
+          "ru": "холодильник"
+        },
+        "example": {
+          "pt": "A geladeira está cheia de comida.",
+          "en": "The fridge is full of food.",
+          "ru": "Холодильник полный еды."
+        }
+      },
+      {
+        "id": 18,
+        "word": {
+          "pt": "fogão",
+          "en": "stove",
+          "ru": "плита"
+        },
+        "example": {
+          "pt": "O fogão está quente.",
+          "en": "The stove is hot.",
+          "ru": "Плита горячая."
+        }
+      },
+      {
+        "id": 19,
+        "word": {
+          "pt": "ventilador",
+          "en": "fan",
+          "ru": "вентилятор"
+        },
+        "example": {
+          "pt": "O ventilador está ligado.",
+          "en": "The fan is on.",
+          "ru": "Вентилятор включён."
+        }
+      },
+      {
+        "id": 20,
+        "word": {
+          "pt": "televisão",
+          "en": "television",
+          "ru": "телевизор"
+        },
+        "example": {
+          "pt": "Eu assisto televisão à noite.",
+          "en": "I watch television at night.",
+          "ru": "Я смотрю телевизор вечером."
+        }
+      },
+      {
+        "id": 21,
+        "word": {
+          "pt": "computador",
+          "en": "computer",
+          "ru": "компьютер"
+        },
+        "example": {
+          "pt": "Eu trabalho no computador.",
+          "en": "I work on the computer.",
+          "ru": "Я работаю за компьютером."
+        }
+      },
+      {
+        "id": 22,
+        "word": {
+          "pt": "telefone",
+          "en": "telephone",
+          "ru": "телефон"
+        },
+        "example": {
+          "pt": "O telefone está tocando.",
+          "en": "The telephone is ringing.",
+          "ru": "Телефон звонит."
+        }
+      },
+      {
+        "id": 23,
+        "word": {
+          "pt": "livro",
+          "en": "book",
+          "ru": "книга"
+        },
+        "example": {
+          "pt": "Eu estou lendo um livro.",
+          "en": "I am reading a book.",
+          "ru": "Я читаю книгу."
+        }
+      },
+      {
+        "id": 24,
+        "word": {
+          "pt": "prateleira",
+          "en": "shelf",
+          "ru": "полка"
+        },
+        "example": {
+          "pt": "A prateleira está cheia de livros.",
+          "en": "The shelf is full of books.",
+          "ru": "Полка полна книг."
+        }
+      },
+      {
+        "id": 25,
+        "word": {
+          "pt": "quadro",
+          "en": "picture",
+          "ru": "картина"
+        },
+        "example": {
+          "pt": "Há um quadro na parede.",
+          "en": "There is a picture on the wall.",
+          "ru": "На стене висит картина."
+        }
+      },
+      {
+        "id": 26,
+        "word": {
+          "pt": "tapete",
+          "en": "rug",
+          "ru": "коврик"
+        },
+        "example": {
+          "pt": "O tapete está limpo.",
+          "en": "The rug is clean.",
+          "ru": "Коврик чистый."
+        }
+      },
+      {
+        "id": 27,
+        "word": {
+          "pt": "lâmpada",
+          "en": "lamp",
+          "ru": "лампа"
+        },
+        "example": {
+          "pt": "Eu liguei a lâmpada.",
+          "en": "I turned on the lamp.",
+          "ru": "Я включил лампу."
+        }
+      },
+      {
+        "id": 28,
+        "word": {
+          "pt": "aparelho de som",
+          "en": "sound system",
+          "ru": "аудиосистема"
+        },
+        "example": {
+          "pt": "O aparelho de som está tocando música.",
+          "en": "The sound system is playing music.",
+          "ru": "Аудиосистема воспроизводит музыку."
+        }
+      },
+      {
+        "id": 29,
+        "word": {
+          "pt": "microondas",
+          "en": "microwave",
+          "ru": "микроволновка"
+        },
+        "example": {
+          "pt": "Eu aqueço a comida no microondas.",
+          "en": "I heat food in the microwave.",
+          "ru": "Я разогреваю еду в микроволновке."
+        }
+      },
+      {
+        "id": 30,
+        "word": {
+          "pt": "móveis",
+          "en": "furniture",
+          "ru": "мебель"
+        },
+        "example": {
+          "pt": "Os móveis são novos.",
+          "en": "The furniture is new.",
+          "ru": "Мебель новая."
+        }
+      },
+      {
+        "id": 31,
+        "word": {
+          "pt": "quintal",
+          "en": "yard",
+          "ru": "двор"
+        },
+        "example": {
+          "pt": "Eu gosto do quintal.",
+          "en": "I like the yard.",
+          "ru": "Мне нравится двор."
+        }
+      },
+      {
+        "id": 32,
+        "word": {
+          "pt": "jardim",
+          "en": "garden",
+          "ru": "сад"
+        },
+        "example": {
+          "pt": "O jardim está florido.",
+          "en": "The garden is in bloom.",
+          "ru": "Сад цветущий."
+        }
+      },
+      {
+        "id": 33,
+        "word": {
+          "pt": "eletrodomésticos",
+          "en": "appliances",
+          "ru": "бытовая техника"
+        },
+        "example": {
+          "pt": "Eu uso muitos eletrodomésticos.",
+          "en": "I use many appliances.",
+          "ru": "Я использую много бытовой техники."
+        }
+      },
+      {
+        "id": 34,
+        "word": {
+          "pt": "ventilação",
+          "en": "ventilation",
+          "ru": "вентиляция"
+        },
+        "example": {
+          "pt": "A ventilação é importante.",
+          "en": "Ventilation is important.",
+          "ru": "Вентиляция важна."
+        }
+      },
+      {
+        "id": 35,
+        "word": {
+          "pt": "interruptor",
+          "en": "switch",
+          "ru": "выключатель"
+        },
+        "example": {
+          "pt": "Eu desliguei o interruptor.",
+          "en": "I turned off the switch.",
+          "ru": "Я выключил выключатель."
+        }
+      },
+      {
+        "id": 36,
+        "word": {
+          "pt": "cortinas",
+          "en": "curtains",
+          "ru": "шторы"
+        },
+        "example": {
+          "pt": "As cortinas são azuis.",
+          "en": "The curtains are blue.",
+          "ru": "Шторы голубые."
+        }
+      },
+      {
+        "id": 37,
+        "word": {
+          "pt": "cobertor",
+          "en": "blanket",
+          "ru": "одеяло"
+        },
+        "example": {
+          "pt": "Eu comprei um cobertor novo.",
+          "en": "I bought a new blanket.",
+          "ru": "Я купил новое одеяло."
+        }
+      },
+      {
+        "id": 38,
+        "word": {
+          "pt": "vaso de flores",
+          "en": "flowerpot",
+          "ru": "цветочный горшок"
+        },
+        "example": {
+          "pt": "Há um vaso de flores na mesa.",
+          "en": "There is a flowerpot on the table.",
+          "ru": "На столе стоит цветочный горшок."
+        }
+      },
+      {
+        "id": 39,
+        "word": {
+          "pt": "detergente",
+          "en": "detergent",
+          "ru": "моющее средство"
+        },
+        "example": {
+          "pt": "Eu uso detergente para lavar os pratos.",
+          "en": "I use detergent to wash the dishes.",
+          "ru": "Я использую моющее средство для мытья посуды."
+        }
+      },
+      {
+        "id": 40,
+        "word": {
+          "pt": "balde",
+          "en": "bucket",
+          "ru": "ведро"
+        },
+        "example": {
+          "pt": "Eu preciso de um balde para limpar o chão.",
+          "en": "I need a bucket to clean the floor.",
+          "ru": "Мне нужно ведро для уборки пола."
+        }
+      },
+      {
+        "id": 41,
+        "word": {
+          "pt": "panela",
+          "en": "pot",
+          "ru": "кастрюля"
+        },
+        "example": {
+          "pt": "Eu cozinho na panela.",
+          "en": "I cook in the pot.",
+          "ru": "Я готовлю в кастрюле."
+        }
+      },
+      {
+        "id": 42,
+        "word": {
+          "pt": "colher",
+          "en": "spoon",
+          "ru": "ложка"
+        },
+        "example": {
+          "pt": "A colher está na mesa.",
+          "en": "The spoon is on the table.",
+          "ru": "Ложка на столе."
+        }
+      },
+      {
+        "id": 43,
+        "word": {
+          "pt": "garfo",
+          "en": "fork",
+          "ru": "вилка"
+        },
+        "example": {
+          "pt": "Eu uso o garfo para comer.",
+          "en": "I use the fork to eat.",
+          "ru": "Я пользуюсь вилкой, чтобы есть."
+        }
+      },
+      {
+        "id": 44,
+        "word": {
+          "pt": "faca",
+          "en": "knife",
+          "ru": "нож"
+        },
+        "example": {
+          "pt": "A faca é afiada.",
+          "en": "The knife is sharp.",
+          "ru": "Нож острый."
+        }
+      },
+      {
+        "id": 45,
+        "word": {
+          "pt": "prato",
+          "en": "plate",
+          "ru": "тарелка"
+        },
+        "example": {
+          "pt": "O prato está cheio de comida.",
+          "en": "The plate is full of food.",
+          "ru": "Тарелка полная еды."
+        }
+      },
+      {
+        "id": 46,
+        "word": {
+          "pt": "copos",
+          "en": "glasses",
+          "ru": "стаканы"
+        },
+        "example": {
+          "pt": "Eu comprei copos novos.",
+          "en": "I bought new glasses.",
+          "ru": "Я купил новые стаканы."
+        }
+      },
+      {
+        "id": 47,
+        "word": {
+          "pt": "toalha",
+          "en": "towel",
+          "ru": "полотенце"
+        },
+        "example": {
+          "pt": "Eu peguei uma toalha.",
+          "en": "I grabbed a towel.",
+          "ru": "Я взял полотенце."
+        }
+      },
+      {
+        "id": 48,
+        "word": {
+          "pt": "sabão",
+          "en": "soap",
+          "ru": "мыло"
+        },
+        "example": {
+          "pt": "Eu uso sabão para lavar as mãos.",
+          "en": "I use soap to wash my hands.",
+          "ru": "Я пользуюсь мылом, чтобы помыть руки."
+        }
+      },
+      {
+        "id": 49,
+        "word": {
+          "pt": "escova",
+          "en": "brush",
+          "ru": "щётка"
+        },
+        "example": {
+          "pt": "Eu limpo com a escova.",
+          "en": "I clean with the brush.",
+          "ru": "Я чищу щёткой."
+        }
+      },
+      {
+        "id": 50,
+        "word": {
+          "pt": "lençóis",
+          "en": "sheets",
+          "ru": "простыни"
+        },
+        "example": {
+          "pt": "Os lençóis estão limpos.",
+          "en": "The sheets are clean.",
+          "ru": "Простыни чистые."
+        }
+      },
+      {
+        "id": 51,
+        "word": {
+          "pt": "almofada",
+          "en": "cushion",
+          "ru": "подушка"
+        },
+        "example": {
+          "pt": "Há uma almofada no sofá.",
+          "en": "There's a cushion on the sofa.",
+          "ru": "На диване лежит подушка."
+        }
+      },
+      {
+        "id": 52,
+        "word": {
+          "pt": "aspirador",
+          "en": "vacuum cleaner",
+          "ru": "пылесос"
+        },
+        "example": {
+          "pt": "Eu uso o aspirador para limpar o chão.",
+          "en": "I use the vacuum cleaner to clean the floor.",
+          "ru": "Я пользуюсь пылесосом для уборки пола."
+        }
+      },
+      {
+        "id": 53,
+        "word": {
+          "pt": "ferro de passar",
+          "en": "iron",
+          "ru": "утюг"
+        },
+        "example": {
+          "pt": "Eu passei minhas roupas com o ferro de passar.",
+          "en": "I ironed my clothes with the iron.",
+          "ru": "Я погладил одежду утюгом."
+        }
+      },
+      {
+        "id": 54,
+        "word": {
+          "pt": "roupa",
+          "en": "clothes",
+          "ru": "одежда"
+        },
+        "example": {
+          "pt": "Minhas roupas estão no armário.",
+          "en": "My clothes are in the wardrobe.",
+          "ru": "Моя одежда в шкафу."
+        }
+      },
+      {
+        "id": 55,
+        "word": {
+          "pt": "sapato",
+          "en": "shoe",
+          "ru": "обувь"
+        },
+        "example": {
+          "pt": "Eu coloquei meus sapatos.",
+          "en": "I put on my shoes.",
+          "ru": "Я надел обувь."
+        }
+      },
+      {
+        "id": 56,
+        "word": {
+          "pt": "escada",
+          "en": "ladder",
+          "ru": "лестница"
+        },
+        "example": {
+          "pt": "A escada está na garagem.",
+          "en": "The ladder is in the garage.",
+          "ru": "Лестница находится в гараже."
+        }
+      },
+      {
+        "id": 57,
+        "word": {
+          "pt": "balança",
+          "en": "scale",
+          "ru": "весы"
+        },
+        "example": {
+          "pt": "Eu uso a balança para medir o peso.",
+          "en": "I use the scale to measure weight.",
+          "ru": "Я использую весы для измерения веса."
+        }
+      },
+      {
+        "id": 58,
+        "word": {
+          "pt": "caixa",
+          "en": "box",
+          "ru": "коробка"
+        },
+        "example": {
+          "pt": "A caixa está cheia de brinquedos.",
+          "en": "The box is full of toys.",
+          "ru": "Коробка полна игрушек."
+        }
+      },
+      {
+        "id": 59,
+        "word": {
+          "pt": "saco de lixo",
+          "en": "trash bag",
+          "ru": "мусорный пакет"
+        },
+        "example": {
+          "pt": "Eu joguei o saco de lixo fora.",
+          "en": "I threw the trash bag away.",
+          "ru": "Я выбросил мусорный пакет."
+        }
+      },
+      {
+        "id": 60,
+        "word": {
+          "pt": "detergente para roupa",
+          "en": "laundry detergent",
+          "ru": "стиральный порошок"
+        },
+        "example": {
+          "pt": "Eu usei detergente para lavar minhas roupas.",
+          "en": "I used laundry detergent to wash my clothes.",
+          "ru": "Я использовал стиральный порошок для стирки одежды."
+        }
+      }	  
+    ]
+}

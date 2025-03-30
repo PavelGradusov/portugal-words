@@ -1,0 +1,399 @@
+{
+  "category": {
+    "pt": "Dias da Semana e Meses",
+    "en": "Days of the Week and Months",
+    "ru": "Дни недели и месяцы"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": {
+        "pt": "segunda-feira",
+        "en": "Monday",
+        "ru": "понедельник"
+      },
+      "example": {
+        "pt": "Eu começo a semana na segunda-feira.",
+        "en": "I start the week on Monday.",
+        "ru": "Я начинаю неделю в понедельник."
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "pt": "terça-feira",
+        "en": "Tuesday",
+        "ru": "вторник"
+      },
+      "example": {
+        "pt": "Terça-feira é o dia da reunião.",
+        "en": "Tuesday is the day of the meeting.",
+        "ru": "Вторник — день совещания."
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "pt": "quarta-feira",
+        "en": "Wednesday",
+        "ru": "среда"
+      },
+      "example": {
+        "pt": "A aula de dança é na quarta-feira.",
+        "en": "The dance class is on Wednesday.",
+        "ru": "Урок танцев проходит в среду."
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "pt": "quinta-feira",
+        "en": "Thursday",
+        "ru": "четверг"
+      },
+      "example": {
+        "pt": "Eu vou ao mercado na quinta-feira.",
+        "en": "I go to the market on Thursday.",
+        "ru": "Я хожу на рынок в четверг."
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "pt": "sexta-feira",
+        "en": "Friday",
+        "ru": "пятница"
+      },
+      "example": {
+        "pt": "Sexta-feira é dia de pizza.",
+        "en": "Friday is pizza day.",
+        "ru": "Пятница — день пиццы."
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "pt": "sábado",
+        "en": "Saturday",
+        "ru": "суббота"
+      },
+      "example": {
+        "pt": "Eu descanso no sábado.",
+        "en": "I relax on Saturday.",
+        "ru": "Я отдыхаю в субботу."
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "pt": "domingo",
+        "en": "Sunday",
+        "ru": "воскресенье"
+      },
+      "example": {
+        "pt": "Domingo é dia de visitar os amigos.",
+        "en": "Sunday is the day to visit friends.",
+        "ru": "Воскресенье — день визитов к друзьям."
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "pt": "janeiro",
+        "en": "January",
+        "ru": "январь"
+      },
+      "example": {
+        "pt": "Janeiro é o mês do ano novo.",
+        "en": "January is the month of the new year.",
+        "ru": "Январь — месяц нового года."
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "pt": "fevereiro",
+        "en": "February",
+        "ru": "февраль"
+      },
+      "example": {
+        "pt": "Fevereiro tem menos dias.",
+        "en": "February has fewer days.",
+        "ru": "Февраль имеет меньше дней."
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "pt": "março",
+        "en": "March",
+        "ru": "март"
+      },
+      "example": {
+        "pt": "Março é o início da primavera.",
+        "en": "March is the beginning of spring.",
+        "ru": "Март — начало весны."
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "pt": "abril",
+        "en": "April",
+        "ru": "апрель"
+      },
+      "example": {
+        "pt": "Abril é um mês de flores.",
+        "en": "April is a month of flowers.",
+        "ru": "Апрель — месяц цветов."
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "pt": "maio",
+        "en": "May",
+        "ru": "май"
+      },
+      "example": {
+        "pt": "Em maio começa o calor.",
+        "en": "In May, the heat starts.",
+        "ru": "В мае начинается тепло."
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "pt": "junho",
+        "en": "June",
+        "ru": "июнь"
+      },
+      "example": {
+        "pt": "Junho é o mês do verão.",
+        "en": "June is the month of summer.",
+        "ru": "Июнь — месяц лета."
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "pt": "julho",
+        "en": "July",
+        "ru": "июль"
+      },
+      "example": {
+        "pt": "Julho é muito quente.",
+        "en": "July is very hot.",
+        "ru": "Июль очень жаркий."
+      }
+    },
+    {
+      "id": 15,
+      "word": {
+        "pt": "agosto",
+        "en": "August",
+        "ru": "август"
+      },
+      "example": {
+        "pt": "Agosto é mês de férias.",
+        "en": "August is a vacation month.",
+        "ru": "Август — месяц отпусков."
+      }
+    },
+    {
+      "id": 16,
+      "word": {
+        "pt": "setembro",
+        "en": "September",
+        "ru": "сентябрь"
+      },
+      "example": {
+        "pt": "Setembro marca o fim do verão.",
+        "en": "September marks the end of summer.",
+        "ru": "Сентябрь знаменует конец лета."
+      }
+    },
+    {
+      "id": 17,
+      "word": {
+        "pt": "outubro",
+        "en": "October",
+        "ru": "октябрь"
+      },
+      "example": {
+        "pt": "Outubro é mês de folhas secas.",
+        "en": "October is a month of dry leaves.",
+        "ru": "Октябрь — месяц сухих листьев."
+      }
+    },
+    {
+      "id": 18,
+      "word": {
+        "pt": "novembro",
+        "en": "November",
+        "ru": "ноябрь"
+      },
+      "example": {
+        "pt": "Novembro tem dias frios.",
+        "en": "November has cold days.",
+        "ru": "Ноябрь приносит холодные дни."
+      }
+    },
+    {
+      "id": 19,
+      "word": {
+        "pt": "dezembro",
+        "en": "December",
+        "ru": "декабрь"
+      },
+      "example": {
+        "pt": "Dezembro é mês do natal.",
+        "en": "December is the Christmas month.",
+        "ru": "Декабрь — месяц Рождества."
+      }
+    },
+	{
+	  "id": 20,
+	  "word": {
+		"pt": "calendário",
+		"en": "calendar",
+		"ru": "календарь"
+	  },
+	  "example": {
+		"pt": "Eu marco compromissos no calendário.",
+		"en": "I schedule appointments in the calendar.",
+		"ru": "Я отмечаю встречи в календаре."
+	  }
+	},
+    {
+      "id": 21,
+      "word": {
+        "pt": "trimestre",
+        "en": "quarter",
+        "ru": "квартал"
+      },
+      "example": {
+        "pt": "O relatório é feito a cada trimestre.",
+        "en": "The report is done every quarter.",
+        "ru": "Отчёт составляется раз в квартал."
+      }
+    },
+    {
+      "id": 22,
+      "word": {
+        "pt": "semestre",
+        "en": "semester",
+        "ru": "семестр"
+      },
+      "example": {
+        "pt": "O curso tem dois semestres por ano.",
+        "en": "The course has two semesters per year.",
+        "ru": "Курс состоит из двух семестров в году."
+      }
+    },
+    {
+      "id": 23,
+      "word": {
+        "pt": "primeira-feira",
+        "en": "first day",
+        "ru": "первый день"
+      },
+      "example": {
+        "pt": "Hoje é a primeira-feira do mês.",
+        "en": "Today is the first day of the month.",
+        "ru": "Сегодня первый день месяца."
+      }
+    },
+    {
+      "id": 24,
+      "word": {
+        "pt": "dia útil",
+        "en": "working day",
+        "ru": "рабочий день"
+      },
+      "example": {
+        "pt": "O banco só funciona em dias úteis.",
+        "en": "The bank is only open on working days.",
+        "ru": "Банк работает только в рабочие дни."
+      }
+    },
+    {
+      "id": 25,
+      "word": {
+        "pt": "feriado",
+        "en": "holiday",
+        "ru": "праздник"
+      },
+      "example": {
+        "pt": "O feriado nacional é amanhã.",
+        "en": "Tomorrow is the national holiday.",
+        "ru": "Завтра национальный праздник."
+      }
+    },
+    {
+      "id": 26,
+      "word": {
+        "pt": "fim de semana",
+        "en": "weekend",
+        "ru": "выходные"
+      },
+      "example": {
+        "pt": "Nós vamos ao campo no fim de semana.",
+        "en": "We are going to the countryside this weekend.",
+        "ru": "На выходных мы едем за город."
+      }
+    },
+    {
+      "id": 27,
+      "word": {
+        "pt": "mês de férias",
+        "en": "vacation month",
+        "ru": "месяц отпуска"
+      },
+      "example": {
+        "pt": "Agosto é o mês de férias.",
+        "en": "August is the vacation month.",
+        "ru": "Август — это месяц отпуска."
+      }
+    },
+    {
+      "id": 28,
+      "word": {
+        "pt": "primeiro dia",
+        "en": "first day",
+        "ru": "первый день"
+      },
+      "example": {
+        "pt": "Hoje é o primeiro dia do semestre.",
+        "en": "Today is the first day of the semester.",
+        "ru": "Сегодня первый день семестра."
+      }
+    },
+    {
+      "id": 29,
+      "word": {
+        "pt": "último dia",
+        "en": "last day",
+        "ru": "последний день"
+      },
+      "example": {
+        "pt": "Hoje é o último dia da semana.",
+        "en": "Today is the last day of the week.",
+        "ru": "Сегодня последний день недели."
+      }
+    },
+    {
+      "id": 30,
+      "word": {
+        "pt": "dia especial",
+        "en": "special day",
+        "ru": "особый день"
+      },
+      "example": {
+        "pt": "O aniversário é sempre um dia especial.",
+        "en": "A birthday is always a special day.",
+        "ru": "День рождения всегда особый день."
+      }
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "category": {
+    "pt": "Transporte e Viagens",
+    "en": "Transport and Travel",
+    "ru": "Транспорт и путешествия"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": {
+        "pt": "carro",
+        "en": "car",
+        "ru": "машина"
+      },
+      "example": {
+        "pt": "Eu dirijo o meu carro todos os dias.",
+        "en": "I drive my car every day.",
+        "ru": "Я вожу свою машину каждый день."
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "pt": "autocarro",
+        "en": "bus",
+        "ru": "автобус"
+      },
+      "example": {
+        "pt": "O autocarro chega às oito horas.",
+        "en": "The bus arrives at eight o'clock.",
+        "ru": "Автобус прибывает в восемь часов."
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "pt": "táxi",
+        "en": "taxi",
+        "ru": "такси"
+      },
+      "example": {
+        "pt": "Eu chamei um táxi para ir ao aeroporto.",
+        "en": "I called a taxi to go to the airport.",
+        "ru": "Я вызвал такси, чтобы поехать в аэропорт."
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "pt": "metro",
+        "en": "subway",
+        "ru": "метро"
+      },
+      "example": {
+        "pt": "Eu uso o metro para ir ao trabalho.",
+        "en": "I use the subway to go to work.",
+        "ru": "Я пользуюсь метро, чтобы добраться до работы."
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "pt": "comboio",
+        "en": "train",
+        "ru": "поезд"
+      },
+      "example": {
+        "pt": "O comboio é rápido e confortável.",
+        "en": "The train is fast and comfortable.",
+        "ru": "Поезд быстрый и комфортный."
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "pt": "avião",
+        "en": "airplane",
+        "ru": "самолёт"
+      },
+      "example": {
+        "pt": "O avião decolou às dez horas.",
+        "en": "The airplane took off at ten o'clock.",
+        "ru": "Самолёт взлетел в десять часов."
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "pt": "barco",
+        "en": "boat",
+        "ru": "лодка"
+      },
+      "example": {
+        "pt": "Nós fomos de barco para a ilha.",
+        "en": "We took a boat to the island.",
+        "ru": "Мы отправились на остров на лодке."
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "pt": "bicicleta",
+        "en": "bicycle",
+        "ru": "велосипед"
+      },
+      "example": {
+        "pt": "Eu ando de bicicleta no parque.",
+        "en": "I ride my bicycle in the park.",
+        "ru": "Я катаюсь на велосипеде в парке."
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "pt": "mota",
+        "en": "motorcycle",
+        "ru": "мотоцикл"
+      },
+      "example": {
+        "pt": "A mota é um meio de transporte rápido.",
+        "en": "The motorcycle is a fast means of transport.",
+        "ru": "Мотоцикл — это быстрое средство передвижения."
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "pt": "camião",
+        "en": "truck",
+        "ru": "грузовик"
+      },
+      "example": {
+        "pt": "Os camiões transportam mercadorias.",
+        "en": "Trucks transport goods.",
+        "ru": "Грузовики перевозят товары."
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "pt": "paragem",
+        "en": "bus stop",
+        "ru": "автобусная остановка"
+      },
+      "example": {
+        "pt": "A paragem de autocarro fica perto de casa.",
+        "en": "The bus stop is near my house.",
+        "ru": "Автобусная остановка находится рядом с домом."
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "pt": "estação",
+        "en": "station",
+        "ru": "станция"
+      },
+      "example": {
+        "pt": "A estação de comboios está cheia de passageiros.",
+        "en": "The train station is full of passengers.",
+        "ru": "Железнодорожная станция полна пассажиров."
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "pt": "aeroporto",
+        "en": "airport",
+        "ru": "аэропорт"
+      },
+      "example": {
+        "pt": "O aeroporto está movimentado hoje.",
+        "en": "The airport is busy today.",
+        "ru": "Сегодня в аэропорту многолюдно."
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "pt": "bilhete",
+        "en": "ticket",
+        "ru": "билет"
+      },
+      "example": {
+        "pt": "Eu comprei um bilhete para o comboio.",
+        "en": "I bought a ticket for the train.",
+        "ru": "Я купил билет на поезд."
+      }
+    },
+    {
+      "id": 15,
+      "word": {
+        "pt": "passaporte",
+        "en": "passport",
+        "ru": "паспорт"
+      },
+      "example": {
+        "pt": "O passaporte é necessário para viagens internacionais.",
+        "en": "The passport is necessary for international travel.",
+        "ru": "Паспорт необходим для международных поездок."
+      }
+    },
+    {
+      "id": 16,
+      "word": {
+        "pt": "bagagem",
+        "en": "luggage",
+        "ru": "багаж"
+      },
+      "example": {
+        "pt": "Eu levo pouca bagagem nas viagens.",
+        "en": "I carry little luggage on trips.",
+        "ru": "Я беру с собой немного багажа в поездки."
+      }
+    },
+    {
+      "id": 17,
+      "word": {
+        "pt": "mapa",
+        "en": "map",
+        "ru": "карта"
+      },
+      "example": {
+        "pt": "O mapa ajuda a encontrar o caminho.",
+        "en": "The map helps to find the way.",
+        "ru": "Карта помогает найти дорогу."
+      }
+    },
+    {
+      "id": 18,
+      "word": {
+        "pt": "guia",
+        "en": "guide",
+        "ru": "гид"
+      },
+      "example": {
+        "pt": "O guia nos mostrou os pontos turísticos.",
+        "en": "The guide showed us the tourist spots.",
+        "ru": "Гид показал нам туристические места."
+      }
+    },
+    {
+      "id": 19,
+      "word": {
+        "pt": "viagem",
+        "en": "trip",
+        "ru": "поездка"
+      },
+      "example": {
+        "pt": "A viagem foi muito divertida.",
+        "en": "The trip was very fun.",
+        "ru": "Поездка была очень весёлой."
+      }
+    },
+    {
+      "id": 20,
+      "word": {
+        "pt": "destino",
+        "en": "destination",
+        "ru": "пункт назначения"
+      },
+      "example": {
+        "pt": "O nosso destino é Lisboa.",
+        "en": "Our destination is Lisbon.",
+        "ru": "Наш пункт назначения — Лиссабон."
+      }
+    },
+    {
+      "id": 21,
+      "word": {
+        "pt": "turista",
+        "en": "tourist",
+        "ru": "турист"
+      },
+      "example": {
+        "pt": "O turista pediu informações no hotel.",
+        "en": "The tourist asked for information at the hotel.",
+        "ru": "Турист попросил информацию в отеле."
+      }
+    },
+    {
+      "id": 22,
+      "word": {
+        "pt": "viagem de negócios",
+        "en": "business trip",
+        "ru": "командировка"
+      },
+      "example": {
+        "pt": "Eu tenho uma viagem de negócios na próxima semana.",
+        "en": "I have a business trip next week.",
+        "ru": "У меня командировка на следующей неделе."
+      }
+    },
+    {
+      "id": 23,
+      "word": {
+        "pt": "ferrovia",
+        "en": "railway",
+        "ru": "железная дорога"
+      },
+      "example": {
+        "pt": "A ferrovia conecta várias cidades.",
+        "en": "The railway connects several cities.",
+        "ru": "Железная дорога соединяет несколько городов."
+      }
+    },
+    {
+      "id": 24,
+      "word": {
+        "pt": "navio",
+        "en": "ship",
+        "ru": "корабль"
+      },
+      "example": {
+        "pt": "O navio partiu do porto esta manhã.",
+        "en": "The ship departed from the port this morning.",
+        "ru": "Корабль отправился из порта сегодня утром."
+      }
+    },
+    {
+      "id": 25,
+      "word": {
+        "pt": "helicóptero",
+        "en": "helicopter",
+        "ru": "вертолёт"
+      },
+      "example": {
+        "pt": "O helicóptero pousou em segurança.",
+        "en": "The helicopter landed safely.",
+        "ru": "Вертолёт приземлился безопасно."
+      }
+    },
+    {
+      "id": 26,
+      "word": {
+        "pt": "aluguer de carro",
+        "en": "car rental",
+        "ru": "аренда машины"
+      },
+      "example": {
+        "pt": "Nós utilizamos o serviço de aluguer de carro durante a viagem.",
+        "en": "We used the car rental service during the trip.",
+        "ru": "Мы воспользовались услугой аренды машины во время поездки."
+      }
+    },
+    {
+      "id": 27,
+      "word": {
+        "pt": "agência de viagens",
+        "en": "travel agency",
+        "ru": "туристическое агентство"
+      },
+      "example": {
+        "pt": "A agência de viagens organizou o nosso itinerário.",
+        "en": "The travel agency organized our itinerary.",
+        "ru": "Туристическое агентство организовало наш маршрут."
+      }
+    },
+    {
+      "id": 28,
+      "word": {
+        "pt": "cruzeiro",
+        "en": "cruise",
+        "ru": "круиз"
+      },
+      "example": {
+        "pt": "O cruzeiro pelo Mediterrâneo foi incrível.",
+        "en": "The Mediterranean cruise was amazing.",
+        "ru": "Круиз по Средиземному морю был потрясающим."
+      }
+    },
+    {
+      "id": 29,
+      "word": {
+        "pt": "passeio",
+        "en": "tour",
+        "ru": "экскурсия"
+      },
+      "example": {
+        "pt": "O passeio pela cidade foi muito informativo.",
+        "en": "The city tour was very informative.",
+        "ru": "Экскурсия по городу была очень познавательной."
+      }
+    },
+    {
+      "id": 30,
+      "word": {
+        "pt": "alojamento",
+        "en": "accommodation",
+        "ru": "жильё"
+      },
+      "example": {
+        "pt": "O alojamento foi confortável e acessível.",
+        "en": "The accommodation was comfortable and affordable.",
+        "ru": "Жильё было удобным и доступным."
+      }
+    },
+    {
+      "id": 31,
+      "word": {
+        "pt": "estrada",
+        "en": "road",
+        "ru": "дорога"
+      },
+      "example": {
+        "pt": "A estrada para o campo é linda.",
+        "en": "The road to the countryside is beautiful.",
+        "ru": "Дорога в деревню красивая."
+      }
+    },
+    {
+      "id": 32,
+      "word": {
+        "pt": "autoestrada",
+        "en": "highway",
+        "ru": "автострада"
+      },
+      "example": {
+        "pt": "A autoestrada está cheia de carros hoje.",
+        "en": "The highway is full of cars today.",
+        "ru": "Сегодня автострада переполнена машинами."
+      }
+    },
+    {
+      "id": 33,
+      "word": {
+        "pt": "viaduto",
+        "en": "overpass",
+        "ru": "эстакада"
+      },
+      "example": {
+        "pt": "O viaduto atravessa o rio.",
+        "en": "The overpass crosses the river.",
+        "ru": "Эстакада пересекает реку."
+      }
+    },
+    {
+      "id": 34,
+      "word": {
+        "pt": "cruzamento",
+        "en": "crossroad",
+        "ru": "перекрёсток"
+      },
+      "example": {
+        "pt": "O cruzamento tem semáforos modernos.",
+        "en": "The crossroad has modern traffic lights.",
+        "ru": "На перекрёстке современные светофоры."
+      }
+    },
+    {
+      "id": 35,
+      "word": {
+        "pt": "trânsito",
+        "en": "traffic",
+        "ru": "трафик"
+      },
+      "example": {
+        "pt": "O trânsito está lento esta manhã.",
+        "en": "The traffic is slow this morning.",
+        "ru": "Сегодня утром трафик медленный."
+      }
+    },
+    {
+      "id": 36,
+      "word": {
+        "pt": "estacionamento",
+        "en": "parking",
+        "ru": "парковка"
+      },
+      "example": {
+        "pt": "O estacionamento do centro está lotado.",
+        "en": "The downtown parking lot is full.",
+        "ru": "Парковка в центре города заполнена."
+      }
+    },
+    {
+      "id": 37,
+      "word": {
+        "pt": "semáforo",
+        "en": "traffic light",
+        "ru": "светофор"
+      },
+      "example": {
+        "pt": "O semáforo está vermelho.",
+        "en": "The traffic light is red.",
+        "ru": "Светофор показывает красный."
+      }
+    },
+    {
+      "id": 38,
+      "word": {
+        "pt": "sinalização",
+        "en": "signage",
+        "ru": "знаки"
+      },
+      "example": {
+        "pt": "A sinalização na estrada é clara.",
+        "en": "The road signage is clear.",
+        "ru": "Дорожные знаки понятные."
+      }
+    },
+    {
+      "id": 39,
+      "word": {
+        "pt": "porto",
+        "en": "harbor",
+        "ru": "гавань"
+      },
+      "example": {
+        "pt": "O porto recebe muitos navios diariamente.",
+        "en": "The harbor receives many ships daily.",
+        "ru": "Гавань ежедневно принимает множество кораблей."
+      }
+    },
+    {
+      "id": 40,
+      "word": {
+        "pt": "carteira de motorista",
+        "en": "driver's license",
+        "ru": "водительское удостоверение"
+      },
+      "example": {
+        "pt": "Eu renovei minha carteira de motorista.",
+        "en": "I renewed my driver's license.",
+        "ru": "Я обновил своё водительское удостоверение."
+      }
+    },
+    {
+      "id": 41,
+      "word": {
+        "pt": "estrangeiro",
+        "en": "foreign country",
+        "ru": "зарубежная страна"
+      },
+      "example": {
+        "pt": "Ele gosta de viajar para o estrangeiro.",
+        "en": "He likes to travel to foreign countries.",
+        "ru": "Он любит путешествовать в зарубежные страны."
+      }
+    },
+    {
+      "id": 42,
+      "word": {
+        "pt": "atraso",
+        "en": "delay",
+        "ru": "задержка"
+      },
+      "example": {
+        "pt": "O voo teve um atraso de duas horas.",
+        "en": "The flight had a two-hour delay.",
+        "ru": "Рейс был задержан на два часа."
+      }
+    },
+    {
+      "id": 43,
+      "word": {
+        "pt": "escala",
+        "en": "layover",
+        "ru": "пересадка"
+      },
+      "example": {
+        "pt": "Fizemos uma escala em Madrid antes de continuar a viagem.",
+        "en": "We had a layover in Madrid before continuing the trip.",
+        "ru": "У нас была пересадка в Мадриде перед продолжением путешествия."
+      }
+    },
+    {
+      "id": 44,
+      "word": {
+        "pt": "bagageira",
+        "en": "trunk",
+        "ru": "багажник"
+      },
+      "example": {
+        "pt": "A bagageira do carro está cheia.",
+        "en": "The car trunk is full.",
+        "ru": "Багажник машины заполнен."
+      }
+    },
+    {
+      "id": 45,
+      "word": {
+        "pt": "pedágio",
+        "en": "toll",
+        "ru": "плата за проезд"
+      },
+      "example": {
+        "pt": "Pagamos o pedágio na autoestrada.",
+        "en": "We paid the toll on the highway.",
+        "ru": "Мы оплатили плату за проезд на автостраде."
+      }
+    },
+    {
+      "id": 46,
+      "word": {
+        "pt": "cruzeiro marítimo",
+        "en": "sea cruise",
+        "ru": "морской круиз"
+      },
+      "example": {
+        "pt": "O cruzeiro marítimo foi uma experiência incrível.",
+        "en": "The sea cruise was an amazing experience.",
+        "ru": "Морской круиз был потрясающим опытом."
+      }
+    },
+    {
+      "id": 47,
+      "word": {
+        "pt": "caravana",
+        "en": "caravan",
+        "ru": "дом на колёсах"
+      },
+      "example": {
+        "pt": "Nós viajámos numa caravana durante as férias.",
+        "en": "We traveled in a caravan during the holidays.",
+        "ru": "Мы путешествовали в доме на колёсах во время отпуска."
+      }
+    },
+    {
+      "id": 48,
+      "word": {
+        "pt": "turismo",
+        "en": "tourism",
+        "ru": "туризм"
+      },
+      "example": {
+        "pt": "O turismo é importante para a economia local.",
+        "en": "Tourism is important for the local economy.",
+        "ru": "Туризм важен для местной экономики."
+      }
+    },
+    {
+      "id": 49,
+      "word": {
+        "pt": "viajar",
+        "en": "to travel",
+        "ru": "путешествовать"
+      },
+      "example": {
+        "pt": "Eu gosto de viajar pelo mundo.",
+        "en": "I like to travel around the world.",
+        "ru": "Мне нравится путешествовать по миру."
+      }
+    },
+    {
+      "id": 50,
+      "word": {
+        "pt": "explorar",
+        "en": "to explore",
+        "ru": "исследовать"
+      },
+      "example": {
+        "pt": "Nós queremos explorar novos destinos.",
+        "en": "We want to explore new destinations.",
+        "ru": "Мы хотим исследовать новые места."
+      }
+    }
+  ]
+}

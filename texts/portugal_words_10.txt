@@ -1,0 +1,1309 @@
+{
+    "category": {
+      "pt": "Natureza e meio ambiente",
+      "en": "Nature and environment",
+      "ru": "Природа и окружающая среда"
+    },
+    "words": [
+      {
+        "id": 1,
+        "word": {
+          "pt": "terra",
+          "en": "earth",
+          "ru": "земля"
+        },
+        "example": {
+          "pt": "A terra é fértil.",
+          "en": "The earth is fertile.",
+          "ru": "Земля плодородная."
+        }
+      },
+      {
+        "id": 2,
+        "word": {
+          "pt": "água",
+          "en": "water",
+          "ru": "вода"
+        },
+        "example": {
+          "pt": "A água é essencial para a vida.",
+          "en": "Water is essential for life.",
+          "ru": "Вода необходима для жизни."
+        }
+      },
+      {
+        "id": 3,
+        "word": {
+          "pt": "ar",
+          "en": "air",
+          "ru": "воздух"
+        },
+        "example": {
+          "pt": "O ar está limpo na montanha.",
+          "en": "The air is clean in the mountain.",
+          "ru": "Воздух чистый в горах."
+        }
+      },
+      {
+        "id": 4,
+        "word": {
+          "pt": "fogo",
+          "en": "fire",
+          "ru": "огонь"
+        },
+        "example": {
+          "pt": "O fogo aquece.",
+          "en": "Fire warms.",
+          "ru": "Огонь согревает."
+        }
+      },
+      {
+        "id": 5,
+        "word": {
+          "pt": "sol",
+          "en": "sun",
+          "ru": "солнце"
+        },
+        "example": {
+          "pt": "O sol brilha forte hoje.",
+          "en": "The sun shines brightly today.",
+          "ru": "Солнце светит ярко сегодня."
+        }
+      },
+      {
+        "id": 6,
+        "word": {
+          "pt": "lua",
+          "en": "moon",
+          "ru": "луна"
+        },
+        "example": {
+          "pt": "A lua está cheia esta noite.",
+          "en": "The moon is full tonight.",
+          "ru": "Луна сегодня полная."
+        }
+      },
+      {
+        "id": 7,
+        "word": {
+          "pt": "estrela",
+          "en": "star",
+          "ru": "звезда"
+        },
+        "example": {
+          "pt": "As estrelas estão no céu.",
+          "en": "The stars are in the sky.",
+          "ru": "Звёзды на небе."
+        }
+      },
+      {
+        "id": 8,
+        "word": {
+          "pt": "montanha",
+          "en": "mountain",
+          "ru": "гора"
+        },
+        "example": {
+          "pt": "Eu escalo montanhas nos finais de semana.",
+          "en": "I climb mountains on weekends.",
+          "ru": "Я поднимаюсь в горы по выходным."
+        }
+      },
+      {
+        "id": 9,
+        "word": {
+          "pt": "floresta",
+          "en": "forest",
+          "ru": "лес"
+        },
+        "example": {
+          "pt": "A floresta está cheia de árvores.",
+          "en": "The forest is full of trees.",
+          "ru": "Лес полный деревьев."
+        }
+      },
+      {
+        "id": 10,
+        "word": {
+          "pt": "rio",
+          "en": "river",
+          "ru": "река"
+        },
+        "example": {
+          "pt": "O rio corre rápido.",
+          "en": "The river runs fast.",
+          "ru": "Река течёт быстро."
+        }
+      },
+      {
+        "id": 11,
+        "word": {
+          "pt": "lago",
+          "en": "lake",
+          "ru": "озеро"
+        },
+        "example": {
+          "pt": "Eu gosto de pescar no lago.",
+          "en": "I like fishing in the lake.",
+          "ru": "Я люблю рыбачить на озере."
+        }
+      },
+      {
+        "id": 12,
+        "word": {
+          "pt": "mar",
+          "en": "sea",
+          "ru": "море"
+        },
+        "example": {
+          "pt": "O mar é azul e bonito.",
+          "en": "The sea is blue and beautiful.",
+          "ru": "Море синее и красивое."
+        }
+      },
+      {
+        "id": 13,
+        "word": {
+          "pt": "praia",
+          "en": "beach",
+          "ru": "пляж"
+        },
+        "example": {
+          "pt": "Eu gosto de caminhar na praia.",
+          "en": "I like walking on the beach.",
+          "ru": "Я люблю гулять по пляжу."
+        }
+      },
+      {
+        "id": 14,
+        "word": {
+          "pt": "deserto",
+          "en": "desert",
+          "ru": "пустыня"
+        },
+        "example": {
+          "pt": "O deserto é muito quente durante o dia.",
+          "en": "The desert is very hot during the day.",
+          "ru": "Пустыня очень жаркая днём."
+        }
+      },
+      {
+        "id": 15,
+        "word": {
+          "pt": "cachoeira",
+          "en": "waterfall",
+          "ru": "водопад"
+        },
+        "example": {
+          "pt": "A cachoeira é linda.",
+          "en": "The waterfall is beautiful.",
+          "ru": "Водопад прекрасный."
+        }
+      },
+      {
+        "id": 16,
+        "word": {
+          "pt": "árvore",
+          "en": "tree",
+          "ru": "дерево"
+        },
+        "example": {
+          "pt": "A árvore é alta e verde.",
+          "en": "The tree is tall and green.",
+          "ru": "Дерево высокое и зелёное."
+        }
+      },
+      {
+        "id": 17,
+        "word": {
+          "pt": "flor",
+          "en": "flower",
+          "ru": "цветок"
+        },
+        "example": {
+          "pt": "Eu plantei flores no meu jardim.",
+          "en": "I planted flowers in my garden.",
+          "ru": "Я посадил цветы в своём саду."
+        }
+      },
+      {
+        "id": 18,
+        "word": {
+          "pt": "grama",
+          "en": "grass",
+          "ru": "трава"
+        },
+        "example": {
+          "pt": "A grama está molhada de manhã.",
+          "en": "The grass is wet in the morning.",
+          "ru": "Трава утром мокрая."
+        }
+      },
+      {
+        "id": 19,
+        "word": {
+          "pt": "pedra",
+          "en": "stone",
+          "ru": "камень"
+        },
+        "example": {
+          "pt": "Eu encontrei uma pedra bonita no rio.",
+          "en": "I found a beautiful stone in the river.",
+          "ru": "Я нашёл красивый камень в реке."
+        }
+      },
+      {
+        "id": 20,
+        "word": {
+          "pt": "vento",
+          "en": "wind",
+          "ru": "ветер"
+        },
+        "example": {
+          "pt": "O vento está forte hoje.",
+          "en": "The wind is strong today.",
+          "ru": "Ветер сильный сегодня."
+        }
+      },
+      {
+        "id": 21,
+        "word": {
+          "pt": "chuva",
+          "en": "rain",
+          "ru": "дождь"
+        },
+        "example": {
+          "pt": "A chuva começou de manhã.",
+          "en": "The rain started in the morning.",
+          "ru": "Дождь начался утром."
+        }
+      },
+      {
+        "id": 22,
+        "word": {
+          "pt": "nuvem",
+          "en": "cloud",
+          "ru": "облако"
+        },
+        "example": {
+          "pt": "Há muitas nuvens no céu.",
+          "en": "There are many clouds in the sky.",
+          "ru": "На небе много облаков."
+        }
+      },
+      {
+        "id": 23,
+        "word": {
+          "pt": "relâmpago",
+          "en": "lightning",
+          "ru": "молния"
+        },
+        "example": {
+          "pt": "O relâmpago foi muito forte.",
+          "en": "The lightning was very strong.",
+          "ru": "Молния была очень яркой."
+        }
+      },
+      {
+        "id": 24,
+        "word": {
+          "pt": "trovão",
+          "en": "thunder",
+          "ru": "гром"
+        },
+        "example": {
+          "pt": "Eu ouvi o trovão.",
+          "en": "I heard the thunder.",
+          "ru": "Я слышал гром."
+        }
+      },
+      {
+        "id": 25,
+        "word": {
+          "pt": "neve",
+          "en": "snow",
+          "ru": "снег"
+        },
+        "example": {
+          "pt": "A neve cobre as montanhas.",
+          "en": "Snow covers the mountains.",
+          "ru": "Снег покрывает горы."
+        }
+      },
+      {
+        "id": 26,
+        "word": {
+          "pt": "gelo",
+          "en": "ice",
+          "ru": "лёд"
+        },
+        "example": {
+          "pt": "O gelo está escorregadio.",
+          "en": "The ice is slippery.",
+          "ru": "Лёд скользкий."
+        }
+      },
+      {
+        "id": 27,
+        "word": {
+          "pt": "clima",
+          "en": "climate",
+          "ru": "климат"
+        },
+        "example": {
+          "pt": "O clima aqui é quente.",
+          "en": "The climate here is warm.",
+          "ru": "Климат здесь тёплый."
+        }
+      },
+      {
+        "id": 28,
+        "word": {
+          "pt": "tempo",
+          "en": "weather",
+          "ru": "погода"
+        },
+        "example": {
+          "pt": "O tempo mudou rapidamente.",
+          "en": "The weather changed quickly.",
+          "ru": "Погода изменилась быстро."
+        }
+      },
+      {
+        "id": 29,
+        "word": {
+          "pt": "tempestade",
+          "en": "storm",
+          "ru": "шторм"
+        },
+        "example": {
+          "pt": "A tempestade durou a noite toda.",
+          "en": "The storm lasted all night.",
+          "ru": "Шторм длился всю ночь."
+        }
+      },
+      {
+        "id": 30,
+        "word": {
+          "pt": "vento forte",
+          "en": "strong wind",
+          "ru": "сильный ветер"
+        },
+        "example": {
+          "pt": "O vento forte derrubou árvores.",
+          "en": "The strong wind knocked down trees.",
+          "ru": "Сильный ветер повалил деревья."
+        }
+      },
+      {
+        "id": 31,
+        "word": {
+          "pt": "arco-íris",
+          "en": "rainbow",
+          "ru": "радуга"
+        },
+        "example": {
+          "pt": "Eu vi um arco-íris depois da chuva.",
+          "en": "I saw a rainbow after the rain.",
+          "ru": "Я видел радугу после дождя."
+        }
+      },
+      {
+        "id": 32,
+        "word": {
+          "pt": "calor",
+          "en": "heat",
+          "ru": "жара"
+        },
+        "example": {
+          "pt": "O calor está intenso hoje.",
+          "en": "The heat is intense today.",
+          "ru": "Жара сегодня сильная."
+        }
+      },
+      {
+        "id": 33,
+        "word": {
+          "pt": "frio",
+          "en": "cold",
+          "ru": "холод"
+        },
+        "example": {
+          "pt": "O frio chegou esta semana.",
+          "en": "The cold arrived this week.",
+          "ru": "Холод пришёл на этой неделе."
+        }
+      },
+      {
+        "id": 34,
+        "word": {
+          "pt": "poluição",
+          "en": "pollution",
+          "ru": "загрязнение"
+        },
+        "example": {
+          "pt": "A poluição do ar é preocupante.",
+          "en": "Air pollution is concerning.",
+          "ru": "Загрязнение воздуха вызывает беспокойство."
+        }
+      },
+      {
+        "id": 35,
+        "word": {
+          "pt": "energia solar",
+          "en": "solar energy",
+          "ru": "солнечная энергия"
+        },
+        "example": {
+          "pt": "A energia solar é sustentável.",
+          "en": "Solar energy is sustainable.",
+          "ru": "Солнечная энергия устойчива."
+        }
+      },
+      {
+        "id": 36,
+        "word": {
+          "pt": "energia eólica",
+          "en": "wind energy",
+          "ru": "ветровая энергия"
+        },
+        "example": {
+          "pt": "A energia eólica é uma alternativa limpa.",
+          "en": "Wind energy is a clean alternative.",
+          "ru": "Ветровая энергия — это чистая альтернатива."
+        }
+      },
+      {
+        "id": 37,
+        "word": {
+          "pt": "reciclagem",
+          "en": "recycling",
+          "ru": "переработка"
+        },
+        "example": {
+          "pt": "A reciclagem ajuda o meio ambiente.",
+          "en": "Recycling helps the environment.",
+          "ru": "Переработка помогает окружающей среде."
+        }
+      },
+      {
+        "id": 38,
+        "word": {
+          "pt": "lixo",
+          "en": "trash",
+          "ru": "мусор"
+        },
+        "example": {
+          "pt": "Devemos separar o lixo reciclável.",
+          "en": "We should separate recyclable trash.",
+          "ru": "Нужно разделять перерабатываемый мусор."
+        }
+      },
+      {
+        "id": 39,
+        "word": {
+          "pt": "sustentável",
+          "en": "sustainable",
+          "ru": "устойчивый"
+        },
+        "example": {
+          "pt": "É importante usar práticas sustentáveis.",
+          "en": "It's important to use sustainable practices.",
+          "ru": "Важно использовать устойчивые практики."
+        }
+      },
+      {
+        "id": 40,
+        "word": {
+          "pt": "conservação",
+          "en": "conservation",
+          "ru": "сохранение"
+        },
+        "example": {
+          "pt": "A conservação da natureza é essencial.",
+          "en": "Nature conservation is essential.",
+          "ru": "Сохранение природы — это важно."
+        }
+      },
+      {
+        "id": 41,
+        "word": {
+          "pt": "planeta",
+          "en": "planet",
+          "ru": "планета"
+        },
+        "example": {
+          "pt": "O planeta Terra é lindo.",
+          "en": "The planet Earth is beautiful.",
+          "ru": "Планета Земля прекрасна."
+        }
+      },
+      {
+        "id": 42,
+        "word": {
+          "pt": "oceano",
+          "en": "ocean",
+          "ru": "океан"
+        },
+        "example": {
+          "pt": "O oceano é vasto.",
+          "en": "The ocean is vast.",
+          "ru": "Океан огромный."
+        }
+      },
+      {
+        "id": 43,
+        "word": {
+          "pt": "habitat",
+          "en": "habitat",
+          "ru": "среда обитания"
+        },
+        "example": {
+          "pt": "Os pandas vivem em seu habitat natural.",
+          "en": "Pandas live in their natural habitat.",
+          "ru": "Панды живут в своей естественной среде обитания."
+        }
+      },
+      {
+        "id": 44,
+        "word": {
+          "pt": "biodiversidade",
+          "en": "biodiversity",
+          "ru": "биоразнообразие"
+        },
+        "example": {
+          "pt": "A floresta amazônica tem grande biodiversidade.",
+          "en": "The Amazon rainforest has great biodiversity.",
+          "ru": "Амазонский лес богат биоразнообразием."
+        }
+      },
+      {
+        "id": 45,
+        "word": {
+          "pt": "fauna",
+          "en": "fauna",
+          "ru": "фауна"
+        },
+        "example": {
+          "pt": "A fauna da África é diversa.",
+          "en": "The fauna of Africa is diverse.",
+          "ru": "Фауна Африки разнообразна."
+        }
+      },
+      {
+        "id": 46,
+        "word": {
+          "pt": "flora",
+          "en": "flora",
+          "ru": "флора"
+        },
+        "example": {
+          "pt": "A flora tropical é exuberante.",
+          "en": "The tropical flora is lush.",
+          "ru": "Тропическая флора пышная."
+        }
+      },
+      {
+        "id": 47,
+        "word": {
+          "pt": "desmatamento",
+          "en": "deforestation",
+          "ru": "вырубка лесов"
+        },
+        "example": {
+          "pt": "O desmatamento afeta o meio ambiente.",
+          "en": "Deforestation affects the environment.",
+          "ru": "Вырубка лесов влияет на окружающую среду."
+        }
+      },
+      {
+        "id": 48,
+        "word": {
+          "pt": "ecossistema",
+          "en": "ecosystem",
+          "ru": "экосистема"
+        },
+        "example": {
+          "pt": "Devemos proteger o ecossistema.",
+          "en": "We must protect the ecosystem.",
+          "ru": "Мы должны защищать экосистему."
+        }
+      },
+      {
+        "id": 49,
+        "word": {
+          "pt": "natureza selvagem",
+          "en": "wildlife",
+          "ru": "дикая природа"
+        },
+        "example": {
+          "pt": "Eu amo fotografar a natureza selvagem.",
+          "en": "I love photographing wildlife.",
+          "ru": "Я люблю фотографировать дикую природу."
+        }
+      },
+      {
+        "id": 50,
+        "word": {
+          "pt": "preservação",
+          "en": "preservation",
+          "ru": "сохранение"
+        },
+        "example": {
+          "pt": "A preservação ambiental é vital.",
+          "en": "Environmental preservation is vital.",
+          "ru": "Сохранение окружающей среды жизненно важно."
+        }
+      },
+      {
+        "id": 51,
+        "word": {
+          "pt": "areia",
+          "en": "sand",
+          "ru": "песок"
+        },
+        "example": {
+          "pt": "A areia da praia é macia.",
+          "en": "The beach sand is soft.",
+          "ru": "Песок на пляже мягкий."
+        }
+      },
+      {
+        "id": 52,
+        "word": {
+          "pt": "campo",
+          "en": "field",
+          "ru": "поле"
+        },
+        "example": {
+          "pt": "O campo está cheio de flores.",
+          "en": "The field is full of flowers.",
+          "ru": "Поле полно цветов."
+        }
+      },
+      {
+        "id": 53,
+        "word": {
+          "pt": "folha",
+          "en": "leaf",
+          "ru": "лист"
+        },
+        "example": {
+          "pt": "A folha caiu da árvore.",
+          "en": "The leaf fell from the tree.",
+          "ru": "Лист упал с дерева."
+        }
+      },
+      {
+        "id": 54,
+        "word": {
+          "pt": "arbusto",
+          "en": "bush",
+          "ru": "куст"
+        },
+        "example": {
+          "pt": "Eu plantei arbustos no jardim.",
+          "en": "I planted bushes in the garden.",
+          "ru": "Я посадил кусты в саду."
+        }
+      },
+      {
+        "id": 55,
+        "word": {
+          "pt": "trilha",
+          "en": "trail",
+          "ru": "тропа"
+        },
+        "example": {
+          "pt": "A trilha leva à montanha.",
+          "en": "The trail leads to the mountain.",
+          "ru": "Тропа ведёт к горе."
+        }
+      },
+      {
+        "id": 56,
+        "word": {
+          "pt": "margem",
+          "en": "shore",
+          "ru": "берег"
+        },
+        "example": {
+          "pt": "A margem do rio é tranquila.",
+          "en": "The river shore is peaceful.",
+          "ru": "Берег реки спокойный."
+        }
+      },
+      {
+        "id": 57,
+        "word": {
+          "pt": "penhasco",
+          "en": "cliff",
+          "ru": "утёс"
+        },
+        "example": {
+          "pt": "O penhasco oferece uma vista incrível.",
+          "en": "The cliff provides an incredible view.",
+          "ru": "Утёс предлагает невероятный вид."
+        }
+      },
+      {
+        "id": 58,
+        "word": {
+          "pt": "vinhedo",
+          "en": "vineyard",
+          "ru": "виноградник"
+        },
+        "example": {
+          "pt": "Os vinhedos são comuns em Portugal.",
+          "en": "Vineyards are common in Portugal.",
+          "ru": "Виноградники распространены в Португалии."
+        }
+      },
+      {
+        "id": 59,
+        "word": {
+          "pt": "oliveira",
+          "en": "olive tree",
+          "ru": "оливковое дерево"
+        },
+        "example": {
+          "pt": "As oliveiras produzem azeite.",
+          "en": "Olive trees produce oil.",
+          "ru": "Оливковые деревья дают масло."
+        }
+      },
+      {
+        "id": 60,
+        "word": {
+          "pt": "baía",
+          "en": "bay",
+          "ru": "бухта"
+        },
+        "example": {
+          "pt": "A baía é protegida pelas montanhas.",
+          "en": "The bay is sheltered by mountains.",
+          "ru": "Бухта защищена горами."
+        }
+      },
+      {
+        "id": 61,
+        "word": {
+          "pt": "ilhotas",
+          "en": "islets",
+          "ru": "островки"
+        },
+        "example": {
+          "pt": "Existem várias ilhotas ao longo da costa.",
+          "en": "There are several islets along the coast.",
+          "ru": "Вдоль побережья есть несколько островков."
+        }
+      },
+      {
+        "id": 62,
+        "word": {
+          "pt": "maré",
+          "en": "tide",
+          "ru": "прилив и отлив"
+        },
+        "example": {
+          "pt": "A maré muda duas vezes ao dia.",
+          "en": "The tide changes twice a day.",
+          "ru": "Прилив и отлив происходят дважды в день."
+        }
+      },
+      {
+        "id": 63,
+        "word": {
+          "pt": "porto",
+          "en": "port",
+          "ru": "порт"
+        },
+        "example": {
+          "pt": "O porto está cheio de barcos.",
+          "en": "The port is full of boats.",
+          "ru": "Порт полон лодок."
+        }
+      },
+      {
+        "id": 64,
+        "word": {
+          "pt": "ilha",
+          "en": "island",
+          "ru": "остров"
+        },
+        "example": {
+          "pt": "Eu quero visitar uma ilha tropical.",
+          "en": "I want to visit a tropical island.",
+          "ru": "Я хочу посетить тропический остров."
+        }
+      },
+      {
+        "id": 65,
+        "word": {
+          "pt": "baía",
+          "en": "bay",
+          "ru": "залив"
+        },
+        "example": {
+          "pt": "Os barcos navegam na baía.",
+          "en": "The boats sail in the bay.",
+          "ru": "Лодки плывут в заливе."
+        }
+      },
+      {
+        "id": 66,
+        "word": {
+          "pt": "calor intenso",
+          "en": "intense heat",
+          "ru": "сильная жара"
+        },
+        "example": {
+          "pt": "O calor intenso marca o verão.",
+          "en": "Intense heat characterizes summer.",
+          "ru": "Сильная жара характерна для лета."
+        }
+      },
+      {
+        "id": 67,
+        "word": {
+          "pt": "costa",
+          "en": "coast",
+          "ru": "побережье"
+        },
+        "example": {
+          "pt": "A costa portuguesa é deslumbrante.",
+          "en": "The Portuguese coast is stunning.",
+          "ru": "Португальское побережье удивительно."
+        }
+      },
+      {
+        "id": 68,
+        "word": {
+          "pt": "terra fértil",
+          "en": "fertile soil",
+          "ru": "плодородная почва"
+        },
+        "example": {
+          "pt": "A terra fértil é ótima para plantações.",
+          "en": "Fertile soil is great for crops.",
+          "ru": "Плодородная почва отлично подходит для посадок."
+        }
+      },
+      {
+        "id": 69,
+        "word": {
+          "pt": "horta",
+          "en": "vegetable garden",
+          "ru": "огород"
+        },
+        "example": {
+          "pt": "Eu plantei tomates na horta.",
+          "en": "I planted tomatoes in the vegetable garden.",
+          "ru": "Я посадил помидоры в огороде."
+        }
+      },
+      {
+        "id": 70,
+        "word": {
+          "pt": "zona verde",
+          "en": "green zone",
+          "ru": "зелёная зона"
+        },
+        "example": {
+          "pt": "A cidade tem muitas zonas verdes.",
+          "en": "The city has many green zones.",
+          "ru": "В городе много зелёных зон."
+        }
+      },
+      {
+        "id": 71,
+        "word": {
+          "pt": "pedregulho",
+          "en": "pebble",
+          "ru": "галька"
+        },
+        "example": {
+          "pt": "A praia está cheia de pedregulhos.",
+          "en": "The beach is full of pebbles.",
+          "ru": "Пляж полон гальки."
+        }
+      },
+      {
+        "id": 72,
+        "word": {
+          "pt": "mato",
+          "en": "bushland",
+          "ru": "заросли"
+        },
+        "example": {
+          "pt": "Os animais vivem no mato.",
+          "en": "Animals live in the bushland.",
+          "ru": "Животные живут в зарослях."
+        }
+      },
+      {
+        "id": 73,
+        "word": {
+          "pt": "sol nascente",
+          "en": "sunrise",
+          "ru": "восход"
+        },
+        "example": {
+          "pt": "O sol nascente é lindo aqui.",
+          "en": "The sunrise is beautiful here.",
+          "ru": "Восход солнца здесь прекрасен."
+        }
+      },
+      {
+        "id": 74,
+        "word": {
+          "pt": "pôr do sol",
+          "en": "sunset",
+          "ru": "закат"
+        },
+        "example": {
+          "pt": "Assistimos ao pôr do sol na praia.",
+          "en": "We watched the sunset at the beach.",
+          "ru": "Мы смотрели закат на пляже."
+        }
+      },
+      {
+        "id": 75,
+        "word": {
+          "pt": "névoa",
+          "en": "mist",
+          "ru": "дымка"
+        },
+        "example": {
+          "pt": "A névoa cobre o vale pela manhã.",
+          "en": "The mist covers the valley in the morning.",
+          "ru": "Дымка покрывает долину утром."
+        }
+      },
+      {
+        "id": 76,
+        "word": {
+          "pt": "marés vivas",
+          "en": "spring tide",
+          "ru": "морской прилив"
+        },
+        "example": {
+          "pt": "As marés vivas são mais fortes na lua cheia.",
+          "en": "Spring tides are stronger during the full moon.",
+          "ru": "Морской прилив сильнее во время полнолуния."
+        }
+      },
+      {
+        "id": 77,
+        "word": {
+          "pt": "vento leve",
+          "en": "gentle breeze",
+          "ru": "лёгкий ветерок"
+        },
+        "example": {
+          "pt": "O vento leve refrescou o dia.",
+          "en": "The gentle breeze refreshed the day.",
+          "ru": "Лёгкий ветерок освежил день."
+        }
+      },
+      {
+        "id": 78,
+        "word": {
+          "pt": "curso de água",
+          "en": "stream",
+          "ru": "ручей"
+        },
+        "example": {
+          "pt": "O curso de água passa pelo bosque.",
+          "en": "The stream runs through the forest.",
+          "ru": "Ручей течёт через лес."
+        }
+      },
+      {
+        "id": 79,
+        "word": {
+          "pt": "pântano",
+          "en": "swamp",
+          "ru": "болото"
+        },
+        "example": {
+          "pt": "O pântano é o lar de muitas espécies.",
+          "en": "The swamp is home to many species.",
+          "ru": "Болото — дом для многих видов."
+        }
+      },
+      {
+        "id": 80,
+        "word": {
+          "pt": "lodo",
+          "en": "mud",
+          "ru": "грязь"
+        },
+        "example": {
+          "pt": "Depois da chuva, o caminho ficou cheio de lodo.",
+          "en": "After the rain, the path was full of mud.",
+          "ru": "После дождя тропа стала грязной."
+        }
+      },
+      {
+        "id": 81,
+        "word": {
+          "pt": "rocha",
+          "en": "rock",
+          "ru": "скала"
+        },
+        "example": {
+          "pt": "A rocha é resistente ao tempo.",
+          "en": "The rock withstands weathering.",
+          "ru": "Скала устойчива к выветриванию."
+        }
+      },
+      {
+        "id": 82,
+        "word": {
+          "pt": "erva",
+          "en": "herb",
+          "ru": "трава"
+        },
+        "example": {
+          "pt": "As ervas crescem rapidamente na primavera.",
+          "en": "Herbs grow quickly in spring.",
+          "ru": "Травы быстро растут весной."
+        }
+      },
+      {
+        "id": 83,
+        "word": {
+          "pt": "céu estrelado",
+          "en": "starry sky",
+          "ru": "звёздное небо"
+        },
+        "example": {
+          "pt": "O céu estrelado é maravilhoso.",
+          "en": "The starry sky is wonderful.",
+          "ru": "Звёздное небо великолепное."
+        }
+      },
+      {
+        "id": 84,
+        "word": {
+          "pt": "safra",
+          "en": "harvest",
+          "ru": "урожай"
+        },
+        "example": {
+          "pt": "A safra foi abundante este ano.",
+          "en": "The harvest was abundant this year.",
+          "ru": "Урожай в этом году был богатым."
+        }
+      },
+      {
+        "id": 85,
+        "word": {
+          "pt": "árido",
+          "en": "arid",
+          "ru": "засушливый"
+        },
+        "example": {
+          "pt": "O clima nesta região é árido.",
+          "en": "The climate in this region is arid.",
+          "ru": "Климат в этом регионе засушливый."
+        }
+      },
+      {
+        "id": 86,
+        "word": {
+          "pt": "várzea",
+          "en": "floodplain",
+          "ru": "пойма"
+        },
+        "example": {
+          "pt": "A várzea é fértil para plantações.",
+          "en": "The floodplain is fertile for crops.",
+          "ru": "Пойма плодородна для сельского хозяйства."
+        }
+      },
+      {
+        "id": 87,
+        "word": {
+          "pt": "madeira",
+          "en": "wood",
+          "ru": "дерево (материал)"
+        },
+        "example": {
+          "pt": "A madeira é usada para construir casas.",
+          "en": "Wood is used to build houses.",
+          "ru": "Древесина используется для строительства домов."
+        }
+      },
+      {
+        "id": 88,
+        "word": {
+          "pt": "semente",
+          "en": "seed",
+          "ru": "семя"
+        },
+        "example": {
+          "pt": "Eu plantei sementes no jardim.",
+          "en": "I planted seeds in the garden.",
+          "ru": "Я посадил семена в саду."
+        }
+      },
+      {
+        "id": 89,
+        "word": {
+          "pt": "gramado",
+          "en": "lawn",
+          "ru": "газон"
+        },
+        "example": {
+          "pt": "O gramado está bem cuidado.",
+          "en": "The lawn is well-maintained.",
+          "ru": "Газон ухоженный."
+        }
+      },
+      {
+        "id": 90,
+        "word": {
+          "pt": "arboredo",
+          "en": "grove",
+          "ru": "роща"
+        },
+        "example": {
+          "pt": "O arboredo é tranquilo para um piquenique.",
+          "en": "The grove is peaceful for a picnic.",
+          "ru": "Роща спокойная для пикника."
+        }
+      },
+      {
+        "id": 91,
+        "word": {
+          "pt": "solo",
+          "en": "soil",
+          "ru": "почва"
+        },
+        "example": {
+          "pt": "O solo é essencial para as plantas.",
+          "en": "Soil is essential for plants.",
+          "ru": "Почва необходима для растений."
+        }
+      },
+      {
+        "id": 92,
+        "word": {
+          "pt": "vale",
+          "en": "valley",
+          "ru": "долина"
+        },
+        "example": {
+          "pt": "O vale está rodeado por montanhas.",
+          "en": "The valley is surrounded by mountains.",
+          "ru": "Долина окружена горами."
+        }
+      },
+      {
+        "id": 93,
+        "word": {
+          "pt": "chuva forte",
+          "en": "heavy rain",
+          "ru": "сильный дождь"
+        },
+        "example": {
+          "pt": "A chuva forte causou inundações.",
+          "en": "The heavy rain caused flooding.",
+          "ru": "Сильный дождь вызвал наводнения."
+        }
+      },
+      {
+        "id": 94,
+        "word": {
+          "pt": "zona costeira",
+          "en": "coastal area",
+          "ru": "прибрежная зона"
+        },
+        "example": {
+          "pt": "A zona costeira é rica em biodiversidade.",
+          "en": "The coastal area is rich in biodiversity.",
+          "ru": "Прибрежная зона богата биоразнообразием."
+        }
+      },
+      {
+        "id": 95,
+        "word": {
+          "pt": "fauna marítima",
+          "en": "marine fauna",
+          "ru": "морская фауна"
+        },
+        "example": {
+          "pt": "A fauna marítima inclui muitos peixes.",
+          "en": "Marine fauna includes many fish.",
+          "ru": "Морская фауна включает множество рыб."
+        }
+      },
+      {
+        "id": 96,
+        "word": {
+          "pt": "recife de coral",
+          "en": "coral reef",
+          "ru": "коралловый риф"
+        },
+        "example": {
+          "pt": "Os recifes de coral são frágeis e belos.",
+          "en": "Coral reefs are fragile and beautiful.",
+          "ru": "Коралловые рифы хрупкие и красивые."
+        }
+      },
+      {
+        "id": 97,
+        "word": {
+          "pt": "chuva leve",
+          "en": "light rain",
+          "ru": "морось"
+        },
+        "example": {
+          "pt": "A chuva leve deixou o clima agradável.",
+          "en": "The light rain made the weather pleasant.",
+          "ru": "Морось сделала погоду приятной."
+        }
+      },
+      {
+        "id": 98,
+        "word": {
+          "pt": "região montanhosa",
+          "en": "mountainous region",
+          "ru": "горный регион"
+        },
+        "example": {
+          "pt": "A região montanhosa é excelente para trilhas.",
+          "en": "The mountainous region is great for hiking.",
+          "ru": "Горный регион отлично подходит для пеших прогулок."
+        }
+      },
+      {
+        "id": 99,
+        "word": {
+          "pt": "solo argiloso",
+          "en": "clay soil",
+          "ru": "глинистая почва"
+        },
+        "example": {
+          "pt": "O solo argiloso retém mais água.",
+          "en": "Clay soil retains more water.",
+          "ru": "Глинистая почва удерживает больше воды."
+        }
+      },
+      {
+        "id": 100,
+        "word": {
+          "pt": "floresta tropical",
+          "en": "rainforest",
+          "ru": "тропический лес"
+        },
+        "example": {
+          "pt": "A floresta tropical tem grande diversidade.",
+          "en": "The rainforest has great diversity.",
+          "ru": "Тропический лес обладает большим разнообразием."
+        }
+      }
+    ]
+}

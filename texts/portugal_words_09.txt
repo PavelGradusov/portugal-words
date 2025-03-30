@@ -1,0 +1,1309 @@
+{
+    "category": {
+      "pt": "Cores, adjetivos e características",
+      "en": "Colors, adjectives, and characteristics",
+      "ru": "Цвета, прилагательные и характеристики"
+    },
+    "words": [
+      {
+        "id": 1,
+        "word": {
+          "pt": "vermelho",
+          "en": "red",
+          "ru": "красный"
+        },
+        "example": {
+          "pt": "A maçã é vermelha.",
+          "en": "The apple is red.",
+          "ru": "Яблоко красное."
+        }
+      },
+      {
+        "id": 2,
+        "word": {
+          "pt": "azul",
+          "en": "blue",
+          "ru": "синий"
+        },
+        "example": {
+          "pt": "O céu é azul.",
+          "en": "The sky is blue.",
+          "ru": "Небо синее."
+        }
+      },
+      {
+        "id": 3,
+        "word": {
+          "pt": "amarelo",
+          "en": "yellow",
+          "ru": "жёлтый"
+        },
+        "example": {
+          "pt": "A flor é amarela.",
+          "en": "The flower is yellow.",
+          "ru": "Цветок жёлтый."
+        }
+      },
+      {
+        "id": 4,
+        "word": {
+          "pt": "verde",
+          "en": "green",
+          "ru": "зелёный"
+        },
+        "example": {
+          "pt": "A grama é verde.",
+          "en": "The grass is green.",
+          "ru": "Трава зелёная."
+        }
+      },
+      {
+        "id": 5,
+        "word": {
+          "pt": "preto",
+          "en": "black",
+          "ru": "чёрный"
+        },
+        "example": {
+          "pt": "O carro é preto.",
+          "en": "The car is black.",
+          "ru": "Машина чёрная."
+        }
+      },
+      {
+        "id": 6,
+        "word": {
+          "pt": "branco",
+          "en": "white",
+          "ru": "белый"
+        },
+        "example": {
+          "pt": "A neve é branca.",
+          "en": "The snow is white.",
+          "ru": "Снег белый."
+        }
+      },
+      {
+        "id": 7,
+        "word": {
+          "pt": "grande",
+          "en": "big",
+          "ru": "большой"
+        },
+        "example": {
+          "pt": "O elefante é grande.",
+          "en": "The elephant is big.",
+          "ru": "Слон большой."
+        }
+      },
+      {
+        "id": 8,
+        "word": {
+          "pt": "pequeno",
+          "en": "small",
+          "ru": "маленький"
+        },
+        "example": {
+          "pt": "O rato é pequeno.",
+          "en": "The mouse is small.",
+          "ru": "Мышь маленькая."
+        }
+      },
+      {
+        "id": 9,
+        "word": {
+          "pt": "bonito",
+          "en": "beautiful",
+          "ru": "красивый"
+        },
+        "example": {
+          "pt": "A paisagem é bonita.",
+          "en": "The landscape is beautiful.",
+          "ru": "Пейзаж красивый."
+        }
+      },
+      {
+        "id": 10,
+        "word": {
+          "pt": "feio",
+          "en": "ugly",
+          "ru": "некрасивый"
+        },
+        "example": {
+          "pt": "O quadro é feio.",
+          "en": "The picture is ugly.",
+          "ru": "Картина некрасивая."
+        }
+      },
+      {
+        "id": 11,
+        "word": {
+          "pt": "novo",
+          "en": "new",
+          "ru": "новый"
+        },
+        "example": {
+          "pt": "O livro é novo.",
+          "en": "The book is new.",
+          "ru": "Книга новая."
+        }
+      },
+      {
+        "id": 12,
+        "word": {
+          "pt": "velho",
+          "en": "old",
+          "ru": "старый"
+        },
+        "example": {
+          "pt": "O carro é velho.",
+          "en": "The car is old.",
+          "ru": "Машина старая."
+        }
+      },
+      {
+        "id": 13,
+        "word": {
+          "pt": "rápido",
+          "en": "fast",
+          "ru": "быстрый"
+        },
+        "example": {
+          "pt": "O trem é rápido.",
+          "en": "The train is fast.",
+          "ru": "Поезд быстрый."
+        }
+      },
+      {
+        "id": 14,
+        "word": {
+          "pt": "lento",
+          "en": "slow",
+          "ru": "медленный"
+        },
+        "example": {
+          "pt": "A tartaruga é lenta.",
+          "en": "The turtle is slow.",
+          "ru": "Черепаха медленная."
+        }
+      },
+      {
+        "id": 15,
+        "word": {
+          "pt": "fácil",
+          "en": "easy",
+          "ru": "лёгкий"
+        },
+        "example": {
+          "pt": "Este exercício é fácil.",
+          "en": "This exercise is easy.",
+          "ru": "Это упражнение лёгкое."
+        }
+      },
+      {
+        "id": 16,
+        "word": {
+          "pt": "difícil",
+          "en": "difficult",
+          "ru": "сложный"
+        },
+        "example": {
+          "pt": "O teste foi difícil.",
+          "en": "The test was difficult.",
+          "ru": "Тест был сложный."
+        }
+      },
+      {
+        "id": 17,
+        "word": {
+          "pt": "quente",
+          "en": "hot",
+          "ru": "жаркий"
+        },
+        "example": {
+          "pt": "O dia está quente.",
+          "en": "The day is hot.",
+          "ru": "День жаркий."
+        }
+      },
+      {
+        "id": 18,
+        "word": {
+          "pt": "frio",
+          "en": "cold",
+          "ru": "холодный"
+        },
+        "example": {
+          "pt": "A água está fria.",
+          "en": "The water is cold.",
+          "ru": "Вода холодная."
+        }
+      },
+      {
+        "id": 19,
+        "word": {
+          "pt": "alto",
+          "en": "tall",
+          "ru": "высокий"
+        },
+        "example": {
+          "pt": "O prédio é alto.",
+          "en": "The building is tall.",
+          "ru": "Здание высокое."
+        }
+      },
+      {
+        "id": 20,
+        "word": {
+          "pt": "baixo",
+          "en": "short",
+          "ru": "низкий"
+        },
+        "example": {
+          "pt": "O muro é baixo.",
+          "en": "The wall is short.",
+          "ru": "Забор низкий."
+        }
+      },
+      {
+        "id": 21,
+        "word": {
+          "pt": "cinza",
+          "en": "gray",
+          "ru": "серый"
+        },
+        "example": {
+          "pt": "O gato é cinza.",
+          "en": "The cat is gray.",
+          "ru": "Кот серый."
+        }
+      },
+      {
+        "id": 22,
+        "word": {
+          "pt": "laranja",
+          "en": "orange",
+          "ru": "оранжевый"
+        },
+        "example": {
+          "pt": "A camiseta é laranja.",
+          "en": "The T-shirt is orange.",
+          "ru": "Футболка оранжевая."
+        }
+      },
+      {
+        "id": 23,
+        "word": {
+          "pt": "roxo",
+          "en": "purple",
+          "ru": "фиолетовый"
+        },
+        "example": {
+          "pt": "A flor é roxa.",
+          "en": "The flower is purple.",
+          "ru": "Цветок фиолетовый."
+        }
+      },
+      {
+        "id": 24,
+        "word": {
+          "pt": "marrom",
+          "en": "brown",
+          "ru": "коричневый"
+        },
+        "example": {
+          "pt": "O cachorro é marrom.",
+          "en": "The dog is brown.",
+          "ru": "Собака коричневая."
+        }
+      },
+      {
+        "id": 25,
+        "word": {
+          "pt": "colorido",
+          "en": "colorful",
+          "ru": "яркий, разноцветный"
+        },
+        "example": {
+          "pt": "O quadro é colorido.",
+          "en": "The painting is colorful.",
+          "ru": "Картина яркая и разноцветная."
+        }
+      },
+      {
+        "id": 26,
+        "word": {
+          "pt": "escuro",
+          "en": "dark",
+          "ru": "тёмный"
+        },
+        "example": {
+          "pt": "O quarto está escuro.",
+          "en": "The room is dark.",
+          "ru": "Комната тёмная."
+        }
+      },
+      {
+        "id": 27,
+        "word": {
+          "pt": "claro",
+          "en": "light",
+          "ru": "светлый"
+        },
+        "example": {
+          "pt": "A parede é de cor clara.",
+          "en": "The wall is light-colored.",
+          "ru": "Стена светлая."
+        }
+      },
+      {
+        "id": 28,
+        "word": {
+          "pt": "fino",
+          "en": "thin",
+          "ru": "тонкий"
+        },
+        "example": {
+          "pt": "O papel é fino.",
+          "en": "The paper is thin.",
+          "ru": "Бумага тонкая."
+        }
+      },
+      {
+        "id": 29,
+        "word": {
+          "pt": "grosso",
+          "en": "thick",
+          "ru": "толстый"
+        },
+        "example": {
+          "pt": "O livro é grosso.",
+          "en": "The book is thick.",
+          "ru": "Книга толстая."
+        }
+      },
+      {
+        "id": 30,
+        "word": {
+          "pt": "comprido",
+          "en": "long",
+          "ru": "длинный"
+        },
+        "example": {
+          "pt": "O cabelo dela é comprido.",
+          "en": "Her hair is long.",
+          "ru": "Её волосы длинные."
+        }
+      },
+      {
+        "id": 31,
+        "word": {
+          "pt": "curto",
+          "en": "short",
+          "ru": "короткий"
+        },
+        "example": {
+          "pt": "O filme é curto.",
+          "en": "The movie is short.",
+          "ru": "Фильм короткий."
+        }
+      },
+      {
+        "id": 32,
+        "word": {
+          "pt": "pesado",
+          "en": "heavy",
+          "ru": "тяжёлый"
+        },
+        "example": {
+          "pt": "A caixa é pesada.",
+          "en": "The box is heavy.",
+          "ru": "Коробка тяжёлая."
+        }
+      },
+      {
+        "id": 33,
+        "word": {
+          "pt": "leve",
+          "en": "light (weight)",
+          "ru": "лёгкий (по весу)"
+        },
+        "example": {
+          "pt": "A bolsa é leve.",
+          "en": "The bag is light.",
+          "ru": "Сумка лёгкая."
+        }
+      },
+      {
+        "id": 34,
+        "word": {
+          "pt": "sujo",
+          "en": "dirty",
+          "ru": "грязный"
+        },
+        "example": {
+          "pt": "O chão está sujo.",
+          "en": "The floor is dirty.",
+          "ru": "Пол грязный."
+        }
+      },
+      {
+        "id": 35,
+        "word": {
+          "pt": "limpo",
+          "en": "clean",
+          "ru": "чистый"
+        },
+        "example": {
+          "pt": "O banheiro está limpo.",
+          "en": "The bathroom is clean.",
+          "ru": "Ванная чистая."
+        }
+      },
+      {
+        "id": 36,
+        "word": {
+          "pt": "macio",
+          "en": "soft",
+          "ru": "мягкий"
+        },
+        "example": {
+          "pt": "O travesseiro é macio.",
+          "en": "The pillow is soft.",
+          "ru": "Подушка мягкая."
+        }
+      },
+      {
+        "id": 37,
+        "word": {
+          "pt": "duro",
+          "en": "hard",
+          "ru": "твёрдый"
+        },
+        "example": {
+          "pt": "O pão está duro.",
+          "en": "The bread is hard.",
+          "ru": "Хлеб твёрдый."
+        }
+      },
+      {
+        "id": 38,
+        "word": {
+          "pt": "cheio",
+          "en": "full",
+          "ru": "полный"
+        },
+        "example": {
+          "pt": "O copo está cheio de água.",
+          "en": "The glass is full of water.",
+          "ru": "Стакан полный воды."
+        }
+      },
+      {
+        "id": 39,
+        "word": {
+          "pt": "vazio",
+          "en": "empty",
+          "ru": "пустой"
+        },
+        "example": {
+          "pt": "O quarto está vazio.",
+          "en": "The room is empty.",
+          "ru": "Комната пустая."
+        }
+      },
+      {
+        "id": 40,
+        "word": {
+          "pt": "amplo",
+          "en": "spacious",
+          "ru": "просторный"
+        },
+        "example": {
+          "pt": "A sala é ampla.",
+          "en": "The room is spacious.",
+          "ru": "Гостиная просторная."
+        }
+      },
+      {
+        "id": 41,
+        "word": {
+          "pt": "estreito",
+          "en": "narrow",
+          "ru": "узкий"
+        },
+        "example": {
+          "pt": "A rua é estreita.",
+          "en": "The street is narrow.",
+          "ru": "Улица узкая."
+        }
+      },
+      {
+        "id": 42,
+        "word": {
+          "pt": "largo",
+          "en": "wide",
+          "ru": "широкий"
+        },
+        "example": {
+          "pt": "O corredor é largo.",
+          "en": "The hallway is wide.",
+          "ru": "Коридор широкий."
+        }
+      },
+      {
+        "id": 43,
+        "word": {
+          "pt": "reto",
+          "en": "straight",
+          "ru": "прямой"
+        },
+        "example": {
+          "pt": "O caminho é reto.",
+          "en": "The path is straight.",
+          "ru": "Путь прямой."
+        }
+      },
+      {
+        "id": 44,
+        "word": {
+          "pt": "curvo",
+          "en": "curved",
+          "ru": "изогнутый"
+        },
+        "example": {
+          "pt": "A estrada é curva.",
+          "en": "The road is curved.",
+          "ru": "Дорога изогнутая."
+        }
+      },
+      {
+        "id": 45,
+        "word": {
+          "pt": "pontudo",
+          "en": "pointy",
+          "ru": "острый"
+        },
+        "example": {
+          "pt": "O lápis é pontudo.",
+          "en": "The pencil is pointy.",
+          "ru": "Карандаш острый."
+        }
+      },
+      {
+        "id": 46,
+        "word": {
+          "pt": "quadrado",
+          "en": "square",
+          "ru": "квадратный"
+        },
+        "example": {
+          "pt": "A mesa é quadrada.",
+          "en": "The table is square.",
+          "ru": "Стол квадратный."
+        }
+      },
+      {
+        "id": 47,
+        "word": {
+          "pt": "redondo",
+          "en": "round",
+          "ru": "круглый"
+        },
+        "example": {
+          "pt": "O prato é redondo.",
+          "en": "The plate is round.",
+          "ru": "Тарелка круглая."
+        }
+      },
+      {
+        "id": 48,
+        "word": {
+          "pt": "oval",
+          "en": "oval",
+          "ru": "овальный"
+        },
+        "example": {
+          "pt": "A pedra tem formato oval.",
+          "en": "The stone has an oval shape.",
+          "ru": "Камень имеет овальную форму."
+        }
+      },
+      {
+        "id": 49,
+        "word": {
+          "pt": "triangular",
+          "en": "triangular",
+          "ru": "треугольный"
+        },
+        "example": {
+          "pt": "O sinal de trânsito é triangular.",
+          "en": "The traffic sign is triangular.",
+          "ru": "Дорожный знак треугольный."
+        }
+      },
+      {
+        "id": 50,
+        "word": {
+          "pt": "forte",
+          "en": "strong",
+          "ru": "сильный"
+        },
+        "example": {
+          "pt": "Ele é forte.",
+          "en": "He is strong.",
+          "ru": "Он сильный."
+        }
+      },
+      {
+        "id": 51,
+        "word": {
+          "pt": "fraco",
+          "en": "weak",
+          "ru": "слабый"
+        },
+        "example": {
+          "pt": "O café está fraco.",
+          "en": "The coffee is weak.",
+          "ru": "Кофе слабый."
+        }
+      },
+      {
+        "id": 52,
+        "word": {
+          "pt": "rápido",
+          "en": "fast",
+          "ru": "быстрый"
+        },
+        "example": {
+          "pt": "O carro é rápido.",
+          "en": "The car is fast.",
+          "ru": "Машина быстрая."
+        }
+      },
+      {
+        "id": 53,
+        "word": {
+          "pt": "vivo",
+          "en": "alive",
+          "ru": "живой"
+        },
+        "example": {
+          "pt": "O peixe está vivo.",
+          "en": "The fish is alive.",
+          "ru": "Рыба живая."
+        }
+      },
+      {
+        "id": 54,
+        "word": {
+          "pt": "morto",
+          "en": "dead",
+          "ru": "мёртвый"
+        },
+        "example": {
+          "pt": "A planta está morta.",
+          "en": "The plant is dead.",
+          "ru": "Растение мёртвое."
+        }
+      },
+      {
+        "id": 55,
+        "word": {
+          "pt": "útil",
+          "en": "useful",
+          "ru": "полезный"
+        },
+        "example": {
+          "pt": "Este livro é útil.",
+          "en": "This book is useful.",
+          "ru": "Эта книга полезная."
+        }
+      },
+      {
+        "id": 56,
+        "word": {
+          "pt": "inútil",
+          "en": "useless",
+          "ru": "бесполезный"
+        },
+        "example": {
+          "pt": "Essa ferramenta é inútil.",
+          "en": "This tool is useless.",
+          "ru": "Этот инструмент бесполезный."
+        }
+      },
+      {
+        "id": 57,
+        "word": {
+          "pt": "agradável",
+          "en": "pleasant",
+          "ru": "приятный"
+        },
+        "example": {
+          "pt": "A música é agradável.",
+          "en": "The music is pleasant.",
+          "ru": "Музыка приятная."
+        }
+      },
+      {
+        "id": 58,
+        "word": {
+          "pt": "desagradável",
+          "en": "unpleasant",
+          "ru": "неприятный"
+        },
+        "example": {
+          "pt": "O cheiro é desagradável.",
+          "en": "The smell is unpleasant.",
+          "ru": "Запах неприятный."
+        }
+      },
+      {
+        "id": 59,
+        "word": {
+          "pt": "amigável",
+          "en": "friendly",
+          "ru": "дружелюбный"
+        },
+        "example": {
+          "pt": "O cachorro é amigável.",
+          "en": "The dog is friendly.",
+          "ru": "Собака дружелюбная."
+        }
+      },
+      {
+        "id": 60,
+        "word": {
+          "pt": "antipático",
+          "en": "unfriendly",
+          "ru": "недружелюбный"
+        },
+        "example": {
+          "pt": "Ele parece antipático.",
+          "en": "He seems unfriendly.",
+          "ru": "Он кажется недружелюбным."
+        }
+      },
+      {
+        "id": 61,
+        "word": {
+          "pt": "caro",
+          "en": "expensive",
+          "ru": "дорогой"
+        },
+        "example": {
+          "pt": "O relógio é caro.",
+          "en": "The watch is expensive.",
+          "ru": "Часы дорогие."
+        }
+      },
+      {
+        "id": 62,
+        "word": {
+          "pt": "barato",
+          "en": "cheap",
+          "ru": "дешёвый"
+        },
+        "example": {
+          "pt": "O livro é barato.",
+          "en": "The book is cheap.",
+          "ru": "Книга дешёвая."
+        }
+      },
+      {
+        "id": 63,
+        "word": {
+          "pt": "alegre",
+          "en": "cheerful",
+          "ru": "весёлый"
+        },
+        "example": {
+          "pt": "Ela é muito alegre.",
+          "en": "She is very cheerful.",
+          "ru": "Она очень весёлая."
+        }
+      },
+      {
+        "id": 64,
+        "word": {
+          "pt": "triste",
+          "en": "sad",
+          "ru": "грустный"
+        },
+        "example": {
+          "pt": "O dia está triste.",
+          "en": "The day is sad.",
+          "ru": "День грустный."
+        }
+      },
+      {
+        "id": 65,
+        "word": {
+          "pt": "inteligente",
+          "en": "intelligent",
+          "ru": "умный"
+        },
+        "example": {
+          "pt": "Ele é muito inteligente.",
+          "en": "He is very intelligent.",
+          "ru": "Он очень умный."
+        }
+      },
+      {
+        "id": 66,
+        "word": {
+          "pt": "bobo",
+          "en": "silly",
+          "ru": "глупый"
+        },
+        "example": {
+          "pt": "O comentário foi bobo.",
+          "en": "The comment was silly.",
+          "ru": "Комментарий был глупый."
+        }
+      },
+      {
+        "id": 67,
+        "word": {
+          "pt": "rápido",
+          "en": "quick",
+          "ru": "быстрый"
+        },
+        "example": {
+          "pt": "Ela respondeu rápido.",
+          "en": "She answered quickly.",
+          "ru": "Она ответила быстро."
+        }
+      },
+      {
+        "id": 68,
+        "word": {
+          "pt": "chato",
+          "en": "boring",
+          "ru": "скучный"
+        },
+        "example": {
+          "pt": "O filme foi chato.",
+          "en": "The movie was boring.",
+          "ru": "Фильм был скучный."
+        }
+      },
+      {
+        "id": 69,
+        "word": {
+          "pt": "interessante",
+          "en": "interesting",
+          "ru": "интересный"
+        },
+        "example": {
+          "pt": "O livro é interessante.",
+          "en": "The book is interesting.",
+          "ru": "Книга интересная."
+        }
+      },
+      {
+        "id": 70,
+        "word": {
+          "pt": "gordo",
+          "en": "fat",
+          "ru": "толстый"
+        },
+        "example": {
+          "pt": "O gato é gordo.",
+          "en": "The cat is fat.",
+          "ru": "Кот толстый."
+        }
+      },
+      {
+        "id": 71,
+        "word": {
+          "pt": "magro",
+          "en": "thin",
+          "ru": "худой"
+        },
+        "example": {
+          "pt": "O cachorro é magro.",
+          "en": "The dog is thin.",
+          "ru": "Собака худая."
+        }
+      },
+      {
+        "id": 72,
+        "word": {
+          "pt": "bonzinho",
+          "en": "kind",
+          "ru": "добрый"
+        },
+        "example": {
+          "pt": "Ele é bonzinho com todos.",
+          "en": "He is kind to everyone.",
+          "ru": "Он добр к каждому."
+        }
+      },
+      {
+        "id": 73,
+        "word": {
+          "pt": "mau",
+          "en": "bad",
+          "ru": "плохой"
+        },
+        "example": {
+          "pt": "O tempo está mau.",
+          "en": "The weather is bad.",
+          "ru": "Погода плохая."
+        }
+      },
+      {
+        "id": 74,
+        "word": {
+          "pt": "feliz",
+          "en": "happy",
+          "ru": "счастливый"
+        },
+        "example": {
+          "pt": "Ele está muito feliz hoje.",
+          "en": "He is very happy today.",
+          "ru": "Сегодня он очень счастлив."
+        }
+      },
+      {
+        "id": 75,
+        "word": {
+          "pt": "rápido",
+          "en": "swift",
+          "ru": "проворный"
+        },
+        "example": {
+          "pt": "O animal é rápido e ágil.",
+          "en": "The animal is swift and agile.",
+          "ru": "Животное проворное и ловкое."
+        }
+      },
+      {
+        "id": 76,
+        "word": {
+          "pt": "desorganizado",
+          "en": "messy",
+          "ru": "неаккуратный"
+        },
+        "example": {
+          "pt": "O quarto está desorganizado.",
+          "en": "The room is messy.",
+          "ru": "Комната неаккуратная."
+        }
+      },
+      {
+        "id": 77,
+        "word": {
+          "pt": "organizado",
+          "en": "organized",
+          "ru": "организованный"
+        },
+        "example": {
+          "pt": "A estante está bem organizada.",
+          "en": "The bookshelf is well-organized.",
+          "ru": "Книжная полка хорошо организована."
+        }
+      },
+      {
+        "id": 78,
+        "word": {
+          "pt": "educado",
+          "en": "polite",
+          "ru": "вежливый"
+        },
+        "example": {
+          "pt": "O aluno é educado com os professores.",
+          "en": "The student is polite to the teachers.",
+          "ru": "Ученик вежлив с учителями."
+        }
+      },
+      {
+        "id": 79,
+        "word": {
+          "pt": "teimoso",
+          "en": "stubborn",
+          "ru": "упрямый"
+        },
+        "example": {
+          "pt": "O menino é muito teimoso.",
+          "en": "The boy is very stubborn.",
+          "ru": "Мальчик очень упрямый."
+        }
+      },
+      {
+        "id": 80,
+        "word": {
+          "pt": "generoso",
+          "en": "generous",
+          "ru": "щедрый"
+        },
+        "example": {
+          "pt": "Ela é generosa com seus amigos.",
+          "en": "She is generous with her friends.",
+          "ru": "Она щедра с друзьями."
+        }
+      },
+      {
+        "id": 81,
+        "word": {
+          "pt": "simpático",
+          "en": "nice",
+          "ru": "приятный"
+        },
+        "example": {
+          "pt": "Ele é um homem simpático.",
+          "en": "He is a nice man.",
+          "ru": "Он приятный человек."
+        }
+      },
+      {
+        "id": 82,
+        "word": {
+          "pt": "nervoso",
+          "en": "nervous",
+          "ru": "нервный"
+        },
+        "example": {
+          "pt": "Ele ficou nervoso antes do teste.",
+          "en": "He got nervous before the test.",
+          "ru": "Он нервничал перед экзаменом."
+        }
+      },
+      {
+        "id": 83,
+        "word": {
+          "pt": "confiante",
+          "en": "confident",
+          "ru": "уверенный"
+        },
+        "example": {
+          "pt": "Ela está confiante no resultado.",
+          "en": "She is confident in the result.",
+          "ru": "Она уверена в результате."
+        }
+      },
+      {
+        "id": 84,
+        "word": {
+          "pt": "descontraído",
+          "en": "relaxed",
+          "ru": "расслабленный"
+        },
+        "example": {
+          "pt": "Ele parece descontraído hoje.",
+          "en": "He seems relaxed today.",
+          "ru": "Сегодня он выглядит расслабленным."
+        }
+      },
+      {
+        "id": 85,
+        "word": {
+          "pt": "preocupado",
+          "en": "worried",
+          "ru": "обеспокоенный"
+        },
+        "example": {
+          "pt": "Ela está preocupada com o exame.",
+          "en": "She is worried about the exam.",
+          "ru": "Она обеспокоена экзаменом."
+        }
+      },
+      {
+        "id": 86,
+        "word": {
+          "pt": "firme",
+          "en": "firm",
+          "ru": "твёрдый"
+        },
+        "example": {
+          "pt": "Ele tomou uma decisão firme.",
+          "en": "He made a firm decision.",
+          "ru": "Он принял твёрдое решение."
+        }
+      },
+      {
+        "id": 87,
+        "word": {
+          "pt": "flexível",
+          "en": "flexible",
+          "ru": "гибкий"
+        },
+        "example": {
+          "pt": "O material é flexível.",
+          "en": "The material is flexible.",
+          "ru": "Материал гибкий."
+        }
+      },
+      {
+        "id": 88,
+        "word": {
+          "pt": "rigoroso",
+          "en": "strict",
+          "ru": "строгий"
+        },
+        "example": {
+          "pt": "O professor é rigoroso.",
+          "en": "The teacher is strict.",
+          "ru": "Учитель строгий."
+        }
+      },
+      {
+        "id": 89,
+        "word": {
+          "pt": "preguiçoso",
+          "en": "lazy",
+          "ru": "ленивый"
+        },
+        "example": {
+          "pt": "Hoje eu estou preguiçoso.",
+          "en": "I feel lazy today.",
+          "ru": "Сегодня я чувствую себя ленивым."
+        }
+      },
+      {
+        "id": 90,
+        "word": {
+          "pt": "trabalhador",
+          "en": "hardworking",
+          "ru": "трудолюбивый"
+        },
+        "example": {
+          "pt": "Ele é muito trabalhador.",
+          "en": "He is very hardworking.",
+          "ru": "Он очень трудолюбивый."
+        }
+      },
+      {
+        "id": 91,
+        "word": {
+          "pt": "criativo",
+          "en": "creative",
+          "ru": "креативный"
+        },
+        "example": {
+          "pt": "Ela é muito criativa.",
+          "en": "She is very creative.",
+          "ru": "Она очень креативная."
+        }
+      },
+      {
+        "id": 92,
+        "word": {
+          "pt": "estranho",
+          "en": "strange",
+          "ru": "странный"
+        },
+        "example": {
+          "pt": "O som foi estranho.",
+          "en": "The sound was strange.",
+          "ru": "Звук был странным."
+        }
+      },
+      {
+        "id": 93,
+        "word": {
+          "pt": "sério",
+          "en": "serious",
+          "ru": "серьёзный"
+        },
+        "example": {
+          "pt": "Ele tem um olhar sério.",
+          "en": "He has a serious look.",
+          "ru": "У него серьёзный взгляд."
+        }
+      },
+      {
+        "id": 94,
+        "word": {
+          "pt": "divertido",
+          "en": "fun",
+          "ru": "весёлый"
+        },
+        "example": {
+          "pt": "O jogo foi divertido.",
+          "en": "The game was fun.",
+          "ru": "Игра была весёлой."
+        }
+      },
+      {
+        "id": 95,
+        "word": {
+          "pt": "honesto",
+          "en": "honest",
+          "ru": "честный"
+        },
+        "example": {
+          "pt": "Ele é muito honesto.",
+          "en": "He is very honest.",
+          "ru": "Он очень честный."
+        }
+      },
+      {
+        "id": 96,
+        "word": {
+          "pt": "justo",
+          "en": "fair",
+          "ru": "справедливый"
+        },
+        "example": {
+          "pt": "O juiz foi justo.",
+          "en": "The judge was fair.",
+          "ru": "Судья был справедливым."
+        }
+      },
+      {
+        "id": 97,
+        "word": {
+          "pt": "forte",
+          "en": "strong",
+          "ru": "сильный"
+        },
+        "example": {
+          "pt": "A tempestade foi forte.",
+          "en": "The storm was strong.",
+          "ru": "Буря была сильной."
+        }
+      },
+      {
+        "id": 98,
+        "word": {
+          "pt": "fraco",
+          "en": "weak",
+          "ru": "слабый"
+        },
+        "example": {
+          "pt": "O argumento foi fraco.",
+          "en": "The argument was weak.",
+          "ru": "Аргумент был слабым."
+        }
+      },
+      {
+        "id": 99,
+        "word": {
+          "pt": "perigoso",
+          "en": "dangerous",
+          "ru": "опасный"
+        },
+        "example": {
+          "pt": "O trabalho é perigoso.",
+          "en": "The job is dangerous.",
+          "ru": "Работа опасная."
+        }
+      },
+      {
+        "id": 100,
+        "word": {
+          "pt": "seguro",
+          "en": "safe",
+          "ru": "безопасный"
+        },
+        "example": {
+          "pt": "A cidade é segura.",
+          "en": "The city is safe.",
+          "ru": "Город безопасный."
+        }
+      }
+    ]
+}
