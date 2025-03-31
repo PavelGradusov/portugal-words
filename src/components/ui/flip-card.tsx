@@ -33,16 +33,16 @@ const FlipCard = ({
       >
         {/* Лицевая сторона */}
         <Card
-          className="w-full h-full absolute bg-white shadow-md rounded-lg"
+          className="w-full h-full absolute bg-muted shadow-md rounded-lg"
           style={{ backfaceVisibility: "hidden" }}
         >
           <CardHeader>
-            <CardTitle className="text-lg text-primary">Вопрос</CardTitle>
+            <CardTitle className="text-lg text-primary">Question</CardTitle>
             <CardDescription>{question}</CardDescription>
           </CardHeader>
           <CardContent className="flex items-center justify-center h-2/3">
             <p className="text-center text-gray-500">
-              Нажми, чтобы узнать ответ
+              press to know the answer
             </p>
           </CardContent>
         </Card>
@@ -53,13 +53,13 @@ const FlipCard = ({
           style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
         >
           <CardHeader>
-            <CardTitle className="text-lg">Ответ</CardTitle>
+            <CardTitle className="text-lg">Answer</CardTitle>
           </CardHeader>
           <CardContent className="flex items-center justify-center h-2/3">
             <p className="text-center">{answer}</p>
           </CardContent>
           <CardFooter className="justify-center">
-            <p className="text-sm text-gray-200">Нажми, чтобы вернуться</p>
+            <p className="text-sm text-gray-200">Press to back</p>
           </CardFooter>
         </Card>
       </motion.div>

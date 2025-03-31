@@ -1,28 +1,22 @@
-import { LightDarkToggle } from "./components/light-dark-toggle";
-import { Button } from "./components/ui/button";
-import FlipCard from "./components/ui/flip-card";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Layout from "./pages/layout";
 
 function App() {
   return (
-    <>
-      <div className="flex flex-col items-center justify-center min-h-svh">
-        <p className="text-2xl">Quem é o autor deste livro?</p>
-        <p className="font-[Winky_Sans] text-2xl">
-          Quem é o autor deste livro?
-        </p>
-        <p className="text-2xl">Who is the author of this book?</p>
-        <p className="text-2xl">Кто автор этой книги? jost</p>
+    <BrowserRouter>
+      <>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<h1>Выбирай чо хошь</h1>} />
+            <Route path="/one" element={<h1>ONE</h1>} />
+            <Route path="/two" element={<h1>TWO</h1>} />
+            <Route path="/three" element={<h1>THREE</h1>} />
 
-        <FlipCard
-          question="Что такое React?"
-          answer="React — это библиотека JavaScript для создания пользовательских интерфейсов."
-        />
-        <Button variant="default" className="m-2">
-          Next
-        </Button>
-      </div>
-      <LightDarkToggle className="fixed top-2 right-2 border-4 rounded-md p-1 border-gray-300 dark:border-gray-700" />
-    </>
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </Layout>
+      </>
+    </BrowserRouter>
   );
 }
 

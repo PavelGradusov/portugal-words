@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Разметка с Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <!-- Шапка с логотипом и названием -->
+    <header class="bg-gray-800 text-white p-4 flex items-center gap-4">
+      <img
+        src="https://via.placeholder.com/50"
+        alt="Логотип"
+        class="w-12 h-12"
+      />
+      <h1 class="text-xl font-bold">Название сайта</h1>
+    </header>
+
+    <!-- Основной контейнер с меню и контентом -->
+    <div class="flex flex-1">
+      <!-- Меню слева -->
+      <nav class="bg-gray-100 w-64 p-4 min-h-[calc(100vh-8rem)]">
+        <h2 class="text-lg font-semibold mb-4">Меню</h2>
+        <ul class="space-y-2">
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">Главная</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">О нас</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">Услуги</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Основной контент справа -->
+      <main class="flex-1 p-6 bg-white">
+        <h1 class="text-2xl font-bold mb-4">Основной контент</h1>
+        <p class="text-gray-600">
+          Здесь находится основной контент страницы. Футер будет виден внизу
+          экрана, если контента мало.
+        </p>
+        <!-- Для теста большого контента можно раскомментировать -->
+        <!-- <div class="h-[200vh] bg-gray-200 mt-4">Большой контент</div> -->
+      </main>
+    </div>
+
+    <!-- Футер -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+      <p>© 2025 Все права защищены</p>
+    </footer>
+  </body>
+</html>
