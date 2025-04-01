@@ -14,7 +14,7 @@ function RegularVerbsPage() {
       <div className="bg-primary p-2 my-4 text-center text-3xl font-bold uppercase tracking-widest">
         Regular verb rules
       </div>
-      <Table className="text-2xl">
+      <Table className="text-l lg:text-xl xl:text-2xl">
         <TableCaption>A list of regular verb rules</TableCaption>
         <TableHeader className="bg-green-700">
           <TableRow>

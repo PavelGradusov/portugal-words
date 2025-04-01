@@ -882,18 +882,29 @@ function RegularPage() {
       <div className="bg-primary p-2 my-4 text-center text-3xl font-bold uppercase tracking-widest">
         Regular verbs
       </div>
-      <Table className="text-2xl">
+      <Table className="text-l lg:text-xl xl:text-2xl">
         <TableCaption>A list of regular verbs</TableCaption>
         <TableHeader className="bg-green-700">
           <TableRow>
-            <TableHead className="w-32 uppercase">Verb</TableHead>
-            <TableHead className="w-32">Translate</TableHead>
-            <TableHead className="w-12">type</TableHead>
-            <TableHead className="w-24">Eu</TableHead>
-            <TableHead className="w-24">Tu</TableHead>
-            <TableHead className="w-24">Ele/Ela/Você</TableHead>
-            <TableHead className="w-24">Nós</TableHead>
-            <TableHead className="">Eles/Elas/Vocês</TableHead>
+            <TableHead className="w-32">
+              <span className="block uppercase">Verb</span>
+              <span className="block">(Translate)</span>
+            </TableHead>
+            {/* <TableHead className="w-32">Translate</TableHead> */}
+            {/* <TableHead className="w-12">type</TableHead> */}
+            <TableHead className="w-20">Eu</TableHead>
+            <TableHead className="w-20">Tu</TableHead>
+            <TableHead className="w-20">
+              <span className="block">Ele</span>
+              <span className="block">Ela</span>
+              <span className="block">Você</span>
+            </TableHead>
+            <TableHead className="w-20">Nós</TableHead>
+            <TableHead className="">
+              <span className="block">Eles</span>
+              <span className="block">Elas</span>
+              <span className="block">Vocês</span>
+            </TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -903,13 +914,16 @@ function RegularPage() {
                 key={verb.id}
                 className={verb.id % 2 === 0 ? "bg-secondary" : ""}
               >
-                <TableCell className="uppercase">{verb.verb}</TableCell>
-                <TableCell>{verb.translate}</TableCell>
                 <TableCell>
+                  <span className="uppercase block">{verb.verb}</span>
+                  <span className="block text-m lg:text-l xl:text-xl text-wrap">{`(${verb.translate})`}</span>
+                </TableCell>
+                {/* <TableCell>{verb.translate}</TableCell> */}
+                {/* <TableCell>
                   <span className="p-1.5 bg-primary rounded-xl">
                     {verb.type}
                   </span>
-                </TableCell>
+                </TableCell> */}
                 <TableCell>
                   {prepare(verb.verb, getPostfix(verb.type, "i"))}
                 </TableCell>

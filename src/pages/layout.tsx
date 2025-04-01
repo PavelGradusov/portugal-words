@@ -10,7 +10,7 @@ type Props = {
 
 function Layout({ children }: Props) {
   return (
-    <div className="">
+    <div>
       <header className="h-16 flex items-center justify-between">
         <NavLink to="/" className="flex items-center">
           <img
@@ -24,10 +24,10 @@ function Layout({ children }: Props) {
       </header>
       <Separator />
 
-      <div className="grid grid-cols-[250px_10px_1fr]">
+      <div className="lg:grid lg:grid-cols-[250px_1px_1fr]">
         <Menu />
-        <Separator orientation="vertical" />
-        <main className="p-4">{children}</main>
+        <Separator orientation="vertical" className="hidden lg:block " />
+        <main className="p-4 overflow-auto">{children}</main>
       </div>
 
       <Separator />

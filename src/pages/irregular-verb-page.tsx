@@ -424,17 +424,25 @@ function IrregularVerbsPage() {
       <div className="bg-primary p-2 my-4 text-center text-3xl font-bold uppercase tracking-widest">
         Irregular verbs
       </div>
-      <Table className="text-2xl">
+      <Table className="text-l lg:text-xl xl:text-2xl">
         <TableCaption>A list of irregular verbs</TableCaption>
         <TableHeader className="bg-green-700">
           <TableRow>
             <TableHead className="w-32 uppercase">Verb</TableHead>
             <TableHead className="w-32">Translate</TableHead>
-            <TableHead className="w-24">Eu</TableHead>
-            <TableHead className="w-24">Tu</TableHead>
-            <TableHead className="w-24">Ele/Ela/Você</TableHead>
-            <TableHead className="w-24">Nós</TableHead>
-            <TableHead className="">Eles/Elas/Vocês</TableHead>
+            <TableHead className="w-20">Eu</TableHead>
+            <TableHead className="w-20">Tu</TableHead>
+            <TableHead className="w-20">
+              <span className="block">Ele</span>
+              <span className="block">Ela</span>
+              <span className="block">Você</span>
+            </TableHead>
+            <TableHead className="w-20">Nós</TableHead>
+            <TableHead className="">
+              <span className="block">Eles</span>
+              <span className="block">Elas</span>
+              <span className="block">Vocês</span>
+            </TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>

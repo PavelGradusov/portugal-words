@@ -15,13 +15,8 @@ function App() {
               element={
                 <>
                   <h1 className="text-5xl font-bold tracking-wider p-10">
-                    Welcome
+                    Bem-vindo!
                   </h1>
-                  <img
-                    src="portugal_flag.jpg"
-                    alt="Portugal flag"
-                    className="max-h-[384px] ml-10"
-                  />
                 </>
               }
             />
