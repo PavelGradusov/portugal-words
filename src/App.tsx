@@ -4,31 +4,26 @@ import IrregularVerbsPage from "./pages/irregular-verb-page";
 import RegularVerbsPage from "./pages/regular-verb-rules-page";
 import RegularPage from "./pages/regular-page";
 import InterrogativePage from "./pages/interrogative-page";
+import { LanguageProvider } from "./context/language-context";
+import HelloPage from "./pages/hello-page";
 
 function App() {
   return (
     <BrowserRouter>
       <>
-        <Layout>
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <>
-                  <h1 className="text-5xl font-bold tracking-wider p-10">
-                    Bem-vindo!
-                  </h1>
-                </>
-              }
-            />
-            <Route path="/irregular" element={<IrregularVerbsPage />} />
-            <Route path="/regular-rules" element={<RegularVerbsPage />} />
-            <Route path="/regular" element={<RegularPage />} />
-            <Route path="/interrogative" element={<InterrogativePage />} />
+        <LanguageProvider>
+          <Layout>
+            <Routes>
+              <Route path="/" element={<HelloPage />} />
+              <Route path="/irregular" element={<IrregularVerbsPage />} />
+              <Route path="/regular-rules" element={<RegularVerbsPage />} />
+              <Route path="/regular" element={<RegularPage />} />
+              <Route path="/interrogative" element={<InterrogativePage />} />
 
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </Layout>
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </Layout>
+        </LanguageProvider>
       </>
     </BrowserRouter>
   );

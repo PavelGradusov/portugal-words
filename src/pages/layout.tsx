@@ -1,3 +1,4 @@
+import LanguageToggle from "@/components/language-toggle";
 import { LightDarkToggle } from "@/components/light-dark-toggle";
 import {
   Drawer,
@@ -34,9 +35,7 @@ function Layout({ children }: Props) {
           </h1>
         </NavLink>
         <div className="flex items-center">
-          <div className="border-4 rounded-md py-1 px-2 border-gray-300 dark:border-gray-700 hover:invert-25 duration-200">
-            RU
-          </div>
+          <LanguageToggle />
           <LightDarkToggle className="border-4 rounded-md p-1 m-2 border-gray-300 dark:border-gray-700" />
 
           {!isDesktop && (
