@@ -30,7 +30,7 @@ export function LightDarkToggle({ className }: Props) {
 
   return (
     <div
-      className={cn("hover:invert-25 duration-200", className)}
+      className={cn("hover:invert-25 duration-200 cursor-pointer", className)}
       onClick={() => {
         handleChangeMode(!isDarkMode);
       }}

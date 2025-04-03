@@ -47,7 +47,7 @@ function Layout({ children }: Props) {
                 onClose={() => setIsMobileMenuOpen(false)}
               >
                 <DrawerTitle />
-                <DrawerTrigger className="border-4 rounded-md p-1 mr-2 border-gray-300 dark:border-gray-700 hover:invert-25 duration-200">
+                <DrawerTrigger className="border-4 rounded-md p-1 mr-2 border-gray-300 dark:border-gray-700 hover:invert-25 duration-200 cursor-pointer">
                   <MenuIcon size="24px" />
                 </DrawerTrigger>
                 <DrawerContent>

@@ -1,8 +1,16 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 const storeVal = "lang";
 
-const LanguageContext = createContext();
+type RetProps = {
+  lang: string;
+  toggleLanguage: () => void;
+};
+
+export const LanguageContext = createContext<RetProps>({
+  lang: "EN",
+  toggleLanguage: () => {},
+});
 
 type Props = {
   children: React.ReactNode;
@@ -32,11 +40,4 @@ function LanguageProvider({ children }: Props) {
   );
 }
 
-function useLanguage() {
-  const context = useContext(LanguageContext);
-  if (context === undefined)
-    throw Error("DarkModeContext was used outside of DarkModeProvider");
-  return context;
-}
-
-export { LanguageProvider, useLanguage };
+export { LanguageProvider };
