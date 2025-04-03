@@ -27,12 +27,18 @@ function Layout({ children }: Props) {
           <img
             src="/portugal-svgrepo-com.svg"
             alt="icon"
-            className="w-10 m-2"
+            className="w-8 min-[430px]:w-10 m-2"
           />
-          <h1 className="uppercase text-3xl">Portugal Words</h1>
+          <h1 className="uppercase text-2xl min-[430px]:text-3xl">
+            Portugal Words
+          </h1>
         </NavLink>
         <div className="flex items-center">
+          <div className="border-4 rounded-md py-1 px-2 border-gray-300 dark:border-gray-700 hover:invert-25 duration-200">
+            RU
+          </div>
           <LightDarkToggle className="border-4 rounded-md p-1 m-2 border-gray-300 dark:border-gray-700" />
+
           {!isDesktop && (
             <div>
               <Drawer
@@ -42,7 +48,7 @@ function Layout({ children }: Props) {
                 onClose={() => setIsMobileMenuOpen(false)}
               >
                 <DrawerTitle />
-                <DrawerTrigger className="border-4 rounded-md p-1 mr-2 border-gray-300 dark:border-gray-700">
+                <DrawerTrigger className="border-4 rounded-md p-1 mr-2 border-gray-300 dark:border-gray-700 hover:invert-25 duration-200">
                   <MenuIcon size="24px" />
                 </DrawerTrigger>
                 <DrawerContent>
