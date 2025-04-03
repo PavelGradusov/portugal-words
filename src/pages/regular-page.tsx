@@ -884,14 +884,12 @@ function RegularPage() {
       </div>
       <Table className="text-l lg:text-xl xl:text-2xl">
         <TableCaption>A list of regular verbs</TableCaption>
-        <TableHeader className="bg-green-700">
-          <TableRow>
+        <TableHeader className="primary-darker-color">
+          <TableRow className="hover:bg-transparent">
             <TableHead className="w-32">
               <span className="block uppercase">Verb</span>
               <span className="block">(Translate)</span>
             </TableHead>
-            {/* <TableHead className="w-32">Translate</TableHead> */}
-            {/* <TableHead className="w-12">type</TableHead> */}
             <TableHead className="w-20">Eu</TableHead>
             <TableHead className="w-20">Tu</TableHead>
             <TableHead className="w-20">
@@ -912,18 +910,16 @@ function RegularPage() {
             return (
               <TableRow
                 key={verb.id}
-                className={verb.id % 2 === 0 ? "bg-secondary" : ""}
+                className={
+                  verb.id % 2 === 0
+                    ? "bg-secondary hover:bg-secondary"
+                    : "hover:bg-transparent"
+                }
               >
                 <TableCell>
                   <span className="uppercase block">{verb.verb}</span>
                   <span className="block text-m lg:text-l xl:text-xl text-wrap">{`(${verb.translate})`}</span>
                 </TableCell>
-                {/* <TableCell>{verb.translate}</TableCell> */}
-                {/* <TableCell>
-                  <span className="p-1.5 bg-primary rounded-xl">
-                    {verb.type}
-                  </span>
-                </TableCell> */}
                 <TableCell>
                   {prepare(verb.verb, getPostfix(verb.type, "i"))}
                 </TableCell>

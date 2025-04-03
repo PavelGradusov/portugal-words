@@ -1,7 +1,15 @@
 import { LightDarkToggle } from "@/components/light-dark-toggle";
+import {
+  Drawer,
+  DrawerContent,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 import Menu from "@/components/ui/menu";
 import { Separator } from "@/components/ui/separator";
-import { ReactNode } from "react";
+import { useMediaQuery } from "@/hooks/use-media-query";
+import { MenuIcon } from "lucide-react";
+import { ReactNode, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 type Props = {
@@ -9,6 +17,9 @@ type Props = {
 };
 
 function Layout({ children }: Props) {
+  const isDesktop = useMediaQuery("(min-width: 1024px)");
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
     <div>
       <header className="h-16 flex items-center justify-between">
@@ -20,14 +31,38 @@ function Layout({ children }: Props) {
           />
           <h1 className="uppercase text-3xl">Portugal Words</h1>
         </NavLink>
-        <LightDarkToggle className="border-4 rounded-md p-1 m-2 border-gray-300 dark:border-gray-700" />
+        <div className="flex items-center">
+          <LightDarkToggle className="border-4 rounded-md p-1 m-2 border-gray-300 dark:border-gray-700" />
+          {!isDesktop && (
+            <div>
+              <Drawer
+                direction="right"
+                open={isMobileMenuOpen}
+                onOpenChange={(open) => setIsMobileMenuOpen(open)}
+                onClose={() => setIsMobileMenuOpen(false)}
+              >
+                <DrawerTitle />
+                <DrawerTrigger className="border-4 rounded-md p-1 mr-2 border-gray-300 dark:border-gray-700">
+                  <MenuIcon size="24px" />
+                </DrawerTrigger>
+                <DrawerContent>
+                  <Menu />
+                </DrawerContent>
+              </Drawer>
+            </div>
+          )}
+        </div>
       </header>
       <Separator />
 
       <div className="lg:grid lg:grid-cols-[250px_1px_1fr]">
-        <Menu />
+        <div className="hidden lg:block">
+          <Menu />
+        </div>
         <Separator orientation="vertical" className="hidden lg:block " />
-        <main className="p-4 overflow-auto">{children}</main>
+        <main className="p-4 overflow-auto min-h-[calc(100vh-6.5rem)]">
+          {children}
+        </main>
       </div>
 
       <Separator />

@@ -16,8 +16,8 @@ function RegularVerbsPage() {
       </div>
       <Table className="text-l lg:text-xl xl:text-2xl">
         <TableCaption>A list of regular verb rules</TableCaption>
-        <TableHeader className="bg-green-700">
-          <TableRow>
+        <TableHeader className="primary-darker-color">
+          <TableRow className="hover:bg-transparent">
             <TableHead className="w-64 uppercase">Group</TableHead>
             <TableHead className="w-32">AR</TableHead>
             <TableHead className="w-32">ER</TableHead>
@@ -25,31 +25,31 @@ function RegularVerbsPage() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          <TableRow>
+          <TableRow className="hover:bg-transparent">
             <TableCell className="uppercase">Eu</TableCell>
             <TableCell>-o</TableCell>
             <TableCell>-o</TableCell>
             <TableCell>-o</TableCell>
           </TableRow>
-          <TableRow className="bg-secondary">
+          <TableRow className="bg-secondary hover:bg-secondary">
             <TableCell className="uppercase">Tu</TableCell>
             <TableCell>-as</TableCell>
             <TableCell>-es</TableCell>
             <TableCell>-es</TableCell>
           </TableRow>
-          <TableRow>
+          <TableRow className="hover:bg-transparent">
             <TableCell className="uppercase">Ele/Ela/Você</TableCell>
             <TableCell>-a</TableCell>
             <TableCell>-e</TableCell>
             <TableCell>-e</TableCell>
           </TableRow>
-          <TableRow className="bg-secondary">
+          <TableRow className="bg-secondary hover:bg-secondary">
             <TableCell className="uppercase">Nós</TableCell>
             <TableCell>-amos</TableCell>
             <TableCell>-emos</TableCell>
             <TableCell>-imos</TableCell>
           </TableRow>
-          <TableRow>
+          <TableRow className="hover:bg-transparent">
             <TableCell className="uppercase">Eles/Elas/Vocês</TableCell>
             <TableCell>-am</TableCell>
             <TableCell>-em</TableCell>

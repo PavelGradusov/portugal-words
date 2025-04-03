@@ -3,6 +3,7 @@ import Layout from "./pages/layout";
 import IrregularVerbsPage from "./pages/irregular-verb-page";
 import RegularVerbsPage from "./pages/regular-verb-rules-page";
 import RegularPage from "./pages/regular-page";
+import InterrogativePage from "./pages/interrogative-page";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/irregular" element={<IrregularVerbsPage />} />
             <Route path="/regular-rules" element={<RegularVerbsPage />} />
             <Route path="/regular" element={<RegularPage />} />
+            <Route path="/interrogative" element={<InterrogativePage />} />
 
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

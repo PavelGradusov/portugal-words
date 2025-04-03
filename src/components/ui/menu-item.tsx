@@ -1,5 +1,7 @@
 import { cn } from "@/lib/utils";
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { DrawerContext } from "./drawer";
 
 type Props = {
   children: React.ReactNode;
@@ -7,6 +9,8 @@ type Props = {
 };
 
 export default function MenuItem({ children, href }: Props) {
+  const { onClose } = useContext(DrawerContext);
+
   return (
     <NavLink
       to={href}
@@ -17,6 +21,7 @@ export default function MenuItem({ children, href }: Props) {
             "bg-primary hover:bg-primary hover:text-primary-foreground text-primary-foreground"
         )
       }
+      onClick={onClose}
     >
       {children}
     </NavLink>

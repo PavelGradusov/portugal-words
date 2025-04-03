@@ -130,7 +130,7 @@ const irregularVerbs: VerbType[] = [
     verbForms: {
       i: "vejo",
       you: "vês",
-      heSheIt: "вê",
+      heSheIt: "vê",
       we: "vemos",
       they: "veem",
     },
@@ -426,8 +426,8 @@ function IrregularVerbsPage() {
       </div>
       <Table className="text-l lg:text-xl xl:text-2xl">
         <TableCaption>A list of irregular verbs</TableCaption>
-        <TableHeader className="bg-green-700">
-          <TableRow>
+        <TableHeader className="primary-darker-color">
+          <TableRow className="hover:bg-transparent">
             <TableHead className="w-32 uppercase">Verb</TableHead>
             <TableHead className="w-32">Translate</TableHead>
             <TableHead className="w-20">Eu</TableHead>
@@ -450,7 +450,11 @@ function IrregularVerbsPage() {
             return (
               <TableRow
                 key={verb.id}
-                className={verb.id % 2 === 0 ? "bg-secondary" : ""}
+                className={
+                  verb.id % 2 === 0
+                    ? "bg-secondary hover:bg-secondary"
+                    : "hover:bg-transparent"
+                }
               >
                 <TableCell className="uppercase">{verb.verb}</TableCell>
                 <TableCell>{verb.translation}</TableCell>
