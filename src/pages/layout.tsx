@@ -60,7 +60,7 @@ function Layout({ children }: Props) {
       </header>
       <Separator />
 
-      <div className="lg:grid lg:grid-cols-[250px_1px_1fr]">
+      <div className="lg:grid lg:grid-cols-[320px_1px_1fr]">
         <div className="hidden lg:block">
           <Menu />
         </div>

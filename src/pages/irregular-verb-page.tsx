@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import useLanguage from "@/hooks/use-language";
 
 type VerbType = {
   id: number;
@@ -419,17 +420,27 @@ const irregularVerbs: VerbType[] = [
 ];
 
 function IrregularVerbsPage() {
+  const { lang } = useLanguage();
+
   return (
     <>
       <div className="bg-primary p-2 my-4 text-center text-3xl font-bold uppercase tracking-widest">
-        Irregular verbs
+        {lang === "EN" ? "Irregular verbs" : "Неправильные глаголы"}
       </div>
       <Table className="text-l lg:text-xl xl:text-2xl">
-        <TableCaption>A list of irregular verbs</TableCaption>
+        <TableCaption>
+          {lang === "EN"
+            ? "A list of irregular verbs"
+            : "Список неправильных глаголов"}
+        </TableCaption>
         <TableHeader className="primary-darker-color">
           <TableRow className="hover:bg-transparent">
-            <TableHead className="w-32 uppercase">Verb</TableHead>
-            <TableHead className="w-32">Translate</TableHead>
+            <TableHead className="w-32 uppercase">
+              {lang === "EN" ? "Verb" : "Глагол"}
+            </TableHead>
+            <TableHead className="w-32">
+              {lang === "EN" ? "Translate" : "Перевод"}
+            </TableHead>
             <TableHead className="w-20">Eu</TableHead>
             <TableHead className="w-20">Tu</TableHead>
             <TableHead className="w-20">
@@ -457,7 +468,12 @@ function IrregularVerbsPage() {
                 }
               >
                 <TableCell className="uppercase">{verb.verb}</TableCell>
-                <TableCell>{verb.translation}</TableCell>
+                <TableCell>
+                  {" "}
+                  <span className="text-wrap">
+                    {lang === "EN" ? verb.translation : verb.translationRu}
+                  </span>
+                </TableCell>
                 <TableCell>{verb.verbForms.i}</TableCell>
                 <TableCell>{verb.verbForms.you}</TableCell>
                 <TableCell>{verb.verbForms.heSheIt}</TableCell>

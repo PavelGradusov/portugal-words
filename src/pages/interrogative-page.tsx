@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import useLanguage from "@/hooks/use-language";
 
 const words = [
   {
@@ -327,18 +328,29 @@ const words = [
 ];
 
 function InterrogativePage() {
+  const { lang } = useLanguage();
+
   return (
     <>
       <div className="bg-primary p-2 my-4 text-center text-3xl font-bold uppercase tracking-widest">
-        Interrogative words
+        {lang === "EN" ? "Interrogative words" : "Вопросительные слова"}
       </div>
       <Table className="text-l lg:text-xl xl:text-2xl">
-        <TableCaption>A list of regular verb rules</TableCaption>
+        <TableCaption>
+          {" "}
+          {lang === "EN"
+            ? "A list of interrogative words"
+            : "Список вопросительных слов"}
+        </TableCaption>
         <TableHeader className="primary-darker-color">
           <TableRow className="hover:bg-transparent">
             <TableHead className="w-24">
-              <span className="block">Interrogative word</span>
-              <span className="block ">(Translate)</span>
+              <span className="block">
+                {lang === "EN" ? "Interrogative word" : "Вопрос"}
+              </span>
+              <span className="block ">
+                ({lang === "EN" ? "Translate" : "Перевод"})
+              </span>
             </TableHead>
             <TableHead className="">Examples</TableHead>
           </TableRow>
@@ -360,13 +372,13 @@ function InterrogativePage() {
                 >
                   <span className="block">{word.word.pt}?</span>
                   <span className="block text-m lg:text-l xl:text-xl text-wrap mt-2 ml-4">
-                    ({word.word.en}?)
+                    ({lang === "EN" ? word.word.en : word.word.ru}?)
                   </span>
                 </TableCell>
                 <TableCell>
                   <span className="block text-wrap">{word.example[0].pt}</span>
                   <span className="block text-m lg:text-l xl:text-xl text-wrap mt-2 ml-4">
-                    ({word.example[0].en})
+                    ({lang === "EN" ? word.example[0].en : word.example[0].ru})
                   </span>
                 </TableCell>
               </TableRow>
@@ -387,7 +399,7 @@ function InterrogativePage() {
                       {" "}
                       <span className="block text-wrap">{ex.pt}</span>
                       <span className="block text-m lg:text-l xl:text-xl text-wrap mt-2 ml-4">
-                        ({ex.en})
+                        ({lang === "EN" ? ex.en : ex.ru})
                       </span>
                     </TableCell>
                   </TableRow>

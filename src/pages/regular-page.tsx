@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import useLanguage from "@/hooks/use-language";
 
 type VerbPostfixForms = {
   i: string;
@@ -867,6 +868,8 @@ const verbs: Verb[] = [
 ];
 
 function RegularPage() {
+  const { lang } = useLanguage();
+
   const prepare = (verb: string, postfix: string): string => {
     return verb.slice(0, -2) + postfix;
   };
@@ -880,15 +883,23 @@ function RegularPage() {
   return (
     <>
       <div className="bg-primary p-2 my-4 text-center text-3xl font-bold uppercase tracking-widest">
-        Regular verbs
+        {lang === "EN" ? "Regular verbs" : "Правильные глаголы"}
       </div>
       <Table className="text-l lg:text-xl xl:text-2xl">
-        <TableCaption>A list of regular verbs</TableCaption>
+        <TableCaption>
+          {lang === "EN"
+            ? "A list of regular verbs"
+            : "Список правильных глаголов"}
+        </TableCaption>
         <TableHeader className="primary-darker-color">
           <TableRow className="hover:bg-transparent">
             <TableHead className="w-32">
-              <span className="block uppercase">Verb</span>
-              <span className="block">(Translate)</span>
+              <span className="block uppercase">
+                {lang === "EN" ? "Verb" : "Глагол"}
+              </span>
+              <span className="block">
+                ({lang === "EN" ? "translate" : "перевод"})
+              </span>
             </TableHead>
             <TableHead className="w-20">Eu</TableHead>
             <TableHead className="w-20">Tu</TableHead>
@@ -918,7 +929,9 @@ function RegularPage() {
               >
                 <TableCell>
                   <span className="uppercase block">{verb.verb}</span>
-                  <span className="block text-m lg:text-l xl:text-xl text-wrap">{`(${verb.translate})`}</span>
+                  <span className="block text-m lg:text-l xl:text-xl text-wrap">
+                    ({lang === "EN" ? verb.translate : verb.translateRu})
+                  </span>
                 </TableCell>
                 <TableCell>
                   {prepare(verb.verb, getPostfix(verb.type, "i"))}
