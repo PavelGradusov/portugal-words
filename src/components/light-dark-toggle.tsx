@@ -35,7 +35,7 @@ export function LightDarkToggle({ className }: Props) {
         handleChangeMode(!isDarkMode);
       }}
     >
-      {isDarkMode ? <MoonIcon /> : <SunIcon />}
+      {isDarkMode ? <SunIcon /> : <MoonIcon />}
     </div>
   );
 }
