@@ -1,13 +1,7 @@
+import useLanguage from "@/hooks/use-language";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./card";
+import { Card, CardContent, CardHeader, CardTitle } from "./card";
 
 const FlipCard = ({
   question,
@@ -17,13 +11,14 @@ const FlipCard = ({
   answer: string;
 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
+  const { lang } = useLanguage();
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
   };
 
   return (
-    <div className="w-64 h-80 relative" style={{ perspective: "1000px" }}>
+    <div className="aspect-[2/3]  h-4/5 relative m-8">
       <motion.div
         className="w-full h-full cursor-pointer"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
@@ -37,30 +32,32 @@ const FlipCard = ({
           style={{ backfaceVisibility: "hidden" }}
         >
           <CardHeader>
-            <CardTitle className="text-lg text-primary">Question</CardTitle>
-            <CardDescription>{question}</CardDescription>
+            <CardTitle className="text-sm text-primary">
+              {lang === "EN" ? "Question" : "Вопрос"}
+            </CardTitle>
+            {/* <CardDescription>{question}</CardDescription> */}
           </CardHeader>
-          <CardContent className="flex items-center justify-center h-2/3">
-            <p className="text-center text-gray-500">
-              press to know the answer
-            </p>
+          <CardContent className="flex items-center justify-center h-2/3 text-2xl ">
+            <p className="text-center">{question}</p>
           </CardContent>
         </Card>
 
         {/* Обратная сторона */}
         <Card
-          className="w-full h-full absolute bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-md rounded-lg"
+          className="w-full h-full absolute bg-gradient-to-br from-green-500 to-green-600 text-white shadow-md rounded-lg"
           style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
         >
           <CardHeader>
-            <CardTitle className="text-lg">Answer</CardTitle>
+            <CardTitle className="text-sm">
+              {lang === "EN" ? "Answer" : "Ответ"}
+            </CardTitle>
           </CardHeader>
-          <CardContent className="flex items-center justify-center h-2/3">
+          <CardContent className="flex items-center justify-center h-2/3 text-3xl">
             <p className="text-center">{answer}</p>
           </CardContent>
-          <CardFooter className="justify-center">
+          {/* <CardFooter className="justify-center">
             <p className="text-sm text-gray-200">Press to back</p>
-          </CardFooter>
+          </CardFooter> */}
         </Card>
       </motion.div>
     </div>

@@ -142,6 +142,10 @@
   .primary-darker-color {
     background-color: oklch(0.6 0.1525 141.93);
   }
+
+  .primary-lighter-color {
+    background-color: oklch(0.76 0.151 142.12);
+  }
 }
 
 @layer base {

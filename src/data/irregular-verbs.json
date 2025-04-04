@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "verb": "ser",
+    "translation": "to be (permanent)",
+    "translationRu": "быть (постоянное состояние)",
+    "verbForms": {
+      "i": "sou",
+      "you": "és",
+      "heSheIt": "é",
+      "we": "somos",
+      "they": "são"
+    },
+    "url": ""
+  },
+  {
+    "id": 2,
+    "verb": "estar",
+    "translation": "to be (temporary)",
+    "translationRu": "быть (временное состояние)",
+    "verbForms": {
+      "i": "estou",
+      "you": "estás",
+      "heSheIt": "está",
+      "we": "estamos",
+      "they": "estão"
+    },
+    "url": ""
+  },
+  {
+    "id": 3,
+    "verb": "ter",
+    "translation": "to have",
+    "translationRu": "иметь",
+    "verbForms": {
+      "i": "tenho",
+      "you": "tens",
+      "heSheIt": "tem",
+      "we": "temos",
+      "they": "têm"
+    },
+    "url": ""
+  },
+  {
+    "id": 4,
+    "verb": "ir",
+    "translation": "to go",
+    "translationRu": "идти",
+    "verbForms": {
+      "i": "vou",
+      "you": "vais",
+      "heSheIt": "vai",
+      "we": "vamos",
+      "they": "vão"
+    },
+    "url": ""
+  },
+  {
+    "id": 5,
+    "verb": "fazer",
+    "translation": "to do / to make",
+    "translationRu": "делать / создавать",
+    "verbForms": {
+      "i": "faço",
+      "you": "fazes",
+      "heSheIt": "faz",
+      "we": "fazemos",
+      "they": "fazem"
+    },
+    "url": ""
+  },
+  {
+    "id": 6,
+    "verb": "poder",
+    "translation": "to be able to / can",
+    "translationRu": "мочь",
+    "verbForms": {
+      "i": "posso",
+      "you": "podes",
+      "heSheIt": "pode",
+      "we": "podemos",
+      "they": "podem"
+    },
+    "url": ""
+  },
+  {
+    "id": 7,
+    "verb": "dizer",
+    "translation": "to say / to tell",
+    "translationRu": "говорить / рассказывать",
+    "verbForms": {
+      "i": "digo",
+      "you": "dizes",
+      "heSheIt": "diz",
+      "we": "dizemos",
+      "they": "dizem"
+    },
+    "url": ""
+  },
+  {
+    "id": 8,
+    "verb": "ver",
+    "translation": "to see",
+    "translationRu": "видеть",
+    "verbForms": {
+      "i": "vejo",
+      "you": "vês",
+      "heSheIt": "vê",
+      "we": "vemos",
+      "they": "veem"
+    },
+    "url": ""
+  },
+  {
+    "id": 9,
+    "verb": "dar",
+    "translation": "to give",
+    "translationRu": "давать",
+    "verbForms": {
+      "i": "dou",
+      "you": "dás",
+      "heSheIt": "dá",
+      "we": "damos",
+      "they": "dão"
+    },
+    "url": ""
+  },
+  {
+    "id": 10,
+    "verb": "saber",
+    "translation": "to know",
+    "translationRu": "знать",
+    "verbForms": {
+      "i": "sei",
+      "you": "sabes",
+      "heSheIt": "sabe",
+      "we": "sabemos",
+      "they": "sabem"
+    },
+    "url": ""
+  },
+  {
+    "id": 11,
+    "verb": "querer",
+    "translation": "to want",
+    "translationRu": "хотеть",
+    "verbForms": {
+      "i": "quero",
+      "you": "queres",
+      "heSheIt": "quer",
+      "we": "queremos",
+      "they": "querem"
+    },
+    "url": ""
+  },
+  {
+    "id": 12,
+    "verb": "trazer",
+    "translation": "to bring",
+    "translationRu": "приносить",
+    "verbForms": {
+      "i": "trago",
+      "you": "trazes",
+      "heSheIt": "traz",
+      "we": "trazemos",
+      "they": "trazem"
+    },
+    "url": ""
+  },
+  {
+    "id": 13,
+    "verb": "pôr",
+    "translation": "to put",
+    "translationRu": "ставить / класть",
+    "verbForms": {
+      "i": "ponho",
+      "you": "pões",
+      "heSheIt": "põe",
+      "we": "pomos",
+      "they": "põem"
+    },
+    "url": ""
+  },
+  {
+    "id": 14,
+    "verb": "vir",
+    "translation": "to come",
+    "translationRu": "приходить",
+    "verbForms": {
+      "i": "venho",
+      "you": "vens",
+      "heSheIt": "vem",
+      "we": "vimos",
+      "they": "vêm"
+    },
+    "url": ""
+  },
+  {
+    "id": 15,
+    "verb": "ler",
+    "translation": "to read",
+    "translationRu": "читать",
+    "verbForms": {
+      "i": "leio",
+      "you": "lês",
+      "heSheIt": "lê",
+      "we": "lemos",
+      "they": "leem"
+    },
+    "url": ""
+  },
+  {
+    "id": 16,
+    "verb": "ouvir",
+    "translation": "to hear",
+    "translationRu": "слышать",
+    "verbForms": {
+      "i": "ouço",
+      "you": "ouves",
+      "heSheIt": "ouve",
+      "we": "ouvimos",
+      "they": "ouvem"
+    },
+    "url": ""
+  },
+  {
+    "id": 17,
+    "verb": "pedir",
+    "translation": "to ask for / to request",
+    "translationRu": "просить / запрашивать",
+    "verbForms": {
+      "i": "peço",
+      "you": "pedes",
+      "heSheIt": "pede",
+      "we": "pedimos",
+      "they": "pedem"
+    },
+    "url": ""
+  },
+  {
+    "id": 18,
+    "verb": "sentir",
+    "translation": "to feel",
+    "translationRu": "чувствовать",
+    "verbForms": {
+      "i": "sinto",
+      "you": "sentes",
+      "heSheIt": "sente",
+      "we": "sentimos",
+      "they": "sentem"
+    },
+    "url": ""
+  },
+  {
+    "id": 19,
+    "verb": "seguir",
+    "translation": "to follow",
+    "translationRu": "следовать",
+    "verbForms": {
+      "i": "sigo",
+      "you": "segues",
+      "heSheIt": "segue",
+      "we": "seguimos",
+      "they": "seguem"
+    },
+    "url": ""
+  },
+  {
+    "id": 20,
+    "verb": "cair",
+    "translation": "to fall",
+    "translationRu": "падать",
+    "verbForms": {
+      "i": "caio",
+      "you": "cais",
+      "heSheIt": "cai",
+      "we": "caímos",
+      "they": "caem"
+    },
+    "url": ""
+  },
+  {
+    "id": 21,
+    "verb": "dormir",
+    "translation": "to sleep",
+    "translationRu": "спать",
+    "verbForms": {
+      "i": "durmo",
+      "you": "dormes",
+      "heSheIt": "dorme",
+      "we": "dormimos",
+      "they": "dormem"
+    },
+    "url": ""
+  },
+  {
+    "id": 22,
+    "verb": "sair",
+    "translation": "to leave / to go out",
+    "translationRu": "выходить / уходить",
+    "verbForms": {
+      "i": "saio",
+      "you": "sais",
+      "heSheIt": "sai",
+      "we": "saímos",
+      "they": "saem"
+    },
+    "url": ""
+  },
+  {
+    "id": 23,
+    "verb": "subir",
+    "translation": "to go up / to climb",
+    "translationRu": "подниматься / взбираться",
+    "verbForms": {
+      "i": "subo",
+      "you": "sobes",
+      "heSheIt": "sobe",
+      "we": "subimos",
+      "they": "sobem"
+    },
+    "url": ""
+  },
+  {
+    "id": 24,
+    "verb": "abrir",
+    "translation": "to open",
+    "translationRu": "открывать",
+    "verbForms": {
+      "i": "abro",
+      "you": "abres",
+      "heSheIt": "abre",
+      "we": "abrimos",
+      "they": "abrem"
+    },
+    "url": ""
+  },
+  {
+    "id": 25,
+    "verb": "rir",
+    "translation": "to laugh",
+    "translationRu": "смеяться",
+    "verbForms": {
+      "i": "rio",
+      "you": "ris",
+      "heSheIt": "ri",
+      "we": "rimos",
+      "they": "riem"
+    },
+    "url": ""
+  },
+  {
+    "id": 26,
+    "verb": "caber",
+    "translation": "to fit",
+    "translationRu": "вмещаться / подходить по размеру",
+    "verbForms": {
+      "i": "caibo",
+      "you": "cabes",
+      "heSheIt": "cabe",
+      "we": "cabemos",
+      "they": "cabem"
+    },
+    "url": ""
+  },
+  {
+    "id": 27,
+    "verb": "comer",
+    "translation": "to eat",
+    "translationRu": "есть",
+    "verbForms": {
+      "i": "como",
+      "you": "comes",
+      "heSheIt": "come",
+      "we": "comemos",
+      "they": "comem"
+    },
+    "url": ""
+  },
+  {
+    "id": 28,
+    "verb": "beber",
+    "translation": "to drink",
+    "translationRu": "пить",
+    "verbForms": {
+      "i": "bebo",
+      "you": "bebes",
+      "heSheIt": "bebe",
+      "we": "bebemos",
+      "they": "bebem"
+    },
+    "url": ""
+  }
+]

@@ -32,7 +32,8 @@ function RegularVerbsPage() {
             </TableHead>
             <TableHead className="w-32">AR</TableHead>
             <TableHead className="w-32">ER</TableHead>
-            <TableHead className="">IR</TableHead>
+            <TableHead className="w-32">IR</TableHead>
+            <TableHead className="">-SE</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -41,30 +42,35 @@ function RegularVerbsPage() {
             <TableCell>-o</TableCell>
             <TableCell>-o</TableCell>
             <TableCell>-o</TableCell>
+            <TableCell>-me</TableCell>
           </TableRow>
           <TableRow className="bg-secondary hover:bg-secondary">
             <TableCell className="uppercase">Tu</TableCell>
             <TableCell>-as</TableCell>
             <TableCell>-es</TableCell>
             <TableCell>-es</TableCell>
+            <TableCell>-te</TableCell>
           </TableRow>
           <TableRow className="hover:bg-transparent">
             <TableCell className="uppercase">Ele/Ela/Você</TableCell>
             <TableCell>-a</TableCell>
             <TableCell>-e</TableCell>
             <TableCell>-e</TableCell>
+            <TableCell>-se</TableCell>
           </TableRow>
           <TableRow className="bg-secondary hover:bg-secondary">
             <TableCell className="uppercase">Nós</TableCell>
             <TableCell>-amos</TableCell>
             <TableCell>-emos</TableCell>
             <TableCell>-imos</TableCell>
+            <TableCell>-nos</TableCell>
           </TableRow>
           <TableRow className="hover:bg-transparent">
             <TableCell className="uppercase">Eles/Elas/Vocês</TableCell>
             <TableCell>-am</TableCell>
             <TableCell>-em</TableCell>
             <TableCell>-em</TableCell>
+            <TableCell>-se</TableCell>
           </TableRow>
         </TableBody>
       </Table>
