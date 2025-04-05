@@ -22,7 +22,7 @@ function Layout({ children }: Props) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div className="max-w-[1320px] m-auto">
       <header className="h-16 flex items-center justify-between">
         <NavLink to="/" className="flex items-center">
           <img
@@ -65,7 +65,7 @@ function Layout({ children }: Props) {
           <Menu />
         </div>
         <Separator orientation="vertical" className="hidden lg:block " />
-        <main className="p-4 overflow-auto min-h-[calc(100vh-6.5rem)]">
+        <main className="p-4 overflow-auto min-h-[calc(100vh-6.5rem)] w-[100%]">
           {children}
         </main>
       </div>

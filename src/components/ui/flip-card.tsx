@@ -18,7 +18,7 @@ const FlipCard = ({
   };
 
   return (
-    <div className="aspect-[2/3]  h-4/5 relative m-8">
+    <div className="max-w-[500px] max-h-4/5 relative mt-4 mx-auto aspect-[7/10] select-none">
       <motion.div
         className="w-full h-full cursor-pointer"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
