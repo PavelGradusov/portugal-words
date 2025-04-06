@@ -1,7 +1,11 @@
 import useLanguage from "@/hooks/use-language";
+import UseScreenSize from "@/hooks/use-screen-size";
 
 function HelloPage() {
   const { lang } = useLanguage();
+
+  const { screenSize } = UseScreenSize();
+  console.log("Screen size: " + screenSize);
 
   return (
     <>

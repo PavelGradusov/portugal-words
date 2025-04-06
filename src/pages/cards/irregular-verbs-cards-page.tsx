@@ -1,22 +1,25 @@
-import { useEffect, useState } from "react";
-import irregularVerbsSource from "../../data/irregular-verbs.json";
 import FlipCard from "@/components/ui/flip-card";
+import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import useLanguage from "@/hooks/use-language";
+import { useState } from "react";
+import irregularVerbsSource from "../../data/irregular-verbs.json";
 
-type VerbType = {
+interface VerbForms {
+  i: string;
+  you: string;
+  heSheIt: string;
+  we: string;
+  they: string;
+}
+
+interface VerbType {
   id: number;
   verb: string;
   translation: string;
   translationRu: string;
-  verbForms: {
-    i: string;
-    you: string;
-    heSheIt: string;
-    we: string;
-    they: string;
-  };
+  verbForms: VerbForms;
   url: string;
-};
+}
 
 const irregularVerbs: VerbType[] = irregularVerbsSource;
 
@@ -25,27 +28,39 @@ function IrregularVerbsCardsPage() {
 
   const [currentWordId, setCurrentWordId] = useState(0);
 
-  /* DEBUG */
-  const [screenSize, setScreenSize] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const setFunc = () => {
-      setScreenSize(window.innerWidth);
-    };
-
-    window.addEventListener("resize", setFunc);
-    return () => {
-      window.removeEventListener("resize", setFunc);
-    };
-  }, []);
-  /* end DEBUG*/
+  function createVerbForms(verbForm: VerbForms) {
+    return (
+      <Table>
+        <TableBody className="text-sm [@media(min-width:420px)]:text-xl text-muted">
+          <TableRow>
+            <TableCell className="text-right w-[50%] py-0">Eu:</TableCell>
+            <TableCell className="py-0">{verbForm.i}</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell className="text-right py-0">Tu:</TableCell>
+            <TableCell className="py-0">{verbForm.you}</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell className="text-right py-0">Ele/Ela/Você:</TableCell>
+            <TableCell className="py-0">{verbForm.heSheIt}</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell className="text-right py-0">Nós:</TableCell>
+            <TableCell className="py-0">{verbForm.we}</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell className="text-right py-0">Eles/Elas/Vocês:</TableCell>
+            <TableCell className="py-0">{verbForm.they}</TableCell>
+          </TableRow>
+        </TableBody>
+      </Table>
+    );
+  }
 
   return (
     <>
       <div className="flex justify-start items-center h-full">
         <div className="h-[100%] w-full">
-          {/* DEBUG */}
-          <div className="ml-10">ScreenSize: {screenSize}</div>
           <div className="ml-10">
             {lang === "EN" ? "Word " : "Слово "}
             {currentWordId + 1}
@@ -54,6 +69,7 @@ function IrregularVerbsCardsPage() {
           </div>
           <div className="w-[90%] mx-auto">
             <FlipCard
+              image={irregularVerbs[currentWordId].url}
               key={irregularVerbs[currentWordId].id}
               question={
                 lang === "EN"
@@ -61,6 +77,9 @@ function IrregularVerbsCardsPage() {
                   : irregularVerbs[currentWordId].translationRu
               }
               answer={irregularVerbs[currentWordId].verb}
+              children={createVerbForms(
+                irregularVerbs[currentWordId].verbForms
+              )}
             />
           </div>
           <button
