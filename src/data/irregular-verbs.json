@@ -39,7 +39,7 @@
       "we": "temos",
       "they": "têm"
     },
-    "url": ""
+    "url": "/irregular-verbs/03-ter.png"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "we": "vamos",
       "they": "vão"
     },
-    "url": ""
+    "url": "/irregular-verbs/04-ir.png"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "we": "fazemos",
       "they": "fazem"
     },
-    "url": ""
+    "url": "/irregular-verbs/05-fazer.png"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "we": "podemos",
       "they": "podem"
     },
-    "url": ""
+    "url": "/irregular-verbs/06-poder.png"
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "we": "dizemos",
       "they": "dizem"
     },
-    "url": ""
+    "url": "/irregular-verbs/07-dizer.png"
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "we": "vemos",
       "they": "veem"
     },
-    "url": ""
+    "url": "/irregular-verbs/08-ver.png"
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "we": "damos",
       "they": "dão"
     },
-    "url": ""
+    "url": "/irregular-verbs/09-dar.png"
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
       "we": "sabemos",
       "they": "sabem"
     },
-    "url": ""
+    "url": "/irregular-verbs/10-saber.png"
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
       "we": "queremos",
       "they": "querem"
     },
-    "url": ""
+    "url": "/irregular-verbs/11-querer.png"
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
       "we": "trazemos",
       "they": "trazem"
     },
-    "url": ""
+    "url": "/irregular-verbs/12-trazer.png"
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "we": "pomos",
       "they": "põem"
     },
-    "url": ""
+    "url": "/irregular-verbs/13-por.png"
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       "we": "vimos",
       "they": "vêm"
     },
-    "url": ""
+    "url": "/irregular-verbs/14-vir.png"
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       "we": "lemos",
       "they": "leem"
     },
-    "url": ""
+    "url": "/irregular-verbs/15-ler.png"
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
       "we": "ouvimos",
       "they": "ouvem"
     },
-    "url": ""
+    "url": "/irregular-verbs/16-ouvir.png"
   },
   {
     "id": 17,
@@ -235,7 +235,7 @@
       "we": "pedimos",
       "they": "pedem"
     },
-    "url": ""
+    "url": "/irregular-verbs/17-pedir.png"
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
       "we": "sentimos",
       "they": "sentem"
     },
-    "url": ""
+    "url": "/irregular-verbs/18-sentir.png"
   },
   {
     "id": 19,
@@ -263,7 +263,7 @@
       "we": "seguimos",
       "they": "seguem"
     },
-    "url": ""
+    "url": "/irregular-verbs/19-seguir.png"
   },
   {
     "id": 20,
@@ -277,7 +277,7 @@
       "we": "caímos",
       "they": "caem"
     },
-    "url": ""
+    "url": "/irregular-verbs/20-cair.png"
   },
   {
     "id": 21,
@@ -291,7 +291,7 @@
       "we": "dormimos",
       "they": "dormem"
     },
-    "url": ""
+    "url": "/irregular-verbs/21-dormir.png"
   },
   {
     "id": 22,
@@ -305,7 +305,7 @@
       "we": "saímos",
       "they": "saem"
     },
-    "url": ""
+    "url": "/irregular-verbs/22-sair.png"
   },
   {
     "id": 23,
@@ -319,21 +319,7 @@
       "we": "subimos",
       "they": "sobem"
     },
-    "url": ""
-  },
-  {
-    "id": 24,
-    "verb": "abrir",
-    "translation": "to open",
-    "translationRu": "открывать",
-    "verbForms": {
-      "i": "abro",
-      "you": "abres",
-      "heSheIt": "abre",
-      "we": "abrimos",
-      "they": "abrem"
-    },
-    "url": ""
+    "url": "/irregular-verbs/23-subir.png"
   },
   {
     "id": 25,
@@ -347,7 +333,7 @@
       "we": "rimos",
       "they": "riem"
     },
-    "url": ""
+    "url": "/irregular-verbs/25-rir.png"
   },
   {
     "id": 26,
@@ -361,34 +347,6 @@
       "we": "cabemos",
       "they": "cabem"
     },
-    "url": ""
-  },
-  {
-    "id": 27,
-    "verb": "comer",
-    "translation": "to eat",
-    "translationRu": "есть",
-    "verbForms": {
-      "i": "como",
-      "you": "comes",
-      "heSheIt": "come",
-      "we": "comemos",
-      "they": "comem"
-    },
-    "url": ""
-  },
-  {
-    "id": 28,
-    "verb": "beber",
-    "translation": "to drink",
-    "translationRu": "пить",
-    "verbForms": {
-      "i": "bebo",
-      "you": "bebes",
-      "heSheIt": "bebe",
-      "we": "bebemos",
-      "they": "bebem"
-    },
-    "url": ""
+    "url": "/irregular-verbs/26-caber.png"
   }
 ]

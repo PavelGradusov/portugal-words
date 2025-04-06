@@ -8,6 +8,7 @@ import { LanguageProvider } from "./context/language-context";
 import HelloPage from "./pages/hello-page";
 import IrregularVerbsCardsPage from "./pages/cards/irregular-verbs-cards-page";
 import RegularVerbsCardsPage from "./pages/cards/regular-verbs-cards-page";
+import InterrogativeWordCardsPage from "./pages/cards/interrogative-word-cards-page";
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
               <Route
                 path="/cards/regular"
                 element={<RegularVerbsCardsPage />}
+              />
+              <Route
+                path="/cards/interrogatives"
+                element={<InterrogativeWordCardsPage />}
               />
 
               <Route path="*" element={<Navigate to="/" replace />} />

@@ -72,19 +72,35 @@ function RegularVerbsCardsPage() {
               children={createVerbForms(regularVerbs[currentWordId])}
             />
           </div>
-          <Button
-            className="block mx-auto my-4 px-8"
-            onClick={() =>
-              setCurrentWordId((id: number) => {
-                if (id + 1 >= regularVerbs.length) {
-                  return 0;
-                }
-                return id + 1;
-              })
-            }
-          >
-            {lang === "EN" ? "Next" : "Следующее"}
-          </Button>
+          <div className="flex gap-8 justify-center">
+            <Button
+              className="my-4 w-32"
+              onClick={() =>
+                setCurrentWordId((id: number) => {
+                  if (id === 0) {
+                    return regularVerbs.length - 1;
+                  }
+                  return id - 1;
+                })
+              }
+              variant="secondary"
+            >
+              {lang === "EN" ? "Previous" : "Предыдущее"}
+            </Button>
+            <Button
+              className="my-4 w-32"
+              onClick={() =>
+                setCurrentWordId((id: number) => {
+                  if (id + 1 >= regularVerbs.length) {
+                    return 0;
+                  }
+                  return id + 1;
+                })
+              }
+            >
+              {lang === "EN" ? "Next" : "Следующее"}
+            </Button>
+          </div>
         </div>
       </div>
     </>

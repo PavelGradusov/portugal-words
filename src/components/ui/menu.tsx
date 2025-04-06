@@ -36,6 +36,9 @@ function Menu() {
       <MenuItem href="/cards/regular">
         {lang === "EN" ? "Regular verbs" : "Правильные глаголы"}
       </MenuItem>
+      <MenuItem href="/cards/interrogatives">
+        {lang === "EN" ? "Interrogative words" : "Вопросительные слова"}
+      </MenuItem>
     </nav>
   );
 }

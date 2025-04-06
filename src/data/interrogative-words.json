@@ -6,7 +6,7 @@
       "en": "Who",
       "ru": "Кто"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Quem é o autor deste livro?",
         "en": "Who is the author of this book?",
@@ -32,7 +32,8 @@
         "en": "Who is responsible for this?",
         "ru": "Кто за это отвечает?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 2,
@@ -41,7 +42,7 @@
       "en": "What",
       "ru": "Что"
     },
-    "example": [
+    "examples": [
       {
         "pt": "O que você quer comer?",
         "en": "What do you want to eat?",
@@ -67,7 +68,8 @@
         "en": "What is in your hand?",
         "ru": "Что у тебя в руке?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 3,
@@ -76,7 +78,7 @@
       "en": "Which/What",
       "ru": "Какой/Который"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Qual é o seu endereço?",
         "en": "What is your address?",
@@ -102,7 +104,8 @@
         "en": "What is your favorite dish?",
         "ru": "Какое блюдо твоё любимое?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 4,
@@ -111,7 +114,7 @@
       "en": "Where",
       "ru": "Где"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Onde está o supermercado mais próximo?",
         "en": "Where is the nearest supermarket?",
@@ -137,7 +140,8 @@
         "en": "Where is your phone?",
         "ru": "Где твой телефон?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 5,
@@ -146,7 +150,7 @@
       "en": "When",
       "ru": "Когда"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Quando você vai viajar?",
         "en": "When are you going to travel?",
@@ -172,7 +176,8 @@
         "en": "When do you want to meet me?",
         "ru": "Когда ты хочешь встретиться со мной?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 6,
@@ -181,7 +186,7 @@
       "en": "Why",
       "ru": "Почему"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Por que você está cansado?",
         "en": "Why are you tired?",
@@ -207,7 +212,8 @@
         "en": "Why are you laughing?",
         "ru": "Почему ты смеёшься?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 7,
@@ -216,7 +222,7 @@
       "en": "How",
       "ru": "Как"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Como você chegou aqui?",
         "en": "How did you get here?",
@@ -242,7 +248,8 @@
         "en": "How can I help you?",
         "ru": "Как я могу тебе помочь?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 8,
@@ -251,7 +258,7 @@
       "en": "How much/How many",
       "ru": "Сколько"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Quanto custa esta camisa?",
         "en": "How much does this shirt cost?",
@@ -277,7 +284,8 @@
         "en": "How much time do we have to finish this?",
         "ru": "Сколько времени у нас есть, чтобы завершить это?"
       }
-    ]
+    ],
+    "url": ""
   },
   {
     "id": 9,
@@ -286,7 +294,7 @@
       "en": "For what/Why (purpose)",
       "ru": "Зачем"
     },
-    "example": [
+    "examples": [
       {
         "pt": "Para que serve este botão?",
         "en": "What is this button for?",
@@ -312,6 +320,7 @@
         "en": "What are we arguing about?",
         "ru": "Для чего мы спорим?"
       }
-    ]
+    ],
+    "url": ""
   }
 ]

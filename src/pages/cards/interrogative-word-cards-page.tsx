@@ -1,29 +1,47 @@
 import { Button } from "@/components/ui/button";
 import FlipCard from "@/components/ui/flip-card";
-import VerbFormTable, { VerbForms } from "@/components/ui/verb-form-table";
 import useLanguage from "@/hooks/use-language";
 import { useState } from "react";
-import irregularVerbsSource from "../../data/irregular-verbs.json";
 
-interface VerbType {
-  id: number;
-  verb: string;
-  translation: string;
-  translationRu: string;
-  verbForms: VerbForms;
-  url: string;
+import interrogativeWordsSource from "../../data/interrogative-words.json";
+
+interface Example {
+  pt: string;
+  en: string;
+  ru: string;
 }
 
-const irregularVerbs: VerbType[] = irregularVerbsSource;
+interface InterrogativeWord {
+  id: number;
+  url: string;
+  word: {
+    pt: string;
+    en: string;
+    ru: string;
+  };
+  examples: Example[];
+}
 
-function IrregularVerbsCardsPage() {
+const interrogativeWords: InterrogativeWord[] = interrogativeWordsSource;
+
+function InterrogativeWordCardsPage() {
   const { lang } = useLanguage();
 
   const [currentWordId, setCurrentWordId] = useState(0);
 
-  function createVerbForms(verbForm: VerbForms) {
-    return <VerbFormTable verbForm={verbForm} />;
-  }
+  const createExample = (examples: Example[]) => {
+    const randomPosition = Math.floor(Math.random() * examples.length);
+    const example = examples[randomPosition];
+
+    return (
+      <div className="text-xl">
+        <span className="block"> {example.pt}</span>
+        <span className="block mt-2">
+          {lang === "EN" ? example.en : example.ru}
+        </span>
+      </div>
+    );
+  };
 
   return (
     <>
@@ -33,20 +51,20 @@ function IrregularVerbsCardsPage() {
             {lang === "EN" ? "Word " : "Слово "}
             {currentWordId + 1}
             {lang === "EN" ? " from " : " из "}
-            {irregularVerbs.length}
+            {interrogativeWords.length}
           </div>
           <div className="w-[90%] mx-auto">
             <FlipCard
-              image={irregularVerbs[currentWordId].url}
-              key={irregularVerbs[currentWordId].id}
+              image={interrogativeWords[currentWordId].url}
+              key={interrogativeWords[currentWordId].id}
               question={
                 lang === "EN"
-                  ? irregularVerbs[currentWordId].translation
-                  : irregularVerbs[currentWordId].translationRu
+                  ? interrogativeWords[currentWordId].word.en + "?"
+                  : interrogativeWords[currentWordId].word.ru + "?"
               }
-              answer={irregularVerbs[currentWordId].verb}
-              children={createVerbForms(
-                irregularVerbs[currentWordId].verbForms
+              answer={interrogativeWords[currentWordId].word.pt + "?"}
+              children={createExample(
+                interrogativeWords[currentWordId].examples
               )}
             />
           </div>
@@ -56,7 +74,7 @@ function IrregularVerbsCardsPage() {
               onClick={() =>
                 setCurrentWordId((id: number) => {
                   if (id === 0) {
-                    return irregularVerbs.length - 1;
+                    return interrogativeWords.length - 1;
                   }
                   return id - 1;
                 })
@@ -69,7 +87,7 @@ function IrregularVerbsCardsPage() {
               className="my-4 w-32"
               onClick={() =>
                 setCurrentWordId((id: number) => {
-                  if (id + 1 >= irregularVerbs.length) {
+                  if (id + 1 >= interrogativeWords.length) {
                     return 0;
                   }
                   return id + 1;
@@ -85,4 +103,4 @@ function IrregularVerbsCardsPage() {
   );
 }
 
-export default IrregularVerbsCardsPage;
+export default InterrogativeWordCardsPage;

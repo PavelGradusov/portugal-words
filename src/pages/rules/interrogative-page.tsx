@@ -17,7 +17,7 @@ interface InterrogativeWord {
     en: string;
     ru: string;
   };
-  example: {
+  examples: {
     pt: string;
     en: string;
     ru: string;
@@ -66,7 +66,7 @@ function InterrogativePage() {
                 }
               >
                 <TableCell
-                  rowSpan={word.example.length}
+                  rowSpan={word.examples.length}
                   className="whitespace-break-spaces"
                 >
                   <span className="block">{word.word.pt}?</span>
@@ -75,13 +75,14 @@ function InterrogativePage() {
                   </span>
                 </TableCell>
                 <TableCell>
-                  <span className="block text-wrap">{word.example[0].pt}</span>
+                  <span className="block text-wrap">{word.examples[0].pt}</span>
                   <span className="block text-m lg:text-l xl:text-xl text-wrap mt-2 ml-4">
-                    ({lang === "EN" ? word.example[0].en : word.example[0].ru})
+                    ({lang === "EN" ? word.examples[0].en : word.examples[0].ru}
+                    )
                   </span>
                 </TableCell>
               </TableRow>
-              {word.example.map((ex, i) => {
+              {word.examples.map((ex, i) => {
                 if (i === 0) {
                   return null;
                 }
