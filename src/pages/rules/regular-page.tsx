@@ -10,52 +10,15 @@ import {
 import useLanguage from "@/hooks/use-language";
 
 import regularVerbs from "../../data/regular-verbs.json";
-
-type VerbPostfixForms = {
-  i: string;
-  you: string;
-  heSheIt: string;
-  we: string;
-  they: string;
-};
+import regularVerbRules from "../../data/regular-verb-rules.json";
+import { VerbForms } from "@/components/ui/verb-form-table";
 
 type RuleType = {
   group: string;
-  verbPostfixForms: VerbPostfixForms;
+  verbPostfixForms: VerbForms;
 };
 
-const rules: RuleType[] = [
-  {
-    group: "AR",
-    verbPostfixForms: {
-      i: "o",
-      you: "as",
-      heSheIt: "a",
-      we: "amos",
-      they: "am",
-    },
-  },
-  {
-    group: "ER",
-    verbPostfixForms: {
-      i: "o",
-      you: "es",
-      heSheIt: "e",
-      we: "emos",
-      they: "em",
-    },
-  },
-  {
-    group: "IR",
-    verbPostfixForms: {
-      i: "o",
-      you: "es",
-      heSheIt: "e",
-      we: "imos",
-      they: "em",
-    },
-  },
-];
+const rules: RuleType[] = regularVerbRules;
 
 type Verb = {
   id: number;
@@ -75,10 +38,10 @@ function RegularPage() {
     return verb.slice(0, -2) + postfix;
   };
 
-  const getPostfix = (type: string, pName: keyof VerbPostfixForms): string => {
+  const getPostfix = (type: string, pName: keyof VerbForms): string => {
     const rule = rules.find((r) => r.group === type);
     if (!rule) return ""; // Если правило не найдено, возвращаем пустую строку
-    return rule.verbPostfixForms[pName as keyof VerbPostfixForms] || "";
+    return rule.verbPostfixForms[pName as keyof VerbForms] || "";
   };
 
   return (

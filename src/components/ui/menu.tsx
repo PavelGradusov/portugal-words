@@ -24,12 +24,17 @@ function Menu() {
       <MenuItem href="/rules/interrogative">
         {lang === "EN" ? "Interrogative words" : "Вопросительные слова"}
       </MenuItem>
+
       <Separator className="mt-4" />
+
       <h1 className="uppercase mx-auto my-2 tracking-widest font-bold">
         {lang === "EN" ? "Cards" : "Карточки"}
       </h1>
       <MenuItem href="/cards/irregular">
         {lang === "EN" ? "Irregular verbs" : "Неправильные глаголы"}
+      </MenuItem>
+      <MenuItem href="/cards/regular">
+        {lang === "EN" ? "Regular verbs" : "Правильные глаголы"}
       </MenuItem>
     </nav>
   );

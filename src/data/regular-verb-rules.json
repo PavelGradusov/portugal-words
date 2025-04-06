@@ -1,0 +1,32 @@
+[
+  {
+    "group": "AR",
+    "verbPostfixForms": {
+      "i": "o",
+      "you": "as",
+      "heSheIt": "a",
+      "we": "amos",
+      "they": "am"
+    }
+  },
+  {
+    "group": "ER",
+    "verbPostfixForms": {
+      "i": "o",
+      "you": "es",
+      "heSheIt": "e",
+      "we": "emos",
+      "they": "em"
+    }
+  },
+  {
+    "group": "IR",
+    "verbPostfixForms": {
+      "i": "o",
+      "you": "es",
+      "heSheIt": "e",
+      "we": "imos",
+      "they": "em"
+    }
+  }
+]

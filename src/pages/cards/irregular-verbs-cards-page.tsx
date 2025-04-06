@@ -1,16 +1,9 @@
+import { Button } from "@/components/ui/button";
 import FlipCard from "@/components/ui/flip-card";
-import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
+import VerbFormTable, { VerbForms } from "@/components/ui/verb-form-table";
 import useLanguage from "@/hooks/use-language";
 import { useState } from "react";
 import irregularVerbsSource from "../../data/irregular-verbs.json";
-
-interface VerbForms {
-  i: string;
-  you: string;
-  heSheIt: string;
-  we: string;
-  they: string;
-}
 
 interface VerbType {
   id: number;
@@ -29,32 +22,7 @@ function IrregularVerbsCardsPage() {
   const [currentWordId, setCurrentWordId] = useState(0);
 
   function createVerbForms(verbForm: VerbForms) {
-    return (
-      <Table>
-        <TableBody className="text-sm [@media(min-width:420px)]:text-xl text-muted">
-          <TableRow>
-            <TableCell className="text-right w-[50%] py-0">Eu:</TableCell>
-            <TableCell className="py-0">{verbForm.i}</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell className="text-right py-0">Tu:</TableCell>
-            <TableCell className="py-0">{verbForm.you}</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell className="text-right py-0">Ele/Ela/Você:</TableCell>
-            <TableCell className="py-0">{verbForm.heSheIt}</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell className="text-right py-0">Nós:</TableCell>
-            <TableCell className="py-0">{verbForm.we}</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell className="text-right py-0">Eles/Elas/Vocês:</TableCell>
-            <TableCell className="py-0">{verbForm.they}</TableCell>
-          </TableRow>
-        </TableBody>
-      </Table>
-    );
+    return <VerbFormTable verbForm={verbForm} />;
   }
 
   return (
@@ -82,8 +50,8 @@ function IrregularVerbsCardsPage() {
               )}
             />
           </div>
-          <button
-            className="px-4 py-2 rounded-2xl bg-primary mx-auto block my-4"
+          <Button
+            className="block mx-auto my-4 px-8"
             onClick={() =>
               setCurrentWordId((id: number) => {
                 if (id + 1 >= irregularVerbs.length) {
@@ -94,7 +62,7 @@ function IrregularVerbsCardsPage() {
             }
           >
             {lang === "EN" ? "Next" : "Следующее"}
-          </button>
+          </Button>
         </div>
       </div>
     </>

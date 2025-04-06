@@ -51,11 +51,11 @@ const FlipCard = ({
 
         {/* Обратная сторона */}
         <Card
-          className="w-full h-full absolute bg-gradient-to-br from-green-500 to-green-600 text-white shadow-md rounded-lg"
+          className="w-full h-full absolute bg-gradient-to-br from-green-500 to-green-700 text-white shadow-md rounded-lg"
           style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
         >
           <CardHeader>
-            <CardTitle className="text-sm">
+            <CardTitle className="text-sm text-muted">
               {lang === "EN" ? "Answer" : "Ответ"}
             </CardTitle>
           </CardHeader>
