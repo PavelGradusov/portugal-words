@@ -11,7 +11,7 @@ import useLanguage from "@/hooks/use-language";
 
 import myData from "../../data/irregular-verbs.json";
 
-type VerbType = {
+interface VerbType {
   id: number;
   verb: string;
   translation: string;
@@ -24,7 +24,7 @@ type VerbType = {
     they: string;
   };
   url: string;
-};
+}
 
 const irregularVerbs: VerbType[] = myData;
 

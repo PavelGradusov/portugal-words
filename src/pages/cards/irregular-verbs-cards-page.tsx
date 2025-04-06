@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import myData from "../../data/irregular-verbs.json";
+import irregularVerbsSource from "../../data/irregular-verbs.json";
 import FlipCard from "@/components/ui/flip-card";
 import useLanguage from "@/hooks/use-language";
 
@@ -18,7 +18,7 @@ type VerbType = {
   url: string;
 };
 
-const irregularVerbs: VerbType[] = myData;
+const irregularVerbs: VerbType[] = irregularVerbsSource;
 
 function IrregularVerbsCardsPage() {
   const { lang } = useLanguage();
@@ -45,7 +45,7 @@ function IrregularVerbsCardsPage() {
       <div className="flex justify-start items-center h-full">
         <div className="h-[100%] w-full">
           {/* DEBUG */}
-          {/* <div className="ml-10">ScreenSize: {screenSize}</div> */}
+          <div className="ml-10">ScreenSize: {screenSize}</div>
           <div className="ml-10">
             {lang === "EN" ? "Word " : "Слово "}
             {currentWordId + 1}
@@ -74,7 +74,7 @@ function IrregularVerbsCardsPage() {
               })
             }
           >
-            show next
+            {lang === "EN" ? "Next" : "Следующее"}
           </button>
         </div>
       </div>
