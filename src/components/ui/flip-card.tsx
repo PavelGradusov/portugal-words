@@ -41,7 +41,7 @@ const FlipCard = ({
             </CardTitle>
             {/* <CardDescription>{question}</CardDescription> */}
           </CardHeader>
-          <CardContent className="flex flex-col gap-18 items-center justify-center h-2/3 text-2xl">
+          <CardContent className="flex flex-col gap-18 items-center justify-center h-2/3 text-4xl">
             {image !== "" && (
               <img src={image} alt="card image" width="50%"></img>
             )}
@@ -59,7 +59,7 @@ const FlipCard = ({
               {lang === "EN" ? "Answer" : "Ответ"}
             </CardTitle>
           </CardHeader>
-          <CardContent className="flex flex-col gap-8 sm:gap-18 items-center justify-center h-2/3 text-3xl">
+          <CardContent className="flex flex-col gap-8 sm:gap-18 items-center justify-center h-2/3 text-4xl">
             {image !== "" && (
               <img src={image} alt="card image" width="50%"></img>
             )}
