@@ -9,6 +9,20 @@ import HelloPage from "./pages/hello-page";
 import IrregularVerbsCardsPage from "./pages/cards/irregular-verbs-cards-page";
 import RegularVerbsCardsPage from "./pages/cards/regular-verbs-cards-page";
 import InterrogativeWordCardsPage from "./pages/cards/interrogative-word-cards-page";
+import SimpleWordsCardsPage from "./pages/cards/simple-words-cards-page";
+
+import {
+  words1,
+  words2,
+  words3,
+  words4,
+  words5,
+  words6,
+  words7,
+  words8,
+  words9,
+  words10,
+} from "./data/words";
 
 function App() {
   return (
@@ -42,6 +56,46 @@ function App() {
               <Route
                 path="/cards/interrogatives"
                 element={<InterrogativeWordCardsPage />}
+              />
+              <Route
+                path="/cards/words-1"
+                element={<SimpleWordsCardsPage wordsCollection={words1} />}
+              />
+              <Route
+                path="/cards/words-2"
+                element={<SimpleWordsCardsPage wordsCollection={words2} />}
+              />
+              <Route
+                path="/cards/words-3"
+                element={<SimpleWordsCardsPage wordsCollection={words3} />}
+              />
+              <Route
+                path="/cards/words-4"
+                element={<SimpleWordsCardsPage wordsCollection={words4} />}
+              />
+              <Route
+                path="/cards/words-5"
+                element={<SimpleWordsCardsPage wordsCollection={words5} />}
+              />
+              <Route
+                path="/cards/words-6"
+                element={<SimpleWordsCardsPage wordsCollection={words6} />}
+              />
+              <Route
+                path="/cards/words-7"
+                element={<SimpleWordsCardsPage wordsCollection={words7} />}
+              />
+              <Route
+                path="/cards/words-8"
+                element={<SimpleWordsCardsPage wordsCollection={words8} />}
+              />
+              <Route
+                path="/cards/words-9"
+                element={<SimpleWordsCardsPage wordsCollection={words9} />}
+              />
+              <Route
+                path="/cards/words-10"
+                element={<SimpleWordsCardsPage wordsCollection={words10} />}
               />
 
               <Route path="*" element={<Navigate to="/" replace />} />

@@ -4,6 +4,7 @@ import useLanguage from "@/hooks/use-language";
 import { useState } from "react";
 
 import interrogativeWordsSource from "../../data/interrogative-words.json";
+import { Separator } from "@/components/ui/separator";
 
 interface Example {
   pt: string;
@@ -34,8 +35,9 @@ function InterrogativeWordCardsPage() {
     const example = examples[randomPosition];
 
     return (
-      <div className="text-xl">
+      <div className="flex flex-col gap-2 items-center text-center text-2xl">
         <span className="block"> {example.pt}</span>
+        <Separator />
         <span className="block mt-2">
           {lang === "EN" ? example.en : example.ru}
         </span>
@@ -66,6 +68,8 @@ function InterrogativeWordCardsPage() {
               children={createExample(
                 interrogativeWords[currentWordId].examples
               )}
+              categoryEn="Interrogative words"
+              categoryRu="Вопросительные слова"
             />
           </div>
           <div className="flex gap-8 justify-center">

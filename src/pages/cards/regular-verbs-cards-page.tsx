@@ -70,6 +70,8 @@ function RegularVerbsCardsPage() {
               }
               answer={regularVerbs[currentWordId].verb}
               children={createVerbForms(regularVerbs[currentWordId])}
+              categoryEn="Regular verbs"
+              categoryRu="Правильные глаголы"
             />
           </div>
           <div className="flex gap-8 justify-center">

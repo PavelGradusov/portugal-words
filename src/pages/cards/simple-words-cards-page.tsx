@@ -1,28 +1,56 @@
 import { Button } from "@/components/ui/button";
 import FlipCard from "@/components/ui/flip-card";
-import VerbFormTable, { VerbForms } from "@/components/ui/verb-form-table";
+import { Separator } from "@/components/ui/separator";
 import useLanguage from "@/hooks/use-language";
-import { useState } from "react";
-import irregularVerbsSource from "../../data/irregular-verbs.json";
+import { useEffect, useState } from "react";
 
-interface VerbType {
-  id: number;
-  verb: string;
-  translation: string;
-  translationRu: string;
-  verbForms: VerbForms;
-  url: string;
+interface Props {
+  wordsCollection: WordsCollection;
 }
 
-const irregularVerbs: VerbType[] = irregularVerbsSource;
+interface WordSample {
+  pt: string;
+  en: string;
+  ru: string;
+}
 
-function IrregularVerbsCardsPage() {
+interface Word {
+  id: number;
+  word: WordSample;
+  example: WordSample;
+}
+
+export interface WordsCollection {
+  category: WordSample;
+  words: Word[];
+}
+
+function SimpleWordsCardsPage({ wordsCollection }: Props) {
+  const words = wordsCollection.words;
+
   const { lang } = useLanguage();
-
   const [currentWordId, setCurrentWordId] = useState(0);
 
-  function createVerbForms(verbForm: VerbForms) {
-    return <VerbFormTable verbForm={verbForm} />;
+  useEffect(() => {
+    setCurrentWordId(0);
+  }, [wordsCollection]);
+
+  function createExample(word: Word) {
+    return (
+      <div>
+        <div className="flex flex-col gap-2 items-center text-center">
+          <span className="text-2xl">{word.example.pt}</span>
+          <Separator />
+          <span className=" text-xl text-center">
+            {lang === "EN" ? word.example.en : word.example.ru}
+          </span>
+        </div>
+      </div>
+    );
+  }
+
+  if (!words[currentWordId]) {
+    return <div>Loading...</div>;
   }
 
   return (
@@ -33,32 +61,32 @@ function IrregularVerbsCardsPage() {
             {lang === "EN" ? "Word " : "Слово "}
             {currentWordId + 1}
             {lang === "EN" ? " from " : " из "}
-            {irregularVerbs.length}
+            {words.length}
           </div>
+
           <div className="w-[90%] mx-auto">
             <FlipCard
-              image={irregularVerbs[currentWordId].url}
-              key={irregularVerbs[currentWordId].id}
+              image=""
+              key={words[currentWordId].id}
               question={
                 lang === "EN"
-                  ? irregularVerbs[currentWordId].translation
-                  : irregularVerbs[currentWordId].translationRu
+                  ? words[currentWordId].word.en
+                  : words[currentWordId].word.ru
               }
-              answer={irregularVerbs[currentWordId].verb}
-              children={createVerbForms(
-                irregularVerbs[currentWordId].verbForms
-              )}
-              categoryEn="Irregular verbs"
-              categoryRu="Неправильные глаголы"
+              answer={words[currentWordId].word.pt}
+              children={createExample(words[currentWordId])}
+              categoryEn={wordsCollection.category.en}
+              categoryRu={wordsCollection.category.ru}
             />
           </div>
+
           <div className="flex gap-8 justify-center">
             <Button
               className="my-4 w-32"
               onClick={() =>
                 setCurrentWordId((id: number) => {
                   if (id === 0) {
-                    return irregularVerbs.length - 1;
+                    return words.length - 1;
                   }
                   return id - 1;
                 })
@@ -71,7 +99,7 @@ function IrregularVerbsCardsPage() {
               className="my-4 w-32"
               onClick={() =>
                 setCurrentWordId((id: number) => {
-                  if (id + 1 >= irregularVerbs.length) {
+                  if (id + 1 >= words.length) {
                     return 0;
                   }
                   return id + 1;
@@ -87,4 +115,4 @@ function IrregularVerbsCardsPage() {
   );
 }
 
-export default IrregularVerbsCardsPage;
+export default SimpleWordsCardsPage;
