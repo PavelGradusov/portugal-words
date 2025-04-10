@@ -36,7 +36,7 @@ const FlipCard = ({
       >
         {/* Лицевая сторона */}
         <Card
-          className="w-full h-full absolute bg-muted shadow-md rounded-lg"
+          className="w-full h-full absolute bg-muted shadow-md rounded-lg pattern-bg"
           style={{ backfaceVisibility: "hidden" }}
         >
           <CardHeader>
