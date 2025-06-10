@@ -74,7 +74,7 @@ function IrregularVerbsPage() {
               <TableRow
                 key={verb.id}
                 className={
-                  i % 2 === 0
+                  i % 2 === 1
                     ? "bg-secondary hover:bg-secondary"
                     : "hover:bg-transparent"
                 }
