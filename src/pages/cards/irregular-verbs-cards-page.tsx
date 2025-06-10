@@ -4,6 +4,7 @@ import VerbFormTable, { VerbForms } from "@/components/ui/verb-form-table";
 import useLanguage from "@/hooks/use-language";
 import { useState } from "react";
 import irregularVerbsSource from "../../data/irregular-verbs.json";
+import shuffleArray from "@/utils/shuffle";
 
 interface VerbType {
   id: number;
@@ -14,7 +15,8 @@ interface VerbType {
   url: string;
 }
 
-const irregularVerbs: VerbType[] = irregularVerbsSource;
+const irregularVerbsSrc: VerbType[] = irregularVerbsSource;
+const irregularVerbs: VerbType[] = shuffleArray(irregularVerbsSrc);
 
 function IrregularVerbsCardsPage() {
   const { lang } = useLanguage();

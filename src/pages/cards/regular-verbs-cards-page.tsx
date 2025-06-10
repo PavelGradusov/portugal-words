@@ -5,6 +5,7 @@ import regularVerbsSource from "../../data/regular-verbs.json";
 import { Button } from "@/components/ui/button";
 import VerbFormTable, { VerbForms } from "@/components/ui/verb-form-table";
 import regularVerbRules from "../../data/regular-verb-rules.json";
+import shuffleArray from "@/utils/shuffle";
 
 interface VerbType {
   id: number;
@@ -21,7 +22,8 @@ type RuleType = {
 };
 
 const rules: RuleType[] = regularVerbRules;
-const regularVerbs: VerbType[] = regularVerbsSource;
+const regularVerbsSrc: VerbType[] = regularVerbsSource;
+const regularVerbs: VerbType[] = shuffleArray(regularVerbsSrc);
 
 function RegularVerbsCardsPage() {
   const { lang } = useLanguage();

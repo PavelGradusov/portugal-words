@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import FlipCard from "@/components/ui/flip-card";
 import { Separator } from "@/components/ui/separator";
 import useLanguage from "@/hooks/use-language";
+import shuffleArray from "@/utils/shuffle";
 import { useEffect, useState } from "react";
 
 interface Props {
@@ -26,7 +27,7 @@ export interface WordsCollection {
 }
 
 function SimpleWordsCardsPage({ wordsCollection }: Props) {
-  const words = wordsCollection.words;
+  const words = shuffleArray(wordsCollection.words); // wordsCollection.words;
 
   const { lang } = useLanguage();
   const [currentWordId, setCurrentWordId] = useState(0);
