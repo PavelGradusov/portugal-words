@@ -30,6 +30,7 @@ type Verb = {
 };
 
 const verbs: Verb[] = regularVerbs;
+const verbsSorted = verbs.sort((a, b) => a.verb.localeCompare(b.verb));
 
 function RegularPage() {
   const { lang } = useLanguage();
@@ -81,12 +82,12 @@ function RegularPage() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {verbs.map((verb: Verb) => {
+          {verbsSorted.map((verb: Verb, i) => {
             return (
               <TableRow
                 key={verb.id}
                 className={
-                  verb.id % 2 === 0
+                  i % 2 === 0
                     ? "bg-secondary hover:bg-secondary"
                     : "hover:bg-transparent"
                 }

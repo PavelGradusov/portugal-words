@@ -27,6 +27,9 @@ interface VerbType {
 }
 
 const irregularVerbs: VerbType[] = myData;
+const sortedIrregularVerbs = irregularVerbs.sort((a, b) =>
+  a.verb.localeCompare(b.verb)
+);
 
 function IrregularVerbsPage() {
   const { lang } = useLanguage();
@@ -66,12 +69,12 @@ function IrregularVerbsPage() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {irregularVerbs.map((verb: VerbType) => {
+          {sortedIrregularVerbs.map((verb: VerbType, i) => {
             return (
               <TableRow
                 key={verb.id}
                 className={
-                  verb.id % 2 === 0
+                  i % 2 === 0
                     ? "bg-secondary hover:bg-secondary"
                     : "hover:bg-transparent"
                 }
