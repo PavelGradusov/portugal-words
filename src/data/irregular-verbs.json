@@ -348,5 +348,19 @@
       "they": "cabem"
     },
     "url": "/irregular-verbs/26-caber.webp"
+  },
+  {
+    "id": 27,
+    "verb": "perder",
+    "translation": "to lose",
+    "translationRu": "терять / проигрывать",
+    "verbForms": {
+      "i": "perco",
+      "you": "perdes",
+      "heSheIt": "perde",
+      "we": "perdemos",
+      "they": "perdem"
+    },
+    "url": ""
   }
 ]
