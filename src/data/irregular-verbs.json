@@ -362,5 +362,33 @@
       "they": "perdem"
     },
     "url": ""
+  },
+  {
+    "id": 28,
+    "verb": "conhecer",
+    "translation": "to know / to meet",
+    "translationRu": "знать / знакомиться",
+    "verbForms": {
+      "i": "conheço",
+      "you": "conheces",
+      "heSheIt": "conhece",
+      "we": "conhecemos",
+      "they": "conhecem"
+    },
+    "url": ""
+  },
+  {
+    "id": 29,
+    "verb": "prover",
+    "translation": "to provide / to supply",
+    "translationRu": "обеспечивать / снабжать",
+    "verbForms": {
+      "i": "provedo",
+      "you": "proves",
+      "heSheIt": "provê",
+      "we": "provemos",
+      "they": "provêm"
+    },
+    "url": ""
   }
 ]

@@ -1,0 +1,1444 @@
+[
+  {
+    "id": 1,
+    "verb": "falar",
+    "translation": "to speak",
+    "translationRu": "говорить",
+    "verbForms": {
+      "i": "falo",
+      "you": "falas",
+      "heSheIt": "fala",
+      "we": "falamos",
+      "they": "falam"
+    },
+    "url": ""
+  },
+  {
+    "id": 2,
+    "verb": "trabalhar",
+    "translation": "to work",
+    "translationRu": "работать",
+    "verbForms": {
+      "i": "trabalho",
+      "you": "trabalhas",
+      "heSheIt": "trabalha",
+      "we": "trabalhamos",
+      "they": "trabalham"
+    },
+    "url": ""
+  },
+  {
+    "id": 3,
+    "verb": "estudar",
+    "translation": "to study",
+    "translationRu": "учиться",
+    "verbForms": {
+      "i": "estudo",
+      "you": "estudas",
+      "heSheIt": "estuda",
+      "we": "estudamos",
+      "they": "estudam"
+    },
+    "url": ""
+  },
+  {
+    "id": 4,
+    "verb": "morar",
+    "translation": "to live",
+    "translationRu": "жить",
+    "verbForms": {
+      "i": "moro",
+      "you": "moras",
+      "heSheIt": "mora",
+      "we": "moramos",
+      "they": "moram"
+    },
+    "url": ""
+  },
+  {
+    "id": 5,
+    "verb": "amar",
+    "translation": "to love",
+    "translationRu": "любить",
+    "verbForms": {
+      "i": "amo",
+      "you": "amas",
+      "heSheIt": "ama",
+      "we": "amamos",
+      "they": "amam"
+    },
+    "url": ""
+  },
+  {
+    "id": 6,
+    "verb": "viajar",
+    "translation": "to travel",
+    "translationRu": "путешествовать",
+    "verbForms": {
+      "i": "viajo",
+      "you": "viajas",
+      "heSheIt": "viaja",
+      "we": "viajamos",
+      "they": "viajam"
+    },
+    "url": ""
+  },
+  {
+    "id": 7,
+    "verb": "cozinhar",
+    "translation": "to cook",
+    "translationRu": "готовить",
+    "verbForms": {
+      "i": "cozinho",
+      "you": "cozinhas",
+      "heSheIt": "cozinha",
+      "we": "cozinhamos",
+      "they": "cozinham"
+    },
+    "url": ""
+  },
+  {
+    "id": 8,
+    "verb": "jogar",
+    "translation": "to play (a game/sport)",
+    "translationRu": "играть (в игры/спорт)",
+    "verbForms": {
+      "i": "jogo",
+      "you": "jogas",
+      "heSheIt": "joga",
+      "we": "jogamos",
+      "they": "jogam"
+    },
+    "url": ""
+  },
+  {
+    "id": 9,
+    "verb": "dançar",
+    "translation": "to dance",
+    "translationRu": "танцевать",
+    "verbForms": {
+      "i": "danço",
+      "you": "danças",
+      "heSheIt": "dança",
+      "we": "dançamos",
+      "they": "dançam"
+    },
+    "url": ""
+  },
+  {
+    "id": 10,
+    "verb": "nadar",
+    "translation": "to swim",
+    "translationRu": "плавать",
+    "verbForms": {
+      "i": "nado",
+      "you": "nadas",
+      "heSheIt": "nada",
+      "we": "nadamos",
+      "they": "nadam"
+    },
+    "url": ""
+  },
+  {
+    "id": 11,
+    "verb": "aprender",
+    "translation": "to learn",
+    "translationRu": "учить/учиться",
+    "verbForms": {
+      "i": "aprendo",
+      "you": "aprendes",
+      "heSheIt": "aprende",
+      "we": "aprendemos",
+      "they": "aprendem"
+    },
+    "url": ""
+  },
+  {
+    "id": 12,
+    "verb": "viver",
+    "translation": "to live (be alive)",
+    "translationRu": "жить (быть живым)",
+    "verbForms": {
+      "i": "vivo",
+      "you": "vives",
+      "heSheIt": "vive",
+      "we": "vivemos",
+      "they": "vivem"
+    },
+    "url": ""
+  },
+  {
+    "id": 13,
+    "verb": "comer",
+    "translation": "to eat",
+    "translationRu": "есть",
+    "verbForms": {
+      "i": "como",
+      "you": "comes",
+      "heSheIt": "come",
+      "we": "comemos",
+      "they": "comem"
+    },
+    "url": ""
+  },
+  {
+    "id": 14,
+    "verb": "beber",
+    "translation": "to drink",
+    "translationRu": "пить",
+    "verbForms": {
+      "i": "bebo",
+      "you": "bebes",
+      "heSheIt": "bebe",
+      "we": "bebemos",
+      "they": "bebem"
+    },
+    "url": ""
+  },
+  {
+    "id": 15,
+    "verb": "entender",
+    "translation": "to understand",
+    "translationRu": "понимать",
+    "verbForms": {
+      "i": "entendo",
+      "you": "entendes",
+      "heSheIt": "entende",
+      "we": "entendemos",
+      "they": "entendem"
+    },
+    "url": ""
+  },
+  {
+    "id": 16,
+    "verb": "assistir",
+    "translation": "to watch / to attend",
+    "translationRu": "смотреть / присутствовать",
+    "verbForms": {
+      "i": "assisto",
+      "you": "assistes",
+      "heSheIt": "assiste",
+      "we": "assistimos",
+      "they": "assistem"
+    },
+    "url": ""
+  },
+  {
+    "id": 17,
+    "verb": "abrir",
+    "translation": "to open",
+    "translationRu": "открывать",
+    "verbForms": {
+      "i": "abro",
+      "you": "abres",
+      "heSheIt": "abre",
+      "we": "abrimos",
+      "they": "abrem"
+    },
+    "url": ""
+  },
+  {
+    "id": 18,
+    "verb": "fechar",
+    "translation": "to close",
+    "translationRu": "закрывать",
+    "verbForms": {
+      "i": "fecho",
+      "you": "fechas",
+      "heSheIt": "fecha",
+      "we": "fechamos",
+      "they": "fecham"
+    },
+    "url": ""
+  },
+  {
+    "id": 19,
+    "verb": "esperar",
+    "translation": "to wait",
+    "translationRu": "ждать",
+    "verbForms": {
+      "i": "espero",
+      "you": "esperas",
+      "heSheIt": "espera",
+      "we": "esperamos",
+      "they": "esperam"
+    },
+    "url": ""
+  },
+  {
+    "id": 20,
+    "verb": "começar",
+    "translation": "to start",
+    "translationRu": "начинать",
+    "verbForms": {
+      "i": "começo",
+      "you": "começas",
+      "heSheIt": "começa",
+      "we": "começamos",
+      "they": "começam"
+    },
+    "url": ""
+  },
+  {
+    "id": 21,
+    "verb": "terminar",
+    "translation": "to finish",
+    "translationRu": "заканчивать",
+    "verbForms": {
+      "i": "termino",
+      "you": "terminas",
+      "heSheIt": "termina",
+      "we": "terminamos",
+      "they": "terminam"
+    },
+    "url": ""
+  },
+  {
+    "id": 22,
+    "verb": "chamar",
+    "translation": "to call",
+    "translationRu": "звать/вызывать",
+    "verbForms": {
+      "i": "chamo",
+      "you": "chamas",
+      "heSheIt": "chama",
+      "we": "chamamos",
+      "they": "chamam"
+    },
+    "url": ""
+  },
+  {
+    "id": 23,
+    "verb": "escutar",
+    "translation": "to listen",
+    "translationRu": "слушать",
+    "verbForms": {
+      "i": "escuto",
+      "you": "escutas",
+      "heSheIt": "escuta",
+      "we": "escutamos",
+      "they": "escutam"
+    },
+    "url": ""
+  },
+  {
+    "id": 24,
+    "verb": "precisar",
+    "translation": "to need",
+    "translationRu": "нуждаться",
+    "verbForms": {
+      "i": "preciso",
+      "you": "precisas",
+      "heSheIt": "precisa",
+      "we": "precisamos",
+      "they": "precisam"
+    },
+    "url": ""
+  },
+  {
+    "id": 25,
+    "verb": "perguntar",
+    "translation": "to ask",
+    "translationRu": "спрашивать",
+    "verbForms": {
+      "i": "pergunto",
+      "you": "perguntas",
+      "heSheIt": "pergunta",
+      "we": "perguntamos",
+      "they": "perguntam"
+    },
+    "url": ""
+  },
+  {
+    "id": 26,
+    "verb": "responder",
+    "translation": "to answer",
+    "translationRu": "отвечать",
+    "verbForms": {
+      "i": "respondo",
+      "you": "respondes",
+      "heSheIt": "responde",
+      "we": "respondemos",
+      "they": "respondem"
+    },
+    "url": ""
+  },
+  {
+    "id": 27,
+    "verb": "gostar",
+    "translation": "to like",
+    "translationRu": "нравиться",
+    "verbForms": {
+      "i": "gosto",
+      "you": "gostas",
+      "heSheIt": "gosta",
+      "we": "gostamos",
+      "they": "gostam"
+    },
+    "url": ""
+  },
+  {
+    "id": 28,
+    "verb": "procurar",
+    "translation": "to search / to look for",
+    "translationRu": "искать",
+    "verbForms": {
+      "i": "procuro",
+      "you": "procuras",
+      "heSheIt": "procura",
+      "we": "procuramos",
+      "they": "procuram"
+    },
+    "url": ""
+  },
+  {
+    "id": 29,
+    "verb": "encontrar",
+    "translation": "to find",
+    "translationRu": "находить",
+    "verbForms": {
+      "i": "encontro",
+      "you": "encontras",
+      "heSheIt": "encontra",
+      "we": "encontramos",
+      "they": "encontram"
+    },
+    "url": ""
+  },
+  {
+    "id": 30,
+    "verb": "comprar",
+    "translation": "to buy",
+    "translationRu": "покупать",
+    "verbForms": {
+      "i": "compro",
+      "you": "compras",
+      "heSheIt": "compra",
+      "we": "compramos",
+      "they": "compram"
+    },
+    "url": ""
+  },
+  {
+    "id": 31,
+    "verb": "pagar",
+    "translation": "to pay",
+    "translationRu": "платить",
+    "verbForms": {
+      "i": "pago",
+      "you": "pagas",
+      "heSheIt": "paga",
+      "we": "pagamos",
+      "they": "pagam"
+    },
+    "url": ""
+  },
+  {
+    "id": 32,
+    "verb": "usar",
+    "translation": "to use",
+    "translationRu": "использовать",
+    "verbForms": {
+      "i": "uso",
+      "you": "usas",
+      "heSheIt": "usa",
+      "we": "usamos",
+      "they": "usam"
+    },
+    "url": ""
+  },
+  {
+    "id": 33,
+    "verb": "ajudar",
+    "translation": "to help",
+    "translationRu": "помогать",
+    "verbForms": {
+      "i": "ajudo",
+      "you": "ajudas",
+      "heSheIt": "ajuda",
+      "we": "ajudamos",
+      "they": "ajudam"
+    },
+    "url": ""
+  },
+  {
+    "id": 34,
+    "verb": "lembrar",
+    "translation": "to remember",
+    "translationRu": "помнить",
+    "verbForms": {
+      "i": "lembro",
+      "you": "lembras",
+      "heSheIt": "lembra",
+      "we": "lembramos",
+      "they": "lembram"
+    },
+    "url": ""
+  },
+  {
+    "id": 35,
+    "verb": "esquecer",
+    "translation": "to forget",
+    "translationRu": "забывать",
+    "verbForms": {
+      "i": "esqueço",
+      "you": "esqueces",
+      "heSheIt": "esquece",
+      "we": "esquecemos",
+      "they": "esquecem"
+    },
+    "url": ""
+  },
+  {
+    "id": 36,
+    "verb": "caminhar",
+    "translation": "to walk",
+    "translationRu": "ходить",
+    "verbForms": {
+      "i": "caminho",
+      "you": "caminhas",
+      "heSheIt": "caminha",
+      "we": "caminhamos",
+      "they": "caminham"
+    },
+    "url": ""
+  },
+  {
+    "id": 37,
+    "verb": "descansar",
+    "translation": "to rest",
+    "translationRu": "отдыхать",
+    "verbForms": {
+      "i": "descanso",
+      "you": "descansas",
+      "heSheIt": "descansa",
+      "we": "descansamos",
+      "they": "descansam"
+    },
+    "url": ""
+  },
+  {
+    "id": 38,
+    "verb": "brincar",
+    "translation": "to play (as a child)",
+    "translationRu": "играть (как ребенок)",
+    "verbForms": {
+      "i": "brinco",
+      "you": "brincas",
+      "heSheIt": "brinca",
+      "we": "brincamos",
+      "they": "brincam"
+    },
+    "url": ""
+  },
+  {
+    "id": 39,
+    "verb": "enviar",
+    "translation": "to send",
+    "translationRu": "отправлять",
+    "verbForms": {
+      "i": "envio",
+      "you": "envias",
+      "heSheIt": "envia",
+      "we": "enviamos",
+      "they": "enviam"
+    },
+    "url": ""
+  },
+  {
+    "id": 40,
+    "verb": "receber",
+    "translation": "to receive",
+    "translationRu": "получать",
+    "verbForms": {
+      "i": "recebo",
+      "you": "recebes",
+      "heSheIt": "recebe",
+      "we": "recebemos",
+      "they": "recebem"
+    },
+    "url": ""
+  },
+  {
+    "id": 41,
+    "verb": "mudar",
+    "translation": "to change",
+    "translationRu": "менять",
+    "verbForms": {
+      "i": "mudo",
+      "you": "mudas",
+      "heSheIt": "muda",
+      "we": "mudamos",
+      "they": "mudam"
+    },
+    "url": ""
+  },
+  {
+    "id": 42,
+    "verb": "limpar",
+    "translation": "to clean",
+    "translationRu": "убирать",
+    "verbForms": {
+      "i": "limpo",
+      "you": "limpas",
+      "heSheIt": "limpa",
+      "we": "limpamos",
+      "they": "limpam"
+    },
+    "url": ""
+  },
+  {
+    "id": 43,
+    "verb": "esperar",
+    "translation": "to hope / to wait",
+    "translationRu": "надеяться / ждать",
+    "verbForms": {
+      "i": "espero",
+      "you": "esperas",
+      "heSheIt": "espera",
+      "we": "esperamos",
+      "they": "esperam"
+    },
+    "url": ""
+  },
+  {
+    "id": 44,
+    "verb": "parar",
+    "translation": "to stop",
+    "translationRu": "останавливаться",
+    "verbForms": {
+      "i": "paro",
+      "you": "paras",
+      "heSheIt": "para",
+      "we": "paramos",
+      "they": "param"
+    },
+    "url": ""
+  },
+  {
+    "id": 45,
+    "verb": "ensinar",
+    "translation": "to teach",
+    "translationRu": "учить / преподавать",
+    "verbForms": {
+      "i": "ensino",
+      "you": "ensinas",
+      "heSheIt": "ensina",
+      "we": "ensinamos",
+      "they": "ensinam"
+    },
+    "url": ""
+  },
+  {
+    "id": 46,
+    "verb": "desejar",
+    "translation": "to wish",
+    "translationRu": "желать",
+    "verbForms": {
+      "i": "desejo",
+      "you": "desejas",
+      "heSheIt": "deseja",
+      "we": "desejamos",
+      "they": "desejam"
+    },
+    "url": ""
+  },
+  {
+    "id": 47,
+    "verb": "mostrar",
+    "translation": "to show",
+    "translationRu": "показывать",
+    "verbForms": {
+      "i": "mostro",
+      "you": "mostras",
+      "heSheIt": "mostra",
+      "we": "mostramos",
+      "they": "mostram"
+    },
+    "url": ""
+  },
+  {
+    "id": 48,
+    "verb": "pensar",
+    "translation": "to think",
+    "translationRu": "думать",
+    "verbForms": {
+      "i": "penso",
+      "you": "pensas",
+      "heSheIt": "pensa",
+      "we": "pensamos",
+      "they": "pensam"
+    },
+    "url": ""
+  },
+  {
+    "id": 49,
+    "verb": "precisar",
+    "translation": "to need",
+    "translationRu": "нуждаться",
+    "verbForms": {
+      "i": "preciso",
+      "you": "precisas",
+      "heSheIt": "precisa",
+      "we": "precisamos",
+      "they": "precisam"
+    },
+    "url": ""
+  },
+  {
+    "id": 50,
+    "verb": "tratar",
+    "translation": "to deal with / to treat",
+    "translationRu": "иметь дело / лечить",
+    "verbForms": {
+      "i": "trato",
+      "you": "tratas",
+      "heSheIt": "trata",
+      "we": "tratamos",
+      "they": "tratam"
+    },
+    "url": ""
+  },
+  {
+    "id": 51,
+    "verb": "ajustar",
+    "translation": "to adjust",
+    "translationRu": "регулировать",
+    "verbForms": {
+      "i": "ajusto",
+      "you": "ajustas",
+      "heSheIt": "ajusta",
+      "we": "ajustamos",
+      "they": "ajustam"
+    },
+    "url": ""
+  },
+  {
+    "id": 52,
+    "verb": "guardar",
+    "translation": "to keep / to save",
+    "translationRu": "хранить / сохранять",
+    "verbForms": {
+      "i": "guardo",
+      "you": "guardas",
+      "heSheIt": "guarda",
+      "we": "guardamos",
+      "they": "guardam"
+    },
+    "url": ""
+  },
+  {
+    "id": 53,
+    "verb": "criar",
+    "translation": "to create",
+    "translationRu": "создавать",
+    "verbForms": {
+      "i": "crio",
+      "you": "crias",
+      "heSheIt": "cria",
+      "we": "criamos",
+      "they": "criam"
+    },
+    "url": ""
+  },
+  {
+    "id": 54,
+    "verb": "lutar",
+    "translation": "to fight",
+    "translationRu": "бороться",
+    "verbForms": {
+      "i": "luto",
+      "you": "lutas",
+      "heSheIt": "luta",
+      "we": "lutamos",
+      "they": "lutam"
+    },
+    "url": ""
+  },
+  {
+    "id": 55,
+    "verb": "enviar",
+    "translation": "to send",
+    "translationRu": "отправлять",
+    "verbForms": {
+      "i": "envio",
+      "you": "envias",
+      "heSheIt": "envia",
+      "we": "enviamos",
+      "they": "enviam"
+    },
+    "url": ""
+  },
+  {
+    "id": 56,
+    "verb": "aceitar",
+    "translation": "to accept",
+    "translationRu": "принимать",
+    "verbForms": {
+      "i": "aceito",
+      "you": "aceitas",
+      "heSheIt": "aceita",
+      "we": "aceitamos",
+      "they": "aceitam"
+    },
+    "url": ""
+  },
+  {
+    "id": 57,
+    "verb": "trocar",
+    "translation": "to exchange",
+    "translationRu": "менять / обменивать",
+    "verbForms": {
+      "i": "troco",
+      "you": "trocas",
+      "heSheIt": "troca",
+      "we": "trocamos",
+      "they": "trocam"
+    },
+    "url": ""
+  },
+  {
+    "id": 58,
+    "verb": "subir",
+    "translation": "to go up / to climb",
+    "translationRu": "подниматься / взбираться",
+    "verbForms": {
+      "i": "subo",
+      "you": "sobes",
+      "heSheIt": "sobe",
+      "we": "subimos",
+      "they": "sobem"
+    },
+    "url": ""
+  },
+  {
+    "id": 59,
+    "verb": "descer",
+    "translation": "to go down / to descend",
+    "translationRu": "спускаться",
+    "verbForms": {
+      "i": "desço",
+      "you": "desces",
+      "heSheIt": "desce",
+      "we": "descemos",
+      "they": "descem"
+    },
+    "url": ""
+  },
+  {
+    "id": 60,
+    "verb": "pedir",
+    "translation": "to ask for / to request",
+    "translationRu": "просить / запрашивать",
+    "verbForms": {
+      "i": "peço",
+      "you": "pedes",
+      "heSheIt": "pede",
+      "we": "pedimos",
+      "they": "pedem"
+    },
+    "url": ""
+  },
+  {
+    "id": 61,
+    "verb": "oferecer",
+    "translation": "to offer",
+    "translationRu": "предлагать",
+    "verbForms": {
+      "i": "ofereço",
+      "you": "ofereces",
+      "heSheIt": "oferece",
+      "we": "oferecemos",
+      "they": "oferecem"
+    },
+    "url": ""
+  },
+  {
+    "id": 62,
+    "verb": "convidar",
+    "translation": "to invite",
+    "translationRu": "приглашать",
+    "verbForms": {
+      "i": "convido",
+      "you": "convidas",
+      "heSheIt": "convida",
+      "we": "convidamos",
+      "they": "convidam"
+    },
+    "url": ""
+  },
+  {
+    "id": 63,
+    "verb": "organizar",
+    "translation": "to organize",
+    "translationRu": "организовывать",
+    "verbForms": {
+      "i": "organizo",
+      "you": "organizas",
+      "heSheIt": "organiza",
+      "we": "organizamos",
+      "they": "organizam"
+    },
+    "url": ""
+  },
+  {
+    "id": 64,
+    "verb": "decorar",
+    "translation": "to decorate",
+    "translationRu": "украшать",
+    "verbForms": {
+      "i": "decoro",
+      "you": "decoras",
+      "heSheIt": "decora",
+      "we": "decoramos",
+      "they": "decoram"
+    },
+    "url": ""
+  },
+  {
+    "id": 65,
+    "verb": "cortar",
+    "translation": "to cut",
+    "translationRu": "резать",
+    "verbForms": {
+      "i": "corto",
+      "you": "cortas",
+      "heSheIt": "corta",
+      "we": "cortamos",
+      "they": "cortam"
+    },
+    "url": ""
+  },
+  {
+    "id": 66,
+    "verb": "celebrar",
+    "translation": "to celebrate",
+    "translationRu": "праздновать",
+    "verbForms": {
+      "i": "celebro",
+      "you": "celebras",
+      "heSheIt": "celebra",
+      "we": "celebramos",
+      "they": "celebram"
+    },
+    "url": ""
+  },
+  {
+    "id": 67,
+    "verb": "continuar",
+    "translation": "to continue",
+    "translationRu": "продолжать",
+    "verbForms": {
+      "i": "continuo",
+      "you": "continuas",
+      "heSheIt": "continua",
+      "we": "continuamos",
+      "they": "continuam"
+    },
+    "url": ""
+  },
+  {
+    "id": 68,
+    "verb": "apresentar",
+    "translation": "to present / to introduce",
+    "translationRu": "представлять / вводить",
+    "verbForms": {
+      "i": "apresento",
+      "you": "apresentas",
+      "heSheIt": "apresenta",
+      "we": "apresentamos",
+      "they": "apresentam"
+    },
+    "url": ""
+  },
+  {
+    "id": 69,
+    "verb": "aguardar",
+    "translation": "to wait / to await",
+    "translationRu": "ждать / ожидать",
+    "verbForms": {
+      "i": "aguardo",
+      "you": "aguardas",
+      "heSheIt": "aguarda",
+      "we": "aguardamos",
+      "they": "aguardam"
+    },
+    "url": ""
+  },
+  {
+    "id": 70,
+    "verb": "cobrar",
+    "translation": "to charge / to collect",
+    "translationRu": "взимать / собирать",
+    "verbForms": {
+      "i": "cobro",
+      "you": "cobras",
+      "heSheIt": "cobra",
+      "we": "cobramos",
+      "they": "cobram"
+    },
+    "url": ""
+  },
+  {
+    "id": 71,
+    "verb": "consertar",
+    "translation": "to fix / to repair",
+    "translationRu": "чинить / ремонтировать",
+    "verbForms": {
+      "i": "conserto",
+      "you": "consertas",
+      "heSheIt": "conserta",
+      "we": "consertamos",
+      "they": "consertam"
+    },
+    "url": ""
+  },
+  {
+    "id": 72,
+    "verb": "preparar",
+    "translation": "to prepare",
+    "translationRu": "готовить",
+    "verbForms": {
+      "i": "preparo",
+      "you": "preparas",
+      "heSheIt": "prepara",
+      "we": "preparamos",
+      "they": "preparam"
+    },
+    "url": ""
+  },
+  {
+    "id": 73,
+    "verb": "descobrir",
+    "translation": "to discover",
+    "translationRu": "обнаружить",
+    "verbForms": {
+      "i": "descubro",
+      "you": "descobres",
+      "heSheIt": "descobre",
+      "we": "descobrimos",
+      "they": "descobrem"
+    },
+    "url": ""
+  },
+  {
+    "id": 74,
+    "verb": "arrumar",
+    "translation": "to tidy up / to arrange",
+    "translationRu": "прибирать / упорядочивать",
+    "verbForms": {
+      "i": "arrumo",
+      "you": "arrumas",
+      "heSheIt": "arruma",
+      "we": "arrumamos",
+      "they": "arrumam"
+    },
+    "url": ""
+  },
+  {
+    "id": 75,
+    "verb": "economizar",
+    "translation": "to save (money)",
+    "translationRu": "экономить (деньги)",
+    "verbForms": {
+      "i": "economizo",
+      "you": "economizas",
+      "heSheIt": "economiza",
+      "we": "economizamos",
+      "they": "economizam"
+    },
+    "url": ""
+  },
+  {
+    "id": 76,
+    "verb": "visitar",
+    "translation": "to visit",
+    "translationRu": "посещать",
+    "verbForms": {
+      "i": "visito",
+      "you": "visitas",
+      "heSheIt": "visita",
+      "we": "visitamos",
+      "they": "visitam"
+    },
+    "url": ""
+  },
+  {
+    "id": 77,
+    "verb": "apagar",
+    "translation": "to turn off / to erase",
+    "translationRu": "выключать / стирать",
+    "verbForms": {
+      "i": "apago",
+      "you": "apagas",
+      "heSheIt": "apaga",
+      "we": "apagamos",
+      "they": "apagam"
+    },
+    "url": ""
+  },
+  {
+    "id": 78,
+    "verb": "explicar",
+    "translation": "to explain",
+    "translationRu": "объяснять",
+    "verbForms": {
+      "i": "explico",
+      "you": "explicas",
+      "heSheIt": "explica",
+      "we": "explicamos",
+      "they": "explicam"
+    },
+    "url": ""
+  },
+  {
+    "id": 79,
+    "verb": "esperar",
+    "translation": "to hope / to wait",
+    "translationRu": "надеяться / ждать",
+    "verbForms": {
+      "i": "espero",
+      "you": "esperas",
+      "heSheIt": "espera",
+      "we": "esperamos",
+      "they": "esperam"
+    },
+    "url": ""
+  },
+  {
+    "id": 80,
+    "verb": "reclamar",
+    "translation": "to complain",
+    "translationRu": "жаловаться",
+    "verbForms": {
+      "i": "reclamo",
+      "you": "reclamas",
+      "heSheIt": "reclama",
+      "we": "reclamamos",
+      "they": "reclamam"
+    },
+    "url": ""
+  },
+  {
+    "id": 81,
+    "verb": "corrigir",
+    "translation": "to correct",
+    "translationRu": "исправлять",
+    "verbForms": {
+      "i": "corrijo",
+      "you": "corriges",
+      "heSheIt": "corrige",
+      "we": "corrigimos",
+      "they": "corrigem"
+    },
+    "url": ""
+  },
+  {
+    "id": 82,
+    "verb": "proteger",
+    "translation": "to protect",
+    "translationRu": "защищать",
+    "verbForms": {
+      "i": "protejo",
+      "you": "proteges",
+      "heSheIt": "protege",
+      "we": "protegemos",
+      "they": "protegem"
+    },
+    "url": ""
+  },
+  {
+    "id": 83,
+    "verb": "exercitar",
+    "translation": "to exercise",
+    "translationRu": "упражняться",
+    "verbForms": {
+      "i": "exercito",
+      "you": "exercitas",
+      "heSheIt": "exercita",
+      "we": "exercitamos",
+      "they": "exercitam"
+    },
+    "url": ""
+  },
+  {
+    "id": 84,
+    "verb": "melhorar",
+    "translation": "to improve",
+    "translationRu": "улучшать",
+    "verbForms": {
+      "i": "melhoro",
+      "you": "melhoras",
+      "heSheIt": "melhora",
+      "we": "melhoramos",
+      "they": "melhoram"
+    },
+    "url": ""
+  },
+  {
+    "id": 85,
+    "verb": "verificar",
+    "translation": "to verify / to check",
+    "translationRu": "проверять",
+    "verbForms": {
+      "i": "verifico",
+      "you": "verificas",
+      "heSheIt": "verifica",
+      "we": "verificamos",
+      "they": "verificam"
+    },
+    "url": ""
+  },
+  {
+    "id": 86,
+    "verb": "analisar",
+    "translation": "to analyze",
+    "translationRu": "анализировать",
+    "verbForms": {
+      "i": "analiso",
+      "you": "analisas",
+      "heSheIt": "analisa",
+      "we": "analisamos",
+      "they": "analisam"
+    },
+    "url": ""
+  },
+  {
+    "id": 87,
+    "verb": "imaginar",
+    "translation": "to imagine",
+    "translationRu": "представлять",
+    "verbForms": {
+      "i": "imagino",
+      "you": "imaginas",
+      "heSheIt": "imagina",
+      "we": "imaginamos",
+      "they": "imaginam"
+    },
+    "url": ""
+  },
+  {
+    "id": 88,
+    "verb": "resolver",
+    "translation": "to resolve / to solve",
+    "translationRu": "решать",
+    "verbForms": {
+      "i": "resolvo",
+      "you": "resolves",
+      "heSheIt": "resolve",
+      "we": "resolvemos",
+      "they": "resolvem"
+    },
+    "url": ""
+  },
+  {
+    "id": 89,
+    "verb": "comemorar",
+    "translation": "to commemorate",
+    "translationRu": "праздновать / отмечать",
+    "verbForms": {
+      "i": "comemoro",
+      "you": "comemoras",
+      "heSheIt": "comemora",
+      "we": "comemoramos",
+      "they": "comemoram"
+    },
+    "url": ""
+  },
+  {
+    "id": 90,
+    "verb": "informar",
+    "translation": "to inform",
+    "translationRu": "информировать",
+    "verbForms": {
+      "i": "informo",
+      "you": "informas",
+      "heSheIt": "informa",
+      "we": "informamos",
+      "they": "informam"
+    },
+    "url": ""
+  },
+  {
+    "id": 91,
+    "verb": "organizar",
+    "translation": "to organize",
+    "translationRu": "организовывать",
+    "verbForms": {
+      "i": "organizo",
+      "you": "organizas",
+      "heSheIt": "organiza",
+      "we": "organizamos",
+      "they": "organizam"
+    },
+    "url": ""
+  },
+  {
+    "id": 92,
+    "verb": "controlar",
+    "translation": "to control",
+    "translationRu": "контролировать",
+    "verbForms": {
+      "i": "controlo",
+      "you": "controlas",
+      "heSheIt": "controla",
+      "we": "controlamos",
+      "they": "controlam"
+    },
+    "url": ""
+  },
+  {
+    "id": 93,
+    "verb": "explorar",
+    "translation": "to explore",
+    "translationRu": "исследовать",
+    "verbForms": {
+      "i": "exploro",
+      "you": "exploras",
+      "heSheIt": "explora",
+      "we": "exploramos",
+      "they": "exploram"
+    },
+    "url": ""
+  },
+  {
+    "id": 94,
+    "verb": "apoiar",
+    "translation": "to support",
+    "translationRu": "поддерживать",
+    "verbForms": {
+      "i": "apoio",
+      "you": "apoias",
+      "heSheIt": "apoia",
+      "we": "apoiamos",
+      "they": "apoiam"
+    },
+    "url": ""
+  },
+  {
+    "id": 95,
+    "verb": "defender",
+    "translation": "to defend",
+    "translationRu": "защищать",
+    "verbForms": {
+      "i": "defendo",
+      "you": "defendes",
+      "heSheIt": "defende",
+      "we": "defendemos",
+      "they": "defendem"
+    },
+    "url": ""
+  },
+  {
+    "id": 96,
+    "verb": "experimentar",
+    "translation": "to try / to experiment",
+    "translationRu": "пробовать / экспериментировать",
+    "verbForms": {
+      "i": "experimento",
+      "you": "experimentas",
+      "heSheIt": "experimenta",
+      "we": "experimentamos",
+      "they": "experimentam"
+    },
+    "url": ""
+  },
+  {
+    "id": 97,
+    "verb": "iniciar",
+    "translation": "to initiate / to start",
+    "translationRu": "инициировать / начинать",
+    "verbForms": {
+      "i": "inicio",
+      "you": "inicias",
+      "heSheIt": "inicia",
+      "we": "iniciamos",
+      "they": "iniciam"
+    },
+    "url": ""
+  },
+  {
+    "id": 98,
+    "verb": "adicionar",
+    "translation": "to add",
+    "translationRu": "добавлять",
+    "verbForms": {
+      "i": "adiciono",
+      "you": "adicionas",
+      "heSheIt": "adiciona",
+      "we": "adicionamos",
+      "they": "adicionam"
+    },
+    "url": ""
+  },
+  {
+    "id": 99,
+    "verb": "detalhar",
+    "translation": "to detail / to explain in detail",
+    "translationRu": "детализировать / объяснять подробно",
+    "verbForms": {
+      "i": "detalho",
+      "you": "detalhas",
+      "heSheIt": "detalha",
+      "we": "detalhamos",
+      "they": "detalham"
+    },
+    "url": ""
+  },
+  {
+    "id": 100,
+    "verb": "calcular",
+    "translation": "to calculate",
+    "translationRu": "вычислять",
+    "verbForms": {
+      "i": "calculo",
+      "you": "calculas",
+      "heSheIt": "calcula",
+      "we": "calculamos",
+      "they": "calculam"
+    },
+    "url": ""
+  },
+  {
+    "id": 101,
+    "verb": "sentar",
+    "translation": "to sit",
+    "translationRu": "садиться",
+    "verbForms": {
+      "i": "sento",
+      "you": "sentas",
+      "heSheIt": "senta",
+      "we": "sentamos",
+      "they": "sentam"
+    },
+    "url": ""
+  },
+  {
+    "id": 102,
+    "verb": "ligar",
+    "translation": "to call / to connect",
+    "translationRu": "звонить / подключать",
+    "verbForms": {
+      "i": "ligo",
+      "you": "ligas",
+      "heSheIt": "liga",
+      "we": "ligamos",
+      "they": "ligam"
+    },
+    "url": ""
+  },
+  {
+    "id": 103,
+    "verb": "respeitar",
+    "translation": "to respect",
+    "translationRu": "уважать",
+    "verbForms": {
+      "i": "respeito",
+      "you": "respeitas",
+      "heSheIt": "respeita",
+      "we": "respeitamos",
+      "they": "respeitam"
+    },
+    "url": ""
+  }
+]

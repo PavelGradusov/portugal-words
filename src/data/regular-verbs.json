@@ -798,5 +798,29 @@
     "translateRu": "вычислять",
     "type": "AR",
     "url": ""
+  },
+  {
+    "id": 101,
+    "verb": "sentar",
+    "translate": "to sit",
+    "translateRu": "садиться",
+    "type": "AR",
+    "url": ""
+  },
+  {
+    "id": 102,
+    "verb": "ligar",
+    "translate": "to call / to connect",
+    "translateRu": "звонить / подключать",
+    "type": "AR",
+    "url": ""
+  },
+  {
+    "id": 103,
+    "verb": "respeitar",
+    "translate": "to respect",
+    "translateRu": "уважать",
+    "type": "AR",
+    "url": ""
   }
 ]
