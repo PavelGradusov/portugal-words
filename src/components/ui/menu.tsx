@@ -10,16 +10,19 @@ function Menu() {
       <h1 className="uppercase mx-auto my-1 tracking-widest font-bold">
         {lang === "EN" ? "Rules" : "Правила"}
       </h1>
+      <MenuItem href="/rules/verbs-all">
+        {lang === "EN" ? "Verbs" : "Глаголы"}
+      </MenuItem>
       <MenuItem href="/rules/irregular">
         {lang === "EN" ? "Irregular verbs" : "Неправильные глаголы"}
+      </MenuItem>
+      <MenuItem href="/rules/regular">
+        {lang === "EN" ? "Regular verbs" : "Правильные глаголы"}
       </MenuItem>
       <MenuItem href="/rules/regular-rules">
         {lang === "EN"
           ? "Regular verb rules"
           : "Правила для правильных глаголов"}
-      </MenuItem>
-      <MenuItem href="/rules/regular">
-        {lang === "EN" ? "Regular verbs" : "Правильные глаголы"}
       </MenuItem>
       <MenuItem href="/rules/interrogative">
         {lang === "EN" ? "Interrogative words" : "Вопросительные слова"}

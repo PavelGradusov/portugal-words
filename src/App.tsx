@@ -23,6 +23,7 @@ import {
   words9,
   words10,
 } from "./data/words";
+import AllVerbsPage from "./pages/rules/all-verbs-page";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
                 element={<RegularVerbsPage />}
               />
               <Route path="/rules/regular" element={<RegularPage />} />
+              <Route path="/rules/verbs-all" element={<AllVerbsPage />} />
               <Route
                 path="/rules/interrogative"
                 element={<InterrogativePage />}

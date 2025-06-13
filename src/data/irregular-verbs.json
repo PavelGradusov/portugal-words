@@ -1,6 +1,7 @@
 [
   {
-    "id": 1,
+    "id": 1001,
+    "type": "irregular",
     "verb": "ser",
     "translation": "to be (permanent)",
     "translationRu": "быть (постоянное состояние)",
@@ -14,7 +15,8 @@
     "url": "/irregular-verbs/01-ser.webp"
   },
   {
-    "id": 2,
+    "id": 1002,
+    "type": "irregular",
     "verb": "estar",
     "translation": "to be (temporary)",
     "translationRu": "быть (временное состояние)",
@@ -28,7 +30,8 @@
     "url": "/irregular-verbs/02-estar.webp"
   },
   {
-    "id": 3,
+    "id": 1003,
+    "type": "irregular",
     "verb": "ter",
     "translation": "to have",
     "translationRu": "иметь",
@@ -42,7 +45,8 @@
     "url": "/irregular-verbs/03-ter.webp"
   },
   {
-    "id": 4,
+    "id": 1004,
+    "type": "irregular",
     "verb": "ir",
     "translation": "to go",
     "translationRu": "идти",
@@ -56,7 +60,8 @@
     "url": "/irregular-verbs/04-ir.webp"
   },
   {
-    "id": 5,
+    "id": 1005,
+    "type": "irregular",
     "verb": "fazer",
     "translation": "to do / to make",
     "translationRu": "делать / создавать",
@@ -70,7 +75,8 @@
     "url": "/irregular-verbs/05-fazer.webp"
   },
   {
-    "id": 6,
+    "id": 1006,
+    "type": "irregular",
     "verb": "poder",
     "translation": "to be able to / can",
     "translationRu": "мочь",
@@ -84,7 +90,8 @@
     "url": "/irregular-verbs/06-poder.webp"
   },
   {
-    "id": 7,
+    "id": 1007,
+    "type": "irregular",
     "verb": "dizer",
     "translation": "to say / to tell",
     "translationRu": "говорить / рассказывать",
@@ -98,7 +105,8 @@
     "url": "/irregular-verbs/07-dizer.webp"
   },
   {
-    "id": 8,
+    "id": 1008,
+    "type": "irregular",
     "verb": "ver",
     "translation": "to see",
     "translationRu": "видеть",
@@ -112,7 +120,8 @@
     "url": "/irregular-verbs/08-ver.webp"
   },
   {
-    "id": 9,
+    "id": 1009,
+    "type": "irregular",
     "verb": "dar",
     "translation": "to give",
     "translationRu": "давать",
@@ -126,7 +135,8 @@
     "url": "/irregular-verbs/09-dar.webp"
   },
   {
-    "id": 10,
+    "id": 1010,
+    "type": "irregular",
     "verb": "saber",
     "translation": "to know",
     "translationRu": "знать",
@@ -140,7 +150,8 @@
     "url": "/irregular-verbs/10-saber.webp"
   },
   {
-    "id": 11,
+    "id": 1011,
+    "type": "irregular",
     "verb": "querer",
     "translation": "to want",
     "translationRu": "хотеть",
@@ -154,7 +165,8 @@
     "url": "/irregular-verbs/11-querer.webp"
   },
   {
-    "id": 12,
+    "id": 1012,
+    "type": "irregular",
     "verb": "trazer",
     "translation": "to bring",
     "translationRu": "приносить",
@@ -168,7 +180,8 @@
     "url": "/irregular-verbs/12-trazer.webp"
   },
   {
-    "id": 13,
+    "id": 1013,
+    "type": "irregular",
     "verb": "pôr",
     "translation": "to put",
     "translationRu": "ставить / класть",
@@ -182,7 +195,8 @@
     "url": "/irregular-verbs/13-por.webp"
   },
   {
-    "id": 14,
+    "id": 1014,
+    "type": "irregular",
     "verb": "vir",
     "translation": "to come",
     "translationRu": "приходить",
@@ -196,7 +210,8 @@
     "url": "/irregular-verbs/14-vir.webp"
   },
   {
-    "id": 15,
+    "id": 1015,
+    "type": "irregular",
     "verb": "ler",
     "translation": "to read",
     "translationRu": "читать",
@@ -210,7 +225,8 @@
     "url": "/irregular-verbs/15-ler.webp"
   },
   {
-    "id": 16,
+    "id": 1016,
+    "type": "irregular",
     "verb": "ouvir",
     "translation": "to hear",
     "translationRu": "слышать",
@@ -224,7 +240,8 @@
     "url": "/irregular-verbs/16-ouvir.webp"
   },
   {
-    "id": 17,
+    "id": 1017,
+    "type": "irregular",
     "verb": "pedir",
     "translation": "to ask for / to request",
     "translationRu": "просить / запрашивать",
@@ -238,7 +255,8 @@
     "url": "/irregular-verbs/17-pedir.webp"
   },
   {
-    "id": 18,
+    "id": 1018,
+    "type": "irregular",
     "verb": "sentir",
     "translation": "to feel",
     "translationRu": "чувствовать",
@@ -252,7 +270,8 @@
     "url": "/irregular-verbs/18-sentir.webp"
   },
   {
-    "id": 19,
+    "id": 1019,
+    "type": "irregular",
     "verb": "seguir",
     "translation": "to follow",
     "translationRu": "следовать",
@@ -266,7 +285,8 @@
     "url": "/irregular-verbs/19-seguir.webp"
   },
   {
-    "id": 20,
+    "id": 1020,
+    "type": "irregular",
     "verb": "cair",
     "translation": "to fall",
     "translationRu": "падать",
@@ -280,7 +300,8 @@
     "url": "/irregular-verbs/20-cair.webp"
   },
   {
-    "id": 21,
+    "id": 1021,
+    "type": "irregular",
     "verb": "dormir",
     "translation": "to sleep",
     "translationRu": "спать",
@@ -294,7 +315,8 @@
     "url": "/irregular-verbs/21-dormir.webp"
   },
   {
-    "id": 22,
+    "id": 1022,
+    "type": "irregular",
     "verb": "sair",
     "translation": "to leave / to go out",
     "translationRu": "выходить / уходить",
@@ -308,7 +330,8 @@
     "url": "/irregular-verbs/22-sair.webp"
   },
   {
-    "id": 23,
+    "id": 1023,
+    "type": "irregular",
     "verb": "subir",
     "translation": "to go up / to climb",
     "translationRu": "подниматься / взбираться",
@@ -322,7 +345,8 @@
     "url": "/irregular-verbs/23-subir.webp"
   },
   {
-    "id": 25,
+    "id": 1025,
+    "type": "irregular",
     "verb": "rir",
     "translation": "to laugh",
     "translationRu": "смеяться",
@@ -336,7 +360,8 @@
     "url": "/irregular-verbs/25-rir.webp"
   },
   {
-    "id": 26,
+    "id": 1026,
+    "type": "irregular",
     "verb": "caber",
     "translation": "to fit",
     "translationRu": "вмещаться / подходить по размеру",
@@ -350,7 +375,8 @@
     "url": "/irregular-verbs/26-caber.webp"
   },
   {
-    "id": 27,
+    "id": 1027,
+    "type": "irregular",
     "verb": "perder",
     "translation": "to lose",
     "translationRu": "терять / проигрывать",
@@ -364,7 +390,8 @@
     "url": ""
   },
   {
-    "id": 28,
+    "id": 1028,
+    "type": "irregular",
     "verb": "conhecer",
     "translation": "to know / to meet",
     "translationRu": "знать / знакомиться",
@@ -378,7 +405,8 @@
     "url": ""
   },
   {
-    "id": 29,
+    "id": 1029,
+    "type": "irregular",
     "verb": "prover",
     "translation": "to provide / to supply",
     "translationRu": "обеспечивать / снабжать",

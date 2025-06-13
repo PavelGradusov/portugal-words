@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "type": "regular",
     "verb": "falar",
     "translation": "to speak",
     "translationRu": "говорить",
@@ -15,6 +16,7 @@
   },
   {
     "id": 2,
+    "type": "regular",
     "verb": "trabalhar",
     "translation": "to work",
     "translationRu": "работать",
@@ -29,6 +31,7 @@
   },
   {
     "id": 3,
+    "type": "regular",
     "verb": "estudar",
     "translation": "to study",
     "translationRu": "учиться",
@@ -43,6 +46,7 @@
   },
   {
     "id": 4,
+    "type": "regular",
     "verb": "morar",
     "translation": "to live",
     "translationRu": "жить",
@@ -57,6 +61,7 @@
   },
   {
     "id": 5,
+    "type": "regular",
     "verb": "amar",
     "translation": "to love",
     "translationRu": "любить",
@@ -71,6 +76,7 @@
   },
   {
     "id": 6,
+    "type": "regular",
     "verb": "viajar",
     "translation": "to travel",
     "translationRu": "путешествовать",
@@ -85,6 +91,7 @@
   },
   {
     "id": 7,
+    "type": "regular",
     "verb": "cozinhar",
     "translation": "to cook",
     "translationRu": "готовить",
@@ -99,6 +106,7 @@
   },
   {
     "id": 8,
+    "type": "regular",
     "verb": "jogar",
     "translation": "to play (a game/sport)",
     "translationRu": "играть (в игры/спорт)",
@@ -113,6 +121,7 @@
   },
   {
     "id": 9,
+    "type": "regular",
     "verb": "dançar",
     "translation": "to dance",
     "translationRu": "танцевать",
@@ -127,6 +136,7 @@
   },
   {
     "id": 10,
+    "type": "regular",
     "verb": "nadar",
     "translation": "to swim",
     "translationRu": "плавать",
@@ -141,6 +151,7 @@
   },
   {
     "id": 11,
+    "type": "regular",
     "verb": "aprender",
     "translation": "to learn",
     "translationRu": "учить/учиться",
@@ -155,6 +166,7 @@
   },
   {
     "id": 12,
+    "type": "regular",
     "verb": "viver",
     "translation": "to live (be alive)",
     "translationRu": "жить (быть живым)",
@@ -169,6 +181,7 @@
   },
   {
     "id": 13,
+    "type": "regular",
     "verb": "comer",
     "translation": "to eat",
     "translationRu": "есть",
@@ -183,6 +196,7 @@
   },
   {
     "id": 14,
+    "type": "regular",
     "verb": "beber",
     "translation": "to drink",
     "translationRu": "пить",
@@ -197,6 +211,7 @@
   },
   {
     "id": 15,
+    "type": "regular",
     "verb": "entender",
     "translation": "to understand",
     "translationRu": "понимать",
@@ -211,6 +226,7 @@
   },
   {
     "id": 16,
+    "type": "regular",
     "verb": "assistir",
     "translation": "to watch / to attend",
     "translationRu": "смотреть / присутствовать",
@@ -225,6 +241,7 @@
   },
   {
     "id": 17,
+    "type": "regular",
     "verb": "abrir",
     "translation": "to open",
     "translationRu": "открывать",
@@ -239,6 +256,7 @@
   },
   {
     "id": 18,
+    "type": "regular",
     "verb": "fechar",
     "translation": "to close",
     "translationRu": "закрывать",
@@ -252,21 +270,8 @@
     "url": ""
   },
   {
-    "id": 19,
-    "verb": "esperar",
-    "translation": "to wait",
-    "translationRu": "ждать",
-    "verbForms": {
-      "i": "espero",
-      "you": "esperas",
-      "heSheIt": "espera",
-      "we": "esperamos",
-      "they": "esperam"
-    },
-    "url": ""
-  },
-  {
     "id": 20,
+    "type": "regular",
     "verb": "começar",
     "translation": "to start",
     "translationRu": "начинать",
@@ -281,6 +286,7 @@
   },
   {
     "id": 21,
+    "type": "regular",
     "verb": "terminar",
     "translation": "to finish",
     "translationRu": "заканчивать",
@@ -295,6 +301,7 @@
   },
   {
     "id": 22,
+    "type": "regular",
     "verb": "chamar",
     "translation": "to call",
     "translationRu": "звать/вызывать",
@@ -309,6 +316,7 @@
   },
   {
     "id": 23,
+    "type": "regular",
     "verb": "escutar",
     "translation": "to listen",
     "translationRu": "слушать",
@@ -323,6 +331,7 @@
   },
   {
     "id": 24,
+    "type": "regular",
     "verb": "precisar",
     "translation": "to need",
     "translationRu": "нуждаться",
@@ -337,6 +346,7 @@
   },
   {
     "id": 25,
+    "type": "regular",
     "verb": "perguntar",
     "translation": "to ask",
     "translationRu": "спрашивать",
@@ -351,6 +361,7 @@
   },
   {
     "id": 26,
+    "type": "regular",
     "verb": "responder",
     "translation": "to answer",
     "translationRu": "отвечать",
@@ -365,6 +376,7 @@
   },
   {
     "id": 27,
+    "type": "regular",
     "verb": "gostar",
     "translation": "to like",
     "translationRu": "нравиться",
@@ -379,6 +391,7 @@
   },
   {
     "id": 28,
+    "type": "regular",
     "verb": "procurar",
     "translation": "to search / to look for",
     "translationRu": "искать",
@@ -393,6 +406,7 @@
   },
   {
     "id": 29,
+    "type": "regular",
     "verb": "encontrar",
     "translation": "to find",
     "translationRu": "находить",
@@ -407,6 +421,7 @@
   },
   {
     "id": 30,
+    "type": "regular",
     "verb": "comprar",
     "translation": "to buy",
     "translationRu": "покупать",
@@ -421,6 +436,7 @@
   },
   {
     "id": 31,
+    "type": "regular",
     "verb": "pagar",
     "translation": "to pay",
     "translationRu": "платить",
@@ -435,6 +451,7 @@
   },
   {
     "id": 32,
+    "type": "regular",
     "verb": "usar",
     "translation": "to use",
     "translationRu": "использовать",
@@ -449,6 +466,7 @@
   },
   {
     "id": 33,
+    "type": "regular",
     "verb": "ajudar",
     "translation": "to help",
     "translationRu": "помогать",
@@ -463,6 +481,7 @@
   },
   {
     "id": 34,
+    "type": "regular",
     "verb": "lembrar",
     "translation": "to remember",
     "translationRu": "помнить",
@@ -477,6 +496,7 @@
   },
   {
     "id": 35,
+    "type": "regular",
     "verb": "esquecer",
     "translation": "to forget",
     "translationRu": "забывать",
@@ -491,6 +511,7 @@
   },
   {
     "id": 36,
+    "type": "regular",
     "verb": "caminhar",
     "translation": "to walk",
     "translationRu": "ходить",
@@ -505,6 +526,7 @@
   },
   {
     "id": 37,
+    "type": "regular",
     "verb": "descansar",
     "translation": "to rest",
     "translationRu": "отдыхать",
@@ -519,6 +541,7 @@
   },
   {
     "id": 38,
+    "type": "regular",
     "verb": "brincar",
     "translation": "to play (as a child)",
     "translationRu": "играть (как ребенок)",
@@ -533,6 +556,7 @@
   },
   {
     "id": 39,
+    "type": "regular",
     "verb": "enviar",
     "translation": "to send",
     "translationRu": "отправлять",
@@ -547,6 +571,7 @@
   },
   {
     "id": 40,
+    "type": "regular",
     "verb": "receber",
     "translation": "to receive",
     "translationRu": "получать",
@@ -561,6 +586,7 @@
   },
   {
     "id": 41,
+    "type": "regular",
     "verb": "mudar",
     "translation": "to change",
     "translationRu": "менять",
@@ -575,6 +601,7 @@
   },
   {
     "id": 42,
+    "type": "regular",
     "verb": "limpar",
     "translation": "to clean",
     "translationRu": "убирать",
@@ -589,6 +616,7 @@
   },
   {
     "id": 43,
+    "type": "regular",
     "verb": "esperar",
     "translation": "to hope / to wait",
     "translationRu": "надеяться / ждать",
@@ -603,6 +631,7 @@
   },
   {
     "id": 44,
+    "type": "regular",
     "verb": "parar",
     "translation": "to stop",
     "translationRu": "останавливаться",
@@ -617,6 +646,7 @@
   },
   {
     "id": 45,
+    "type": "regular",
     "verb": "ensinar",
     "translation": "to teach",
     "translationRu": "учить / преподавать",
@@ -631,6 +661,7 @@
   },
   {
     "id": 46,
+    "type": "regular",
     "verb": "desejar",
     "translation": "to wish",
     "translationRu": "желать",
@@ -645,6 +676,7 @@
   },
   {
     "id": 47,
+    "type": "regular",
     "verb": "mostrar",
     "translation": "to show",
     "translationRu": "показывать",
@@ -659,6 +691,7 @@
   },
   {
     "id": 48,
+    "type": "regular",
     "verb": "pensar",
     "translation": "to think",
     "translationRu": "думать",
@@ -672,21 +705,8 @@
     "url": ""
   },
   {
-    "id": 49,
-    "verb": "precisar",
-    "translation": "to need",
-    "translationRu": "нуждаться",
-    "verbForms": {
-      "i": "preciso",
-      "you": "precisas",
-      "heSheIt": "precisa",
-      "we": "precisamos",
-      "they": "precisam"
-    },
-    "url": ""
-  },
-  {
     "id": 50,
+    "type": "regular",
     "verb": "tratar",
     "translation": "to deal with / to treat",
     "translationRu": "иметь дело / лечить",
@@ -701,6 +721,7 @@
   },
   {
     "id": 51,
+    "type": "regular",
     "verb": "ajustar",
     "translation": "to adjust",
     "translationRu": "регулировать",
@@ -715,6 +736,7 @@
   },
   {
     "id": 52,
+    "type": "regular",
     "verb": "guardar",
     "translation": "to keep / to save",
     "translationRu": "хранить / сохранять",
@@ -729,6 +751,7 @@
   },
   {
     "id": 53,
+    "type": "regular",
     "verb": "criar",
     "translation": "to create",
     "translationRu": "создавать",
@@ -743,6 +766,7 @@
   },
   {
     "id": 54,
+    "type": "regular",
     "verb": "lutar",
     "translation": "to fight",
     "translationRu": "бороться",
@@ -756,21 +780,8 @@
     "url": ""
   },
   {
-    "id": 55,
-    "verb": "enviar",
-    "translation": "to send",
-    "translationRu": "отправлять",
-    "verbForms": {
-      "i": "envio",
-      "you": "envias",
-      "heSheIt": "envia",
-      "we": "enviamos",
-      "they": "enviam"
-    },
-    "url": ""
-  },
-  {
     "id": 56,
+    "type": "regular",
     "verb": "aceitar",
     "translation": "to accept",
     "translationRu": "принимать",
@@ -785,6 +796,7 @@
   },
   {
     "id": 57,
+    "type": "regular",
     "verb": "trocar",
     "translation": "to exchange",
     "translationRu": "менять / обменивать",
@@ -798,21 +810,8 @@
     "url": ""
   },
   {
-    "id": 58,
-    "verb": "subir",
-    "translation": "to go up / to climb",
-    "translationRu": "подниматься / взбираться",
-    "verbForms": {
-      "i": "subo",
-      "you": "sobes",
-      "heSheIt": "sobe",
-      "we": "subimos",
-      "they": "sobem"
-    },
-    "url": ""
-  },
-  {
     "id": 59,
+    "type": "regular",
     "verb": "descer",
     "translation": "to go down / to descend",
     "translationRu": "спускаться",
@@ -826,21 +825,8 @@
     "url": ""
   },
   {
-    "id": 60,
-    "verb": "pedir",
-    "translation": "to ask for / to request",
-    "translationRu": "просить / запрашивать",
-    "verbForms": {
-      "i": "peço",
-      "you": "pedes",
-      "heSheIt": "pede",
-      "we": "pedimos",
-      "they": "pedem"
-    },
-    "url": ""
-  },
-  {
     "id": 61,
+    "type": "regular",
     "verb": "oferecer",
     "translation": "to offer",
     "translationRu": "предлагать",
@@ -855,6 +841,7 @@
   },
   {
     "id": 62,
+    "type": "regular",
     "verb": "convidar",
     "translation": "to invite",
     "translationRu": "приглашать",
@@ -869,6 +856,7 @@
   },
   {
     "id": 63,
+    "type": "regular",
     "verb": "organizar",
     "translation": "to organize",
     "translationRu": "организовывать",
@@ -883,6 +871,7 @@
   },
   {
     "id": 64,
+    "type": "regular",
     "verb": "decorar",
     "translation": "to decorate",
     "translationRu": "украшать",
@@ -897,6 +886,7 @@
   },
   {
     "id": 65,
+    "type": "regular",
     "verb": "cortar",
     "translation": "to cut",
     "translationRu": "резать",
@@ -911,6 +901,7 @@
   },
   {
     "id": 66,
+    "type": "regular",
     "verb": "celebrar",
     "translation": "to celebrate",
     "translationRu": "праздновать",
@@ -925,6 +916,7 @@
   },
   {
     "id": 67,
+    "type": "regular",
     "verb": "continuar",
     "translation": "to continue",
     "translationRu": "продолжать",
@@ -939,6 +931,7 @@
   },
   {
     "id": 68,
+    "type": "regular",
     "verb": "apresentar",
     "translation": "to present / to introduce",
     "translationRu": "представлять / вводить",
@@ -953,6 +946,7 @@
   },
   {
     "id": 69,
+    "type": "regular",
     "verb": "aguardar",
     "translation": "to wait / to await",
     "translationRu": "ждать / ожидать",
@@ -967,6 +961,7 @@
   },
   {
     "id": 70,
+    "type": "regular",
     "verb": "cobrar",
     "translation": "to charge / to collect",
     "translationRu": "взимать / собирать",
@@ -981,6 +976,7 @@
   },
   {
     "id": 71,
+    "type": "regular",
     "verb": "consertar",
     "translation": "to fix / to repair",
     "translationRu": "чинить / ремонтировать",
@@ -995,6 +991,7 @@
   },
   {
     "id": 72,
+    "type": "regular",
     "verb": "preparar",
     "translation": "to prepare",
     "translationRu": "готовить",
@@ -1009,6 +1006,7 @@
   },
   {
     "id": 73,
+    "type": "regular",
     "verb": "descobrir",
     "translation": "to discover",
     "translationRu": "обнаружить",
@@ -1023,6 +1021,7 @@
   },
   {
     "id": 74,
+    "type": "regular",
     "verb": "arrumar",
     "translation": "to tidy up / to arrange",
     "translationRu": "прибирать / упорядочивать",
@@ -1037,6 +1036,7 @@
   },
   {
     "id": 75,
+    "type": "regular",
     "verb": "economizar",
     "translation": "to save (money)",
     "translationRu": "экономить (деньги)",
@@ -1051,6 +1051,7 @@
   },
   {
     "id": 76,
+    "type": "regular",
     "verb": "visitar",
     "translation": "to visit",
     "translationRu": "посещать",
@@ -1065,6 +1066,7 @@
   },
   {
     "id": 77,
+    "type": "regular",
     "verb": "apagar",
     "translation": "to turn off / to erase",
     "translationRu": "выключать / стирать",
@@ -1079,6 +1081,7 @@
   },
   {
     "id": 78,
+    "type": "regular",
     "verb": "explicar",
     "translation": "to explain",
     "translationRu": "объяснять",
@@ -1092,21 +1095,8 @@
     "url": ""
   },
   {
-    "id": 79,
-    "verb": "esperar",
-    "translation": "to hope / to wait",
-    "translationRu": "надеяться / ждать",
-    "verbForms": {
-      "i": "espero",
-      "you": "esperas",
-      "heSheIt": "espera",
-      "we": "esperamos",
-      "they": "esperam"
-    },
-    "url": ""
-  },
-  {
     "id": 80,
+    "type": "regular",
     "verb": "reclamar",
     "translation": "to complain",
     "translationRu": "жаловаться",
@@ -1121,6 +1111,7 @@
   },
   {
     "id": 81,
+    "type": "regular",
     "verb": "corrigir",
     "translation": "to correct",
     "translationRu": "исправлять",
@@ -1135,6 +1126,7 @@
   },
   {
     "id": 82,
+    "type": "regular",
     "verb": "proteger",
     "translation": "to protect",
     "translationRu": "защищать",
@@ -1149,6 +1141,7 @@
   },
   {
     "id": 83,
+    "type": "regular",
     "verb": "exercitar",
     "translation": "to exercise",
     "translationRu": "упражняться",
@@ -1163,6 +1156,7 @@
   },
   {
     "id": 84,
+    "type": "regular",
     "verb": "melhorar",
     "translation": "to improve",
     "translationRu": "улучшать",
@@ -1177,6 +1171,7 @@
   },
   {
     "id": 85,
+    "type": "regular",
     "verb": "verificar",
     "translation": "to verify / to check",
     "translationRu": "проверять",
@@ -1191,6 +1186,7 @@
   },
   {
     "id": 86,
+    "type": "regular",
     "verb": "analisar",
     "translation": "to analyze",
     "translationRu": "анализировать",
@@ -1205,6 +1201,7 @@
   },
   {
     "id": 87,
+    "type": "regular",
     "verb": "imaginar",
     "translation": "to imagine",
     "translationRu": "представлять",
@@ -1219,6 +1216,7 @@
   },
   {
     "id": 88,
+    "type": "regular",
     "verb": "resolver",
     "translation": "to resolve / to solve",
     "translationRu": "решать",
@@ -1233,6 +1231,7 @@
   },
   {
     "id": 89,
+    "type": "regular",
     "verb": "comemorar",
     "translation": "to commemorate",
     "translationRu": "праздновать / отмечать",
@@ -1247,6 +1246,7 @@
   },
   {
     "id": 90,
+    "type": "regular",
     "verb": "informar",
     "translation": "to inform",
     "translationRu": "информировать",
@@ -1260,21 +1260,8 @@
     "url": ""
   },
   {
-    "id": 91,
-    "verb": "organizar",
-    "translation": "to organize",
-    "translationRu": "организовывать",
-    "verbForms": {
-      "i": "organizo",
-      "you": "organizas",
-      "heSheIt": "organiza",
-      "we": "organizamos",
-      "they": "organizam"
-    },
-    "url": ""
-  },
-  {
     "id": 92,
+    "type": "regular",
     "verb": "controlar",
     "translation": "to control",
     "translationRu": "контролировать",
@@ -1289,6 +1276,7 @@
   },
   {
     "id": 93,
+    "type": "regular",
     "verb": "explorar",
     "translation": "to explore",
     "translationRu": "исследовать",
@@ -1303,6 +1291,7 @@
   },
   {
     "id": 94,
+    "type": "regular",
     "verb": "apoiar",
     "translation": "to support",
     "translationRu": "поддерживать",
@@ -1317,6 +1306,7 @@
   },
   {
     "id": 95,
+    "type": "regular",
     "verb": "defender",
     "translation": "to defend",
     "translationRu": "защищать",
@@ -1331,6 +1321,7 @@
   },
   {
     "id": 96,
+    "type": "regular",
     "verb": "experimentar",
     "translation": "to try / to experiment",
     "translationRu": "пробовать / экспериментировать",
@@ -1345,6 +1336,7 @@
   },
   {
     "id": 97,
+    "type": "regular",
     "verb": "iniciar",
     "translation": "to initiate / to start",
     "translationRu": "инициировать / начинать",
@@ -1359,6 +1351,7 @@
   },
   {
     "id": 98,
+    "type": "regular",
     "verb": "adicionar",
     "translation": "to add",
     "translationRu": "добавлять",
@@ -1373,6 +1366,7 @@
   },
   {
     "id": 99,
+    "type": "regular",
     "verb": "detalhar",
     "translation": "to detail / to explain in detail",
     "translationRu": "детализировать / объяснять подробно",
@@ -1387,6 +1381,7 @@
   },
   {
     "id": 100,
+    "type": "regular",
     "verb": "calcular",
     "translation": "to calculate",
     "translationRu": "вычислять",
@@ -1401,6 +1396,7 @@
   },
   {
     "id": 101,
+    "type": "regular",
     "verb": "sentar",
     "translation": "to sit",
     "translationRu": "садиться",
@@ -1415,6 +1411,7 @@
   },
   {
     "id": 102,
+    "type": "regular",
     "verb": "ligar",
     "translation": "to call / to connect",
     "translationRu": "звонить / подключать",
@@ -1429,6 +1426,7 @@
   },
   {
     "id": 103,
+    "type": "regular",
     "verb": "respeitar",
     "translation": "to respect",
     "translationRu": "уважать",
