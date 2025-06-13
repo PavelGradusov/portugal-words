@@ -5,6 +5,8 @@ import useLanguage from "@/hooks/use-language";
 import { useState } from "react";
 import irregularVerbsSource from "../../data/irregular-verbs.json";
 import shuffleArray from "@/utils/shuffle";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
 
 interface VerbType {
   id: number;
@@ -22,6 +24,14 @@ function IrregularVerbsCardsPage() {
   const { lang } = useLanguage();
 
   const [currentWordId, setCurrentWordId] = useState(0);
+  const [backDirection, setBackDirection] = useState(() => {
+    return localStorage.getItem("backDirection") === "true";
+  });
+
+  const handleChangeDirection = () => {
+    localStorage.setItem("backDirection", String(!backDirection));
+    setBackDirection(!backDirection);
+  };
 
   function createVerbForms(verbForm: VerbForms) {
     return <VerbFormTable verbForm={verbForm} />;
@@ -31,12 +41,26 @@ function IrregularVerbsCardsPage() {
     <>
       <div className="flex justify-start items-center h-full">
         <div className="h-[100%] w-full">
-          <div className="ml-10">
-            {lang === "EN" ? "Word " : "Слово "}
-            {currentWordId + 1}
-            {lang === "EN" ? " from " : " из "}
-            {irregularVerbs.length}
+          <div className="flex justify-between">
+            <div className="ml-10">
+              {lang === "EN" ? "Word " : "Слово "}
+              {currentWordId + 1}
+              {lang === "EN" ? " from " : " из "}
+              {irregularVerbs.length}
+            </div>
+
+            <div className="flex items-center space-x-2 mr-10">
+              <Switch
+                id="direction-toggler"
+                checked={backDirection}
+                onCheckedChange={handleChangeDirection}
+              />
+              <Label htmlFor="direction-toggler">
+                {lang === "EN" ? "Reverse" : "Перевернуть"}
+              </Label>
+            </div>
           </div>
+
           <div className="w-[90%] mx-auto">
             <FlipCard
               image={irregularVerbs[currentWordId].url}
@@ -52,6 +76,7 @@ function IrregularVerbsCardsPage() {
               )}
               categoryEn="Irregular verbs"
               categoryRu="Неправильные глаголы"
+              backDirection={backDirection}
             />
           </div>
           <div className="flex gap-8 justify-center">

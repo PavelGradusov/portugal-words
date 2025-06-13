@@ -10,6 +10,7 @@ const FlipCard = ({
   children,
   categoryEn,
   categoryRu,
+  backDirection,
 }: {
   image: string;
   question: string;
@@ -17,6 +18,7 @@ const FlipCard = ({
   children?: React.ReactNode;
   categoryEn?: string;
   categoryRu?: string;
+  backDirection?: boolean;
 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const { lang } = useLanguage();
@@ -54,7 +56,7 @@ const FlipCard = ({
             {image !== "" && (
               <img src={image} alt="card image" width="50%"></img>
             )}
-            <p className="text-center">{question}</p>
+            <p className="text-center">{backDirection ? answer : question}</p>
           </CardContent>
         </Card>
 
@@ -77,7 +79,7 @@ const FlipCard = ({
             {image !== "" && (
               <img src={image} alt="card image" width="50%"></img>
             )}
-            <p className="text-center">{answer}</p>
+            <p className="text-center">{backDirection ? question : answer}</p>
           </CardContent>
           {children && (
             <CardFooter className="justify-center">{children}</CardFooter>

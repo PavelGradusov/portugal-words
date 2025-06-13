@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import VerbFormTable, { VerbForms } from "@/components/ui/verb-form-table";
 import regularVerbRules from "../../data/regular-verb-rules.json";
 import shuffleArray from "@/utils/shuffle";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
 
 interface VerbType {
   id: number;
@@ -29,6 +31,14 @@ function RegularVerbsCardsPage() {
   const { lang } = useLanguage();
 
   const [currentWordId, setCurrentWordId] = useState(0);
+  const [backDirection, setBackDirection] = useState(() => {
+    return localStorage.getItem("backDirection") === "true";
+  });
+
+  const handleChangeDirection = () => {
+    localStorage.setItem("backDirection", String(!backDirection));
+    setBackDirection(!backDirection);
+  };
 
   const prepare = (verb: string, postfix: string): string => {
     return verb.slice(0, -2) + postfix;
@@ -55,12 +65,26 @@ function RegularVerbsCardsPage() {
     <>
       <div className="flex justify-start items-center h-full">
         <div className="h-[100%] w-full">
-          <div className="ml-10">
-            {lang === "EN" ? "Word " : "Слово "}
-            {currentWordId + 1}
-            {lang === "EN" ? " from " : " из "}
-            {regularVerbs.length}
+          <div className="flex justify-between">
+            <div className="ml-10">
+              {lang === "EN" ? "Word " : "Слово "}
+              {currentWordId + 1}
+              {lang === "EN" ? " from " : " из "}
+              {regularVerbs.length}
+            </div>
+
+            <div className="flex items-center space-x-2 mr-10">
+              <Switch
+                id="direction-toggler"
+                checked={backDirection}
+                onCheckedChange={handleChangeDirection}
+              />
+              <Label htmlFor="direction-toggler">
+                {lang === "EN" ? "Reverse" : "Перевернуть"}
+              </Label>
+            </div>
           </div>
+
           <div className="w-[90%] mx-auto">
             <FlipCard
               image={regularVerbs[currentWordId].url}
@@ -74,6 +98,7 @@ function RegularVerbsCardsPage() {
               children={createVerbForms(regularVerbs[currentWordId])}
               categoryEn="Regular verbs"
               categoryRu="Правильные глаголы"
+              backDirection={backDirection}
             />
           </div>
           <div className="flex gap-8 justify-center">

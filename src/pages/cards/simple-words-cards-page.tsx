@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import FlipCard from "@/components/ui/flip-card";
+import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
+import { Switch } from "@/components/ui/switch";
 import useLanguage from "@/hooks/use-language";
 import shuffleArray from "@/utils/shuffle";
 import { useEffect, useState } from "react";
@@ -28,6 +30,14 @@ export interface WordsCollection {
 
 function SimpleWordsCardsPage({ wordsCollection }: Props) {
   const [words, setWords] = useState(() => shuffleArray(wordsCollection.words));
+  const [backDirection, setBackDirection] = useState(() => {
+    return localStorage.getItem("backDirection") === "true";
+  });
+
+  const handleChangeDirection = () => {
+    localStorage.setItem("backDirection", String(!backDirection));
+    setBackDirection(!backDirection);
+  };
 
   useEffect(() => {
     setWords(shuffleArray(wordsCollection.words));
@@ -62,11 +72,24 @@ function SimpleWordsCardsPage({ wordsCollection }: Props) {
     <>
       <div className="flex justify-start items-center h-full">
         <div className="h-[100%] w-full">
-          <div className="ml-10">
-            {lang === "EN" ? "Word " : "Слово "}
-            {currentWordId + 1}
-            {lang === "EN" ? " from " : " из "}
-            {words.length}
+          <div className="flex justify-between">
+            <div className="ml-10">
+              {lang === "EN" ? "Word " : "Слово "}
+              {currentWordId + 1}
+              {lang === "EN" ? " from " : " из "}
+              {words.length}
+            </div>
+
+            <div className="flex items-center space-x-2 mr-10">
+              <Switch
+                id="direction-toggler"
+                checked={backDirection}
+                onCheckedChange={handleChangeDirection}
+              />
+              <Label htmlFor="direction-toggler">
+                {lang === "EN" ? "Reverse" : "Перевернуть"}
+              </Label>
+            </div>
           </div>
 
           <div className="w-[90%] mx-auto">
@@ -82,6 +105,7 @@ function SimpleWordsCardsPage({ wordsCollection }: Props) {
               children={createExample(words[currentWordId])}
               categoryEn={wordsCollection.category.en}
               categoryRu={wordsCollection.category.ru}
+              backDirection={backDirection}
             />
           </div>
 
