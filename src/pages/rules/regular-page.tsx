@@ -8,29 +8,30 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import useLanguage from "@/hooks/use-language";
-
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import regularVerbs from "../../data/regular-verbs-full.json";
-
-type Verb = {
-  id: number;
-  verb: string;
-  translation: string;
-  translationRu: string;
-  verbForms: {
-    i: string;
-    you: string;
-    heSheIt: string;
-    we: string;
-    they: string;
-  };
-  url: string;
-};
+import { Verb } from "./all-verbs-page";
+import { useState } from "react";
+import SimpleCard from "@/components/ui/simple-card";
 
 const verbs: Verb[] = regularVerbs;
 const verbsSorted = verbs.sort((a, b) => a.verb.localeCompare(b.verb));
 
 function RegularPage() {
   const { lang } = useLanguage();
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentVerb, setCurrentVerb] = useState({} as Verb);
+
+  const showDialog = (verb: Verb) => {
+    setCurrentVerb(verb);
+    setIsOpen(true);
+  };
 
   return (
     <>
@@ -73,11 +74,8 @@ function RegularPage() {
             return (
               <TableRow
                 key={verb.id}
-                className={
-                  i % 2 === 1
-                    ? "bg-secondary hover:bg-secondary"
-                    : "hover:bg-transparent"
-                }
+                className={i % 2 === 1 ? "bg-secondary" : ""}
+                onClick={() => showDialog(verb)}
               >
                 <TableCell>
                   <span className="uppercase block">{verb.verb}</span>
@@ -95,6 +93,19 @@ function RegularPage() {
           })}
         </TableBody>
       </Table>
+
+      {/* Dialog with cards */}
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <DialogContent className="w-[75vw] aspect-[7/10]">
+          <DialogHeader>
+            <DialogTitle>{lang === "EN" ? "Verb" : "Глагол"}</DialogTitle>
+            <DialogDescription className="hidden">
+              Details about the verb
+            </DialogDescription>
+          </DialogHeader>
+          <SimpleCard verbToShow={currentVerb} lang={lang} />
+        </DialogContent>
+      </Dialog>
     </>
   );
 }

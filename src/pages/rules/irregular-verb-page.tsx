@@ -8,31 +8,32 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import useLanguage from "@/hooks/use-language";
-
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import myData from "../../data/irregular-verbs.json";
+import { useState } from "react";
+import { Verb } from "./all-verbs-page";
+import SimpleCard from "@/components/ui/simple-card";
 
-interface VerbType {
-  id: number;
-  verb: string;
-  translation: string;
-  translationRu: string;
-  verbForms: {
-    i: string;
-    you: string;
-    heSheIt: string;
-    we: string;
-    they: string;
-  };
-  url: string;
-}
-
-const irregularVerbs: VerbType[] = myData;
+const irregularVerbs: Verb[] = myData;
 const sortedIrregularVerbs = irregularVerbs.sort((a, b) =>
   a.verb.localeCompare(b.verb)
 );
 
 function IrregularVerbsPage() {
   const { lang } = useLanguage();
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentVerb, setCurrentVerb] = useState({} as Verb);
+
+  const showDialog = (verb: Verb) => {
+    setCurrentVerb(verb);
+    setIsOpen(true);
+  };
 
   return (
     <>
@@ -69,15 +70,12 @@ function IrregularVerbsPage() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {sortedIrregularVerbs.map((verb: VerbType, i) => {
+          {sortedIrregularVerbs.map((verb: Verb, i) => {
             return (
               <TableRow
                 key={verb.id}
-                className={
-                  i % 2 === 1
-                    ? "bg-secondary hover:bg-secondary"
-                    : "hover:bg-transparent"
-                }
+                className={i % 2 === 1 ? "bg-secondary" : ""}
+                onClick={() => showDialog(verb)}
               >
                 <TableCell className="uppercase">{verb.verb}</TableCell>
                 <TableCell>
@@ -96,6 +94,19 @@ function IrregularVerbsPage() {
           })}
         </TableBody>
       </Table>
+
+      {/* Dialog with cards */}
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <DialogContent className="w-[75vw] aspect-[7/10]">
+          <DialogHeader>
+            <DialogTitle>{lang === "EN" ? "Verb" : "Глагол"}</DialogTitle>
+            <DialogDescription className="hidden">
+              Details about the verb
+            </DialogDescription>
+          </DialogHeader>
+          <SimpleCard verbToShow={currentVerb} lang={lang} />
+        </DialogContent>
+      </Dialog>
     </>
   );
 }
