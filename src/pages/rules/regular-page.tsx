@@ -9,23 +9,20 @@ import {
 } from "@/components/ui/table";
 import useLanguage from "@/hooks/use-language";
 
-import regularVerbs from "../../data/regular-verbs.json";
-import regularVerbRules from "../../data/regular-verb-rules.json";
-import { VerbForms } from "@/components/ui/verb-form-table";
-
-type RuleType = {
-  group: string;
-  verbPostfixForms: VerbForms;
-};
-
-const rules: RuleType[] = regularVerbRules;
+import regularVerbs from "../../data/regular-verbs-full.json";
 
 type Verb = {
   id: number;
   verb: string;
-  translate: string;
-  translateRu: string;
-  type: string;
+  translation: string;
+  translationRu: string;
+  verbForms: {
+    i: string;
+    you: string;
+    heSheIt: string;
+    we: string;
+    they: string;
+  };
   url: string;
 };
 
@@ -34,16 +31,6 @@ const verbsSorted = verbs.sort((a, b) => a.verb.localeCompare(b.verb));
 
 function RegularPage() {
   const { lang } = useLanguage();
-
-  const prepare = (verb: string, postfix: string): string => {
-    return verb.slice(0, -2) + postfix;
-  };
-
-  const getPostfix = (type: string, pName: keyof VerbForms): string => {
-    const rule = rules.find((r) => r.group === type);
-    if (!rule) return ""; // Если правило не найдено, возвращаем пустую строку
-    return rule.verbPostfixForms[pName as keyof VerbForms] || "";
-  };
 
   return (
     <>
@@ -95,24 +82,14 @@ function RegularPage() {
                 <TableCell>
                   <span className="uppercase block">{verb.verb}</span>
                   <span className="block text-m lg:text-l xl:text-xl text-wrap">
-                    ({lang === "EN" ? verb.translate : verb.translateRu})
+                    ({lang === "EN" ? verb.translation : verb.translationRu})
                   </span>
                 </TableCell>
-                <TableCell>
-                  {prepare(verb.verb, getPostfix(verb.type, "i"))}
-                </TableCell>
-                <TableCell>
-                  {prepare(verb.verb, getPostfix(verb.type, "you"))}
-                </TableCell>
-                <TableCell>
-                  {prepare(verb.verb, getPostfix(verb.type, "heSheIt"))}
-                </TableCell>
-                <TableCell>
-                  {prepare(verb.verb, getPostfix(verb.type, "we"))}
-                </TableCell>
-                <TableCell>
-                  {prepare(verb.verb, getPostfix(verb.type, "they"))}
-                </TableCell>
+                <TableCell>{verb.verbForms.i}</TableCell>
+                <TableCell>{verb.verbForms.you}</TableCell>
+                <TableCell>{verb.verbForms.heSheIt}</TableCell>
+                <TableCell>{verb.verbForms.we}</TableCell>
+                <TableCell>{verb.verbForms.they}</TableCell>
               </TableRow>
             );
           })}
