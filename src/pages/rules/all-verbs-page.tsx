@@ -124,11 +124,11 @@ function AllVerbsPage() {
         <DialogContent className="w-[75vw] aspect-[7/10]">
           <DialogHeader>
             <DialogTitle>{lang === "EN" ? "Verb" : "Глагол"}</DialogTitle>
-            <DialogDescription>
-              <SimpleCard verbToShow={currentVerb} lang={lang} />
-              <div className="py-4"></div>
+            <DialogDescription className="hidden">
+              Details about the verb
             </DialogDescription>
           </DialogHeader>
+          <SimpleCard verbToShow={currentVerb} lang={lang} />
         </DialogContent>
       </Dialog>
     </>

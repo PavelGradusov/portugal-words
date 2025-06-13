@@ -27,7 +27,11 @@ export interface WordsCollection {
 }
 
 function SimpleWordsCardsPage({ wordsCollection }: Props) {
-  const words = shuffleArray(wordsCollection.words); // wordsCollection.words;
+  const [words, setWords] = useState(() => shuffleArray(wordsCollection.words));
+
+  useEffect(() => {
+    setWords(shuffleArray(wordsCollection.words));
+  }, [wordsCollection]);
 
   const { lang } = useLanguage();
   const [currentWordId, setCurrentWordId] = useState(0);
