@@ -75,7 +75,7 @@ const FlipCard = ({
               )}
             </CardTitle>
           </CardHeader>
-          <CardContent className="flex flex-col gap-8 sm:gap-18 items-center justify-center h-2/3 text-4xl">
+          <CardContent className="flex flex-col gap-8 sm:gap-18 items-center justify-center h-2/3 text-2xl md:text-3xl lg:text-4xl">
             {image !== "" && (
               <img src={image} alt="card image" width="50%"></img>
             )}
